@@ -1,0 +1,2032 @@
+[
+  {
+    "id": 1792414838210,
+    "title": "Câu 14: Cho 3 ảnh sau, hãy cho biết ảnh trung bình 11= 12= 13=",
+    "question_title": "Câu 14: Cho 3 ảnh sau, hãy cho biết ảnh trung bình 11= 12= 13=",
+    "question_body": "Cho 3 ảnh sau, hãy cho biết ảnh trung bình 11= 12= 13=",
+    "instruction": "",
+    "search_query": "Cho 3 ảnh sau, hãy cho biết ảnh trung bình 11= 12= 13=",
+    "text": "Câu 14: Cho 3 ảnh sau, hãy cho biết ảnh trung bình 11= 12= 13=\nA. ITB=\nB. \nC. ITB= ITB= 4.33",
+    "smart_text": "Câu 14: Cho 3 ảnh sau, hãy cho biết ảnh trung bình 11= 12= 13=\nA. ITB=\nB. \nC. ITB= ITB= 4.33",
+    "smart_text_no_prefix": "Cho 3 ảnh sau, hãy cho biết ảnh trung bình 11= 12= 13=\nA. ITB=\nB. \nC. ITB= ITB= 4.33",
+    "raw_text": "19:51\n64\n3\n5\n4\n6\n8\n1\nKiểm tra tuầก\n12:19\nCâu 14:\nCho 3 ảnh sau, hãy cho biết ảnh trung bình\n11=\n8\n2\n12=\n3\n9\n13=\n2\n4\nTrả lời:\n4\n5\nA.\nITB=\n3\n4\nB.\nC.\n15\n12\nITB=\n13\n15\n5\n4\nITB=\n4.33\n5\nCâu hỏi\n14/15",
+    "options": [
+      {
+        "key": "A",
+        "text": "ITB="
+      },
+      {
+        "key": "B",
+        "text": ""
+      },
+      {
+        "key": "C",
+        "text": "ITB= ITB= 4.33"
+      }
+    ],
+    "time": "08:00:38 PM",
+    "duration": 797,
+    "copied": false,
+    "copyCount": 0,
+    "lastCopiedTime": null,
+    "scanCount": 1
+  },
+  {
+    "id": 1792414754238,
+    "title": "Câu 8: Cho ảnh 256 mức xám l |= Cho biết ảnh âm bản l'",
+    "question_title": "Câu 8: Cho ảnh 256 mức xám l |= Cho biết ảnh âm bản l'",
+    "question_body": "Cho ảnh 256 mức xám l |= Cho biết ảnh âm bản l'",
+    "instruction": "",
+    "search_query": "Cho ảnh 256 mức xám l |= Cho biết ảnh âm bản l'",
+    "text": "Câu 8: Cho ảnh 256 mức xám l |= Cho biết ảnh âm bản l'\nA. |'=\nB. |'=",
+    "smart_text": "Câu 8: Cho ảnh 256 mức xám l |= Cho biết ảnh âm bản l'\nA. |'=\nB. |'=",
+    "smart_text_no_prefix": "Cho ảnh 256 mức xám l |= Cho biết ảnh âm bản l'\nA. |'=\nB. |'=",
+    "raw_text": "19:50\n65\nKiểm tra tuầก\nCâu 8:\nCho ảnh 256 mức xám l\n13:57\n85\n205\n|=\n55\n180\nCho biết ảnh âm bản l'\nTrả lời:\n170\n51\nA.\n|'=\n201\n75\nB.\n170\n50\n|'=\n200\n75\n<\nCâu hỏi\n8/15",
+    "options": [
+      {
+        "key": "A",
+        "text": "|'="
+      },
+      {
+        "key": "B",
+        "text": "|'="
+      }
+    ],
+    "time": "07:59:14 PM",
+    "duration": 760,
+    "copied": false,
+    "copyCount": 0,
+    "lastCopiedTime": null,
+    "scanCount": 1
+  },
+  {
+    "id": 1791983628811,
+    "title": "Câu 3: Nhìn histogram sau, cho biết ảnh có tính chất gì? h(i) i",
+    "question_title": "Câu 3: Nhìn histogram sau, cho biết ảnh có tính chất gì? h(i) i",
+    "question_body": "Nhìn histogram sau, cho biết ảnh có tính chất gì? h(i) i",
+    "instruction": "",
+    "search_query": "Nhìn histogram sau, cho biết ảnh có tính chất gì? h(i) i",
+    "text": "Câu 3: Nhìn histogram sau, cho biết ảnh có tính chất gì? h(i) i\nA. Ảnh sáng\nB. Ảnh có độ tương phản thấp\nC. Ảnh có độ tương phản cao\nD. Ảnh tối",
+    "smart_text": "Câu 3: Nhìn histogram sau, cho biết ảnh có tính chất gì? h(i) i\nA. Ảnh sáng\nB. Ảnh có độ tương phản thấp\nC. Ảnh có độ tương phản cao\nD. Ảnh tối",
+    "smart_text_no_prefix": "Nhìn histogram sau, cho biết ảnh có tính chất gì? h(i) i\nA. Ảnh sáng\nB. Ảnh có độ tương phản thấp\nC. Ảnh có độ tương phản cao\nD. Ảnh tối",
+    "raw_text": "13:42\n5G 97\nKiểm tra tuầก\n13:04\nCâu 3:\nNhìn histogram sau, cho biết ảnh có tính chất gì?\nh(i)\ni\nTrả lời:\nA. Ảnh sáng\nB. Ảnh có độ tương phản thấp\nC. Ảnh có độ tương phản cao\nD. Ảnh tối\nCâu hỏi\n3/15\n>",
+    "options": [
+      {
+        "key": "A",
+        "text": "Ảnh sáng"
+      },
+      {
+        "key": "B",
+        "text": "Ảnh có độ tương phản thấp"
+      },
+      {
+        "key": "C",
+        "text": "Ảnh có độ tương phản cao"
+      },
+      {
+        "key": "D",
+        "text": "Ảnh tối"
+      }
+    ],
+    "time": "08:13:48 PM",
+    "duration": 855,
+    "copied": true,
+    "copyCount": 1,
+    "lastCopiedTime": "08:13:52 PM",
+    "scanCount": 3,
+    "lastScanTime": "07:57:44 PM"
+  },
+  {
+    "id": 1792073956989,
+    "title": "Câu 13: Trong ứng dụng Android, cách nào tốt nhất để kiểm tra bố cục giao diện trên các kích thước màn hình khác nhau?",
+    "question_title": "Câu 13: Trong ứng dụng Android, cách nào tốt nhất để kiểm tra bố cục giao diện trên các kích thước màn hình khác nhau?",
+    "question_body": "Trong ứng dụng Android, cách nào tốt nhất để kiểm tra bố cục giao diện trên các kích thước màn hình khác nhau?",
+    "instruction": "",
+    "search_query": "Trong ứng dụng Android, cách nào tốt nhất để kiểm tra bố cục giao diện trên các kích thước màn hình khác nhau?",
+    "text": "Câu 13: Trong ứng dụng Android, cách nào tốt nhất để kiểm tra bố cục giao diện trên các kích thước màn hình khác nhau?\nA. Chạy ứng dụng trên một thiết bị màn hình lớn và một thiết bị màn hình nhỏ.\nB. Tạo nhiều file bố cục với các độ phân giải khác nhau.\nC. Sử dụng trình giả lập đi kèm với Android Studio và các cấu hình màn hình khác nhau.\nD. Sử dụng các phần mềm giả lập bên thứ ba.",
+    "smart_text": "Câu 13: Trong ứng dụng Android, cách nào tốt nhất để kiểm tra bố cục giao diện trên các kích thước màn hình khác nhau?\nA. Chạy ứng dụng trên một thiết bị màn hình lớn và một thiết bị màn hình nhỏ.\nB. Tạo nhiều file bố cục với các độ phân giải khác nhau.\nC. Sử dụng trình giả lập đi kèm với Android Studio và các cấu hình màn hình khác nhau.\nD. Sử dụng các phần mềm giả lập bên thứ ba.",
+    "smart_text_no_prefix": "Trong ứng dụng Android, cách nào tốt nhất để kiểm tra bố cục giao diện trên các kích thước màn hình khác nhau?\nA. Chạy ứng dụng trên một thiết bị màn hình lớn và một thiết bị màn hình nhỏ.\nB. Tạo nhiều file bố cục với các độ phân giải khác nhau.\nC. Sử dụng trình giả lập đi kèm với Android Studio và các cấu hình màn hình khác nhau.\nD. Sử dụng các phần mềm giả lập bên thứ ba.",
+    "raw_text": "21:17\n30\nKiểm tra tuầก\n07:47\nCâu 13:\nTrong ứng dụng Android, cách nào tốt nhất để kiểm tra bố\ncục giao diện trên các kích thước màn hình khác nhau?\nTrả lời:\nA.\nChạy ứng dụng trên một thiết bị màn hình lớn và\nmột thiết bị màn hình nhỏ.\nB.\nTạo nhiều file bố cục với các độ phân giải khác\nnhau.\nC.\nSử dụng trình giả lập đi kèm với Android Studio và\ncác cấu hình màn hình khác nhau.\nD. Sử dụng các phần mềm giả lập bên thứ ba.\nCâu hỏi\n13/15\n>",
+    "options": [
+      {
+        "key": "A",
+        "text": "Chạy ứng dụng trên một thiết bị màn hình lớn và một thiết bị màn hình nhỏ."
+      },
+      {
+        "key": "B",
+        "text": "Tạo nhiều file bố cục với các độ phân giải khác nhau."
+      },
+      {
+        "key": "C",
+        "text": "Sử dụng trình giả lập đi kèm với Android Studio và các cấu hình màn hình khác nhau."
+      },
+      {
+        "key": "D",
+        "text": "Sử dụng các phần mềm giả lập bên thứ ba."
+      }
+    ],
+    "time": "09:19:16 PM",
+    "duration": 806,
+    "copied": true,
+    "copyCount": 1,
+    "lastCopiedTime": "09:19:17 PM",
+    "scanCount": 1
+  },
+  {
+    "id": 1792073936007,
+    "title": "Câu 6: Để hiển thị rõ ràng và vừa mắt trên các màn hình có kích thước khác nhau của thiết bị di động, người lập trình cần quan tâm đến yếu tố nào?",
+    "question_title": "Câu 6: Để hiển thị rõ ràng và vừa mắt trên các màn hình có kích thước khác nhau của thiết bị di động, người lập trình cần quan tâm đến yếu tố nào?",
+    "question_body": "Để hiển thị rõ ràng và vừa mắt trên các màn hình có kích thước khác nhau của thiết bị di động, người lập trình cần quan tâm đến yếu tố nào?",
+    "instruction": "",
+    "search_query": "Để hiển thị rõ ràng và vừa mắt trên các màn hình có kích thước khác nhau của thiết bị di động, người lập trình cần quan tâm đến yếu tố nào?",
+    "text": "Câu 6: Để hiển thị rõ ràng và vừa mắt trên các màn hình có kích thước khác nhau của thiết bị di động, người lập trình cần quan tâm đến yếu tố nào?\nA. Loại cảm ứng của màn hình\nB. Kích thước của các phần tử UI theo tỷ lệ\nC. Tốc độ mạng di động\nD. Phiên bản hệ điều hành",
+    "smart_text": "Câu 6: Để hiển thị rõ ràng và vừa mắt trên các màn hình có kích thước khác nhau của thiết bị di động, người lập trình cần quan tâm đến yếu tố nào?\nA. Loại cảm ứng của màn hình\nB. Kích thước của các phần tử UI theo tỷ lệ\nC. Tốc độ mạng di động\nD. Phiên bản hệ điều hành",
+    "smart_text_no_prefix": "Để hiển thị rõ ràng và vừa mắt trên các màn hình có kích thước khác nhau của thiết bị di động, người lập trình cần quan tâm đến yếu tố nào?\nA. Loại cảm ứng của màn hình\nB. Kích thước của các phần tử UI theo tỷ lệ\nC. Tốc độ mạng di động\nD. Phiên bản hệ điều hành",
+    "raw_text": "21:12\n31\nKiểm tra tuầก\n12:40\nCâu 6:\nĐể hiển thị rõ ràng và vừa mắt trên các màn hình có kích\nthước khác nhau của thiết bị di động, người lập trình cần\nquan tâm đến yếu tố nào?\nTrả lời:\nA. Loại cảm ứng của màn hình\nB. Kích thước của các phần tử UI theo tỷ lệ\nC. Tốc độ mạng di động\nD. Phiên bản hệ điều hành\nCâu hỏi\n6/15\n>",
+    "options": [
+      {
+        "key": "A",
+        "text": "Loại cảm ứng của màn hình"
+      },
+      {
+        "key": "B",
+        "text": "Kích thước của các phần tử UI theo tỷ lệ"
+      },
+      {
+        "key": "C",
+        "text": "Tốc độ mạng di động"
+      },
+      {
+        "key": "D",
+        "text": "Phiên bản hệ điều hành"
+      }
+    ],
+    "time": "09:18:56 PM",
+    "duration": 833,
+    "copied": true,
+    "copyCount": 1,
+    "lastCopiedTime": "09:19:01 PM",
+    "scanCount": 1
+  },
+  {
+    "id": 1792069250367,
+    "title": "Câu 15: Biến category có giá trị như thế nào sau khi chạy đoạn chương trình sau: fun main() { val age = 18 val category = when { age < 13 -> \"Trẻ em\" age in 13 until 18 -> \"Thiếu niên\" age in 18..59 -> \"Người trưởng thành\" else -> \"Người cao tuổi\" } } println(category)",
+    "question_title": "Câu 15: Biến category có giá trị như thế nào sau khi chạy đoạn chương trình sau: fun main() { val age = 18 val category = when { age < 13 -> \"Trẻ em\" age in 13 until 18 -> \"Thiếu niên\" age in 18..59 -> \"Người trưởng thành\" else -> \"Người cao tuổi\" } } println(category)",
+    "question_body": "Biến category có giá trị như thế nào sau khi chạy đoạn chương trình sau: fun main() { val age = 18 val category = when { age < 13 -> \"Trẻ em\" age in 13 until 18 -> \"Thiếu niên\" age in 18..59 -> \"Người trưởng thành\" else -> \"Người cao tuổi\" } } println(category)",
+    "instruction": "",
+    "search_query": "Biến category có giá trị như thế nào sau khi chạy đoạn chương trình sau: fun main() { val age = 18 val category = when { age < 13 -> \"Trẻ em\" age in 13 until 18 -> \"Thiếu niên\" age in 18..59 -> \"Người trưởng thành\" else -> \"Người cao tuổi\" } } println(category)",
+    "text": "Câu 15: Biến category có giá trị như thế nào sau khi chạy đoạn chương trình sau: fun main() { val age = 18 val category = when { age < 13 -> \"Trẻ em\" age in 13 until 18 -> \"Thiếu niên\" age in 18..59 -> \"Người trưởng thành\" else -> \"Người cao tuổi\" } } println(category)\nA. Người cao tuổi\nB. Trẻ em\nC. Thiếu niên",
+    "smart_text": "Câu 15: Biến category có giá trị như thế nào sau khi chạy đoạn chương trình sau: fun main() { val age = 18 val category = when { age < 13 -> \"Trẻ em\" age in 13 until 18 -> \"Thiếu niên\" age in 18..59 -> \"Người trưởng thành\" else -> \"Người cao tuổi\" } } println(category)\nA. Người cao tuổi\nB. Trẻ em\nC. Thiếu niên",
+    "smart_text_no_prefix": "Biến category có giá trị như thế nào sau khi chạy đoạn chương trình sau: fun main() { val age = 18 val category = when { age < 13 -> \"Trẻ em\" age in 13 until 18 -> \"Thiếu niên\" age in 18..59 -> \"Người trưởng thành\" else -> \"Người cao tuổi\" } } println(category)\nA. Người cao tuổi\nB. Trẻ em\nC. Thiếu niên",
+    "raw_text": "19:12\nKiểm tra tuầก\nCâu 15:\n12:37\n51\nBiến category có giá trị như thế nào sau khi chạy đoạn\nchương trình sau:\nfun main() {\nval age = 18\nval category = when {\nage < 13 -> \"Trẻ em\"\nage in 13 until 18 -> \"Thiếu niên\"\nage in 18..59 -> \"Người trưởng thành\"\nelse -> \"Người cao tuổi\"\n}\n}\nprintln(category)\nTrả lời:\nA. Người cao tuổi\nB. Trẻ em\nC. Thiếu niên\nCâu hỏi\n15/15\nNộp bài",
+    "options": [
+      {
+        "key": "A",
+        "text": "Người cao tuổi"
+      },
+      {
+        "key": "B",
+        "text": "Trẻ em"
+      },
+      {
+        "key": "C",
+        "text": "Thiếu niên"
+      }
+    ],
+    "time": "08:00:50 PM",
+    "duration": 822,
+    "copied": true,
+    "copyCount": 3,
+    "lastCopiedTime": "08:02:22 PM",
+    "scanCount": 3,
+    "lastScanTime": "08:09:19 PM"
+  },
+  {
+    "id": 1792069213325,
+    "title": "Câu 14: Sau khi chạy đoạn mã sau, màn hình in ra gì? x += 2 fun main() { var x = 4 while (x < 10) { val result = if (x > 3) { X } else { x-1 } print(\"$resultt\") x++ }}",
+    "question_title": "Câu 14: Sau khi chạy đoạn mã sau, màn hình in ra gì? x += 2 fun main() { var x = 4 while (x < 10) { val result = if (x > 3) { X } else { x-1 } print(\"$resultt\") x++ }}",
+    "question_body": "Sau khi chạy đoạn mã sau, màn hình in ra gì? x += 2 fun main() { var x = 4 while (x < 10) { val result = if (x > 3) { X } else { x-1 } print(\"$resultt\") x++ }}",
+    "instruction": "",
+    "search_query": "Sau khi chạy đoạn mã sau, màn hình in ra gì? x += 2 fun main() { var x = 4 while (x < 10) { val result = if (x > 3) { X } else { x-1 } print(\"$resultt\") x++ }}",
+    "text": "Câu 14: Sau khi chạy đoạn mã sau, màn hình in ra gì? x += 2 fun main() { var x = 4 while (x < 10) { val result = if (x > 3) { X } else { x-1 } print(\"$resultt\") x++ }}\nA. 69 Β. 6 8 10 12 14\nC. 6 9 12\nD. 6 8 10",
+    "smart_text": "Câu 14: Sau khi chạy đoạn mã sau, màn hình in ra gì? x += 2 fun main() { var x = 4 while (x < 10) { val result = if (x > 3) { X } else { x-1 } print(\"$resultt\") x++ }}\nA. 69 Β. 6 8 10 12 14\nC. 6 9 12\nD. 6 8 10",
+    "smart_text_no_prefix": "Sau khi chạy đoạn mã sau, màn hình in ra gì? x += 2 fun main() { var x = 4 while (x < 10) { val result = if (x > 3) { X } else { x-1 } print(\"$resultt\") x++ }}\nA. 69 Β. 6 8 10 12 14\nC. 6 9 12\nD. 6 8 10",
+    "raw_text": "19:12\n51\nKiểm tra tuầก\n12:46\nCâu 14:\nSau khi chạy đoạn mã sau, màn hình in ra gì?\nx += 2\nfun main() { var x = 4 while (x < 10) {\nval result = if (x > 3) {\nX\n} else {\nx-1\n} print(\"$resultt\")\nx++ }}\nTrả lời:\nA. 69\nΒ. 6 8 10 12 14\nC. 6 9 12\nD. 6 8 10\nCâu hỏi\n14/15\n>",
+    "options": [
+      {
+        "key": "A",
+        "text": "69 Β. 6 8 10 12 14"
+      },
+      {
+        "key": "C",
+        "text": "6 9 12"
+      },
+      {
+        "key": "D",
+        "text": "6 8 10"
+      }
+    ],
+    "time": "08:00:13 PM",
+    "duration": 706,
+    "copied": true,
+    "copyCount": 2,
+    "lastCopiedTime": "08:00:13 PM",
+    "scanCount": 2,
+    "lastScanTime": "08:09:12 PM"
+  },
+  {
+    "id": 1792069113190,
+    "title": "Câu 13: Sau khi thực hiện đoạn mã dưới đây biến sum có giá trị bằng bao nhiêu? fun main() { var sum = 0 for (i in 1..10) { if (i % 2 == 0) { sum += i } } } if(sum % 5 ==0) println(sum)",
+    "question_title": "Câu 13: Sau khi thực hiện đoạn mã dưới đây biến sum có giá trị bằng bao nhiêu? fun main() { var sum = 0 for (i in 1..10) { if (i % 2 == 0) { sum += i } } } if(sum % 5 ==0) println(sum)",
+    "question_body": "Sau khi thực hiện đoạn mã dưới đây biến sum có giá trị bằng bao nhiêu? fun main() { var sum = 0 for (i in 1..10) { if (i % 2 == 0) { sum += i } } } if(sum % 5 ==0) println(sum)",
+    "instruction": "",
+    "search_query": "Sau khi thực hiện đoạn mã dưới đây biến sum có giá trị bằng bao nhiêu? fun main() { var sum = 0 for (i in 1..10) { if (i % 2 == 0) { sum += i } } } if(sum % 5 ==0) println(sum)",
+    "text": "Câu 13: Sau khi thực hiện đoạn mã dưới đây biến sum có giá trị bằng bao nhiêu? fun main() { var sum = 0 for (i in 1..10) { if (i % 2 == 0) { sum += i } } } if(sum % 5 ==0) println(sum)\nA. 50\nB. 30\nC. 40\nD. 20",
+    "smart_text": "Câu 13: Sau khi thực hiện đoạn mã dưới đây biến sum có giá trị bằng bao nhiêu? fun main() { var sum = 0 for (i in 1..10) { if (i % 2 == 0) { sum += i } } } if(sum % 5 ==0) println(sum)\nA. 50\nB. 30\nC. 40\nD. 20",
+    "smart_text_no_prefix": "Sau khi thực hiện đoạn mã dưới đây biến sum có giá trị bằng bao nhiêu? fun main() { var sum = 0 for (i in 1..10) { if (i % 2 == 0) { sum += i } } } if(sum % 5 ==0) println(sum)\nA. 50\nB. 30\nC. 40\nD. 20",
+    "raw_text": "19:12\n51\nKiểm tra tuầก\n12:49\nCâu 13:\nSau khi thực hiện đoạn mã dưới đây biến sum có giá trị bằng\nbao nhiêu?\nfun main() {\nvar sum = 0\nfor (i in 1..10) {\nif (i % 2 == 0) {\nsum += i\n}\n}\n}\nif(sum % 5 ==0)\nprintln(sum)\nTrả lời:\nA. 50\nB. 30\nC. 40\nD. 20\nCâu hỏi\n13/15\n>",
+    "options": [
+      {
+        "key": "A",
+        "text": "50"
+      },
+      {
+        "key": "B",
+        "text": "30"
+      },
+      {
+        "key": "C",
+        "text": "40"
+      },
+      {
+        "key": "D",
+        "text": "20"
+      }
+    ],
+    "time": "07:58:33 PM",
+    "duration": 741,
+    "copied": true,
+    "copyCount": 2,
+    "lastCopiedTime": "07:58:33 PM",
+    "scanCount": 2,
+    "lastScanTime": "08:09:01 PM"
+  },
+  {
+    "id": 1792069716084,
+    "title": "Câu 12: Điểm khác biệt chính giữa XML và Jetpack Compose trong việc thiết kế giao diện là gì?",
+    "question_title": "Câu 12: Điểm khác biệt chính giữa XML và Jetpack Compose trong việc thiết kế giao diện là gì?",
+    "question_body": "Điểm khác biệt chính giữa XML và Jetpack Compose trong việc thiết kế giao diện là gì?",
+    "instruction": "",
+    "search_query": "Điểm khác biệt chính giữa XML và Jetpack Compose trong việc thiết kế giao diện là gì?",
+    "text": "Câu 12: Điểm khác biệt chính giữa XML và Jetpack Compose trong việc thiết kế giao diện là gì?\nA. XML hỗ trợ các thuộc tính động, trong khi Jetpack Compose không hỗ trợ XML sử dụng cấu trúc thẻ để định nghĩa giao diện,\nB. trong khi Jetpack Compose sử dụng cú pháp Kotlin để tạo giao diện XML chỉ được sử dụng trong ứng dụng Android cũ,\nC. còn Jetpack Compose chỉ hỗ trợ ứng dụng Android mới XML không thể được sử dụng trong ứng dụng\nD. Android, trong khi Jetpack Compose hỗ trợ tất cả các thiết bị Android",
+    "smart_text": "Câu 12: Điểm khác biệt chính giữa XML và Jetpack Compose trong việc thiết kế giao diện là gì?\nA. XML hỗ trợ các thuộc tính động, trong khi Jetpack Compose không hỗ trợ XML sử dụng cấu trúc thẻ để định nghĩa giao diện,\nB. trong khi Jetpack Compose sử dụng cú pháp Kotlin để tạo giao diện XML chỉ được sử dụng trong ứng dụng Android cũ,\nC. còn Jetpack Compose chỉ hỗ trợ ứng dụng Android mới XML không thể được sử dụng trong ứng dụng\nD. Android, trong khi Jetpack Compose hỗ trợ tất cả các thiết bị Android",
+    "smart_text_no_prefix": "Điểm khác biệt chính giữa XML và Jetpack Compose trong việc thiết kế giao diện là gì?\nA. XML hỗ trợ các thuộc tính động, trong khi Jetpack Compose không hỗ trợ XML sử dụng cấu trúc thẻ để định nghĩa giao diện,\nB. trong khi Jetpack Compose sử dụng cú pháp Kotlin để tạo giao diện XML chỉ được sử dụng trong ứng dụng Android cũ,\nC. còn Jetpack Compose chỉ hỗ trợ ứng dụng Android mới XML không thể được sử dụng trong ứng dụng\nD. Android, trong khi Jetpack Compose hỗ trợ tất cả các thiết bị Android",
+    "raw_text": "19:53\n44\nKiểm tra tuầก\nCâu 12:\n13:18\nĐiểm khác biệt chính giữa XML và Jetpack Compose trong\nviệc thiết kế giao diện là gì?\nTrả lời:\nA.\nXML hỗ trợ các thuộc tính động, trong khi Jetpack\nCompose không hỗ trợ\nXML sử dụng cấu trúc thẻ để định nghĩa giao diện,\nB. trong khi Jetpack Compose sử dụng cú pháp Kotlin\nđể tạo giao diện\nXML chỉ được sử dụng trong ứng dụng Android cũ,\nC. còn Jetpack Compose chỉ hỗ trợ ứng dụng Android\nmới\nXML không thể được sử dụng trong ứng dụng\nD. Android, trong khi Jetpack Compose hỗ trợ tất cả\ncác thiết bị Android\nCâu hỏi\n12/15\n>",
+    "options": [
+      {
+        "key": "A",
+        "text": "XML hỗ trợ các thuộc tính động, trong khi Jetpack Compose không hỗ trợ XML sử dụng cấu trúc thẻ để định nghĩa giao diện,"
+      },
+      {
+        "key": "B",
+        "text": "trong khi Jetpack Compose sử dụng cú pháp Kotlin để tạo giao diện XML chỉ được sử dụng trong ứng dụng Android cũ,"
+      },
+      {
+        "key": "C",
+        "text": "còn Jetpack Compose chỉ hỗ trợ ứng dụng Android mới XML không thể được sử dụng trong ứng dụng"
+      },
+      {
+        "key": "D",
+        "text": "Android, trong khi Jetpack Compose hỗ trợ tất cả các thiết bị Android"
+      }
+    ],
+    "time": "08:08:36 PM",
+    "duration": 882,
+    "copied": true,
+    "copyCount": 1,
+    "lastCopiedTime": "08:08:36 PM",
+    "scanCount": 1
+  },
+  {
+    "id": 1792069040312,
+    "title": "Câu 11: Công cụ nào dưới đây được dùng để thay đổi cấu hình của máy ảo trong Android Studio?",
+    "question_title": "Câu 11: Công cụ nào dưới đây được dùng để thay đổi cấu hình của máy ảo trong Android Studio?",
+    "question_body": "Công cụ nào dưới đây được dùng để thay đổi cấu hình của máy ảo trong Android Studio?",
+    "instruction": "",
+    "search_query": "Công cụ nào dưới đây được dùng để thay đổi cấu hình của máy ảo trong Android Studio?",
+    "text": "Câu 11: Công cụ nào dưới đây được dùng để thay đổi cấu hình của máy ảo trong Android Studio?\nA. Emulator Settings\nB. VirtualBox\nC. SDK Manager\nD. AVD Manager",
+    "smart_text": "Câu 11: Công cụ nào dưới đây được dùng để thay đổi cấu hình của máy ảo trong Android Studio?\nA. Emulator Settings\nB. VirtualBox\nC. SDK Manager\nD. AVD Manager",
+    "smart_text_no_prefix": "Công cụ nào dưới đây được dùng để thay đổi cấu hình của máy ảo trong Android Studio?\nA. Emulator Settings\nB. VirtualBox\nC. SDK Manager\nD. AVD Manager",
+    "raw_text": "19:12\n51\nKiểm tra tuầก\nCâu 11:\n12:52\nCông cụ nào dưới đây được dùng để thay đổi cấu hình của\nmáy ảo trong Android Studio?\nTrả lời:\nA. Emulator Settings\nB. VirtualBox\nC. SDK Manager\nD. AVD Manager\nCâu hỏi\n11/15\n>",
+    "options": [
+      {
+        "key": "A",
+        "text": "Emulator Settings"
+      },
+      {
+        "key": "B",
+        "text": "VirtualBox"
+      },
+      {
+        "key": "C",
+        "text": "SDK Manager"
+      },
+      {
+        "key": "D",
+        "text": "AVD Manager"
+      }
+    ],
+    "time": "07:57:20 PM",
+    "duration": 751,
+    "copied": true,
+    "copyCount": 2,
+    "lastCopiedTime": "07:57:20 PM",
+    "scanCount": 2,
+    "lastScanTime": "08:08:27 PM"
+  },
+  {
+    "id": 1792069686708,
+    "title": "Câu 10: Kết quả in ra của chương trình sau là gì? fun main() { var i = 0 while (i < 5) { print(\"$i,\") i++ } }",
+    "question_title": "Câu 10: Kết quả in ra của chương trình sau là gì? fun main() { var i = 0 while (i < 5) { print(\"$i,\") i++ } }",
+    "question_body": "Kết quả in ra của chương trình sau là gì? fun main() { var i = 0 while (i < 5) { print(\"$i,\") i++ } }",
+    "instruction": "",
+    "search_query": "Kết quả in ra của chương trình sau là gì? fun main() { var i = 0 while (i < 5) { print(\"$i,\") i++ } }",
+    "text": "Câu 10: Kết quả in ra của chương trình sau là gì? fun main() { var i = 0 while (i < 5) { print(\"$i,\") i++ } }\nA. 0, 1, 2, 3, 4, 5\nB. 0,1,2,3,4\nC. 1, 2, 3, 4, 5\nD. 0,1,2,3,4,",
+    "smart_text": "Câu 10: Kết quả in ra của chương trình sau là gì? fun main() { var i = 0 while (i < 5) { print(\"$i,\") i++ } }\nA. 0, 1, 2, 3, 4, 5\nB. 0,1,2,3,4\nC. 1, 2, 3, 4, 5\nD. 0,1,2,3,4,",
+    "smart_text_no_prefix": "Kết quả in ra của chương trình sau là gì? fun main() { var i = 0 while (i < 5) { print(\"$i,\") i++ } }\nA. 0, 1, 2, 3, 4, 5\nB. 0,1,2,3,4\nC. 1, 2, 3, 4, 5\nD. 0,1,2,3,4,",
+    "raw_text": "19:53\nKiểm tra tuầก\n13:22\nCâu 10:\nKết quả in ra của chương trình sau là gì?\nfun main() {\nvar i = 0\nwhile (i < 5) {\nprint(\"$i,\")\ni++\n}\n}\nTrả lời:\nA. 0, 1, 2, 3, 4, 5\nB. 0,1,2,3,4\nC. 1, 2, 3, 4, 5\nD. 0,1,2,3,4,\nCâu hỏi\n10/15\n44\n>",
+    "options": [
+      {
+        "key": "A",
+        "text": "0, 1, 2, 3, 4, 5"
+      },
+      {
+        "key": "B",
+        "text": "0,1,2,3,4"
+      },
+      {
+        "key": "C",
+        "text": "1, 2, 3, 4, 5"
+      },
+      {
+        "key": "D",
+        "text": "0,1,2,3,4,"
+      }
+    ],
+    "time": "08:08:06 PM",
+    "duration": 724,
+    "copied": true,
+    "copyCount": 1,
+    "lastCopiedTime": "08:08:08 PM",
+    "scanCount": 1
+  },
+  {
+    "id": 1792069669758,
+    "title": "Câu 9: Biểu thức điều kiện if có thể được sử dụng như một biểu thức trả về giá trị trong Kotlin không?",
+    "question_title": "Câu 9: Biểu thức điều kiện if có thể được sử dụng như một biểu thức trả về giá trị trong Kotlin không?",
+    "question_body": "Biểu thức điều kiện if có thể được sử dụng như một biểu thức trả về giá trị trong Kotlin không?",
+    "instruction": "",
+    "search_query": "Biểu thức điều kiện if có thể được sử dụng như một biểu thức trả về giá trị trong Kotlin không?",
+    "text": "Câu 9: Biểu thức điều kiện if có thể được sử dụng như một biểu thức trả về giá trị trong Kotlin không?\nA. Không, if chỉ là một câu lệnh\nB. Có, if có thể trả về giá trị trực tiếp\nC. Có, bằng cách sử dụng từ khóa return\nD. Không, cần phải dùng else",
+    "smart_text": "Câu 9: Biểu thức điều kiện if có thể được sử dụng như một biểu thức trả về giá trị trong Kotlin không?\nA. Không, if chỉ là một câu lệnh\nB. Có, if có thể trả về giá trị trực tiếp\nC. Có, bằng cách sử dụng từ khóa return\nD. Không, cần phải dùng else",
+    "smart_text_no_prefix": "Biểu thức điều kiện if có thể được sử dụng như một biểu thức trả về giá trị trong Kotlin không?\nA. Không, if chỉ là một câu lệnh\nB. Có, if có thể trả về giá trị trực tiếp\nC. Có, bằng cách sử dụng từ khóa return\nD. Không, cần phải dùng else",
+    "raw_text": "19:53\nKiểm tra tuầก\n13:23\n44\nCâu 9:\nBiểu thức điều kiện if có thể được sử dụng như một biểu\nthức trả về giá trị trong Kotlin không?\nTrả lời:\nA. Không, if chỉ là một câu lệnh\nB. Có, if có thể trả về giá trị trực tiếp\nC. Có, bằng cách sử dụng từ khóa return\nD. Không, cần phải dùng else\nCâu hỏi\n9/15\n>",
+    "options": [
+      {
+        "key": "A",
+        "text": "Không, if chỉ là một câu lệnh"
+      },
+      {
+        "key": "B",
+        "text": "Có, if có thể trả về giá trị trực tiếp"
+      },
+      {
+        "key": "C",
+        "text": "Có, bằng cách sử dụng từ khóa return"
+      },
+      {
+        "key": "D",
+        "text": "Không, cần phải dùng else"
+      }
+    ],
+    "time": "08:07:49 PM",
+    "duration": 595,
+    "copied": true,
+    "copyCount": 1,
+    "lastCopiedTime": "08:07:52 PM",
+    "scanCount": 1
+  },
+  {
+    "id": 1792069010822,
+    "title": "Câu 7: Trong lập trình di động, khi sử dụng phương pháp Native, ứng dụng sẽ được phát triển như thế nào?",
+    "question_title": "Câu 7: Trong lập trình di động, khi sử dụng phương pháp Native, ứng dụng sẽ được phát triển như thế nào?",
+    "question_body": "Trong lập trình di động, khi sử dụng phương pháp Native, ứng dụng sẽ được phát triển như thế nào?",
+    "instruction": "",
+    "search_query": "Trong lập trình di động, khi sử dụng phương pháp Native, ứng dụng sẽ được phát triển như thế nào?",
+    "text": "Câu 7: Trong lập trình di động, khi sử dụng phương pháp Native, ứng dụng sẽ được phát triển như thế nào?\nA. Phát triển một lần duy nhất cho cả Android và iOS\nB. Phát triển riêng biệt cho mỗi hệ điều hành, tận dụng tối đa tính năng của hệ điều hành\nC. Phát triển ứng dụng dưới dạng ứng dụng web\nD. Sử dụng mã nguồn web để tạo ứng dụng",
+    "smart_text": "Câu 7: Trong lập trình di động, khi sử dụng phương pháp Native, ứng dụng sẽ được phát triển như thế nào?\nA. Phát triển một lần duy nhất cho cả Android và iOS\nB. Phát triển riêng biệt cho mỗi hệ điều hành, tận dụng tối đa tính năng của hệ điều hành\nC. Phát triển ứng dụng dưới dạng ứng dụng web\nD. Sử dụng mã nguồn web để tạo ứng dụng",
+    "smart_text_no_prefix": "Trong lập trình di động, khi sử dụng phương pháp Native, ứng dụng sẽ được phát triển như thế nào?\nA. Phát triển một lần duy nhất cho cả Android và iOS\nB. Phát triển riêng biệt cho mỗi hệ điều hành, tận dụng tối đa tính năng của hệ điều hành\nC. Phát triển ứng dụng dưới dạng ứng dụng web\nD. Sử dụng mã nguồn web để tạo ứng dụng",
+    "raw_text": "19:12\n51\nKiểm tra tuầก\n12:59\nCâu 7:\nTrong lập trình di động, khi sử dụng phương pháp Native,\nứng dụng sẽ được phát triển như thế nào?\nTrả lời:\nA. Phát triển một lần duy nhất cho cả Android và iOS\nB.\nPhát triển riêng biệt cho mỗi hệ điều hành, tận\ndụng tối đa tính năng của hệ điều hành\nC. Phát triển ứng dụng dưới dạng ứng dụng web\nD. Sử dụng mã nguồn web để tạo ứng dụng\nCâu hỏi\n7/15\n>",
+    "options": [
+      {
+        "key": "A",
+        "text": "Phát triển một lần duy nhất cho cả Android và iOS"
+      },
+      {
+        "key": "B",
+        "text": "Phát triển riêng biệt cho mỗi hệ điều hành, tận dụng tối đa tính năng của hệ điều hành"
+      },
+      {
+        "key": "C",
+        "text": "Phát triển ứng dụng dưới dạng ứng dụng web"
+      },
+      {
+        "key": "D",
+        "text": "Sử dụng mã nguồn web để tạo ứng dụng"
+      }
+    ],
+    "time": "07:56:50 PM",
+    "duration": 756,
+    "copied": true,
+    "copyCount": 2,
+    "lastCopiedTime": "07:56:50 PM",
+    "scanCount": 2,
+    "lastScanTime": "08:07:43 PM"
+  },
+  {
+    "id": 1792069639980,
+    "title": "Câu 7: Phương pháp lập trình nào giúp xây dựng ứng dụng di động chạy trên nhiều nền tảng với một mã nguồn duy nhất nhưng có thể sử dụng các thành phần gốc (native) khi cần?",
+    "question_title": "Câu 7: Phương pháp lập trình nào giúp xây dựng ứng dụng di động chạy trên nhiều nền tảng với một mã nguồn duy nhất nhưng có thể sử dụng các thành phần gốc (native) khi cần?",
+    "question_body": "Phương pháp lập trình nào giúp xây dựng ứng dụng di động chạy trên nhiều nền tảng với một mã nguồn duy nhất nhưng có thể sử dụng các thành phần gốc (native) khi cần?",
+    "instruction": "",
+    "search_query": "Phương pháp lập trình nào giúp xây dựng ứng dụng di động chạy trên nhiều nền tảng với một mã nguồn duy nhất nhưng có thể sử dụng các thành phần gốc (native) khi cần?",
+    "text": "Câu 7: Phương pháp lập trình nào giúp xây dựng ứng dụng di động chạy trên nhiều nền tảng với một mã nguồn duy nhất nhưng có thể sử dụng các thành phần gốc (native) khi cần?\nA. Native Development\nB. Hybrid Development\nC. Cross-platform Development\nD. Web-based Development",
+    "smart_text": "Câu 7: Phương pháp lập trình nào giúp xây dựng ứng dụng di động chạy trên nhiều nền tảng với một mã nguồn duy nhất nhưng có thể sử dụng các thành phần gốc (native) khi cần?\nA. Native Development\nB. Hybrid Development\nC. Cross-platform Development\nD. Web-based Development",
+    "smart_text_no_prefix": "Phương pháp lập trình nào giúp xây dựng ứng dụng di động chạy trên nhiều nền tảng với một mã nguồn duy nhất nhưng có thể sử dụng các thành phần gốc (native) khi cần?\nA. Native Development\nB. Hybrid Development\nC. Cross-platform Development\nD. Web-based Development",
+    "raw_text": "19:53\nKiểm tra tuầก\nCâu 7:\n13:27\n44\nPhương pháp lập trình nào giúp xây dựng ứng dụng di động\nchạy trên nhiều nền tảng với một mã nguồn duy nhất nhưng\ncó thể sử dụng các thành phần gốc (native) khi cần?\nTrả lời:\nA. Native Development\nB. Hybrid Development\nC. Cross-platform Development\nD. Web-based Development\nCâu hỏi\n7/15\n>",
+    "options": [
+      {
+        "key": "A",
+        "text": "Native Development"
+      },
+      {
+        "key": "B",
+        "text": "Hybrid Development"
+      },
+      {
+        "key": "C",
+        "text": "Cross-platform Development"
+      },
+      {
+        "key": "D",
+        "text": "Web-based Development"
+      }
+    ],
+    "time": "08:07:19 PM",
+    "duration": 791,
+    "copied": true,
+    "copyCount": 1,
+    "lastCopiedTime": "08:07:26 PM",
+    "scanCount": 1
+  },
+  {
+    "id": 1792069614854,
+    "title": "Câu 6: Công cụ nào trong Android Studio giúp kiểm tra và tối ưu tài nguyên hình ảnh cho các màn hình có mật độ khác nhau?",
+    "question_title": "Câu 6: Công cụ nào trong Android Studio giúp kiểm tra và tối ưu tài nguyên hình ảnh cho các màn hình có mật độ khác nhau?",
+    "question_body": "Công cụ nào trong Android Studio giúp kiểm tra và tối ưu tài nguyên hình ảnh cho các màn hình có mật độ khác nhau?",
+    "instruction": "",
+    "search_query": "Công cụ nào trong Android Studio giúp kiểm tra và tối ưu tài nguyên hình ảnh cho các màn hình có mật độ khác nhau?",
+    "text": "Câu 6: Công cụ nào trong Android Studio giúp kiểm tra và tối ưu tài nguyên hình ảnh cho các màn hình có mật độ khác nhau?\nA. Memory Profiler\nB. Lint Check\nC. Layout Editor\nD. Resource Manager",
+    "smart_text": "Câu 6: Công cụ nào trong Android Studio giúp kiểm tra và tối ưu tài nguyên hình ảnh cho các màn hình có mật độ khác nhau?\nA. Memory Profiler\nB. Lint Check\nC. Layout Editor\nD. Resource Manager",
+    "smart_text_no_prefix": "Công cụ nào trong Android Studio giúp kiểm tra và tối ưu tài nguyên hình ảnh cho các màn hình có mật độ khác nhau?\nA. Memory Profiler\nB. Lint Check\nC. Layout Editor\nD. Resource Manager",
+    "raw_text": "19:53\nKiểm tra tuầก\nCâu 6:\n13:28\n44\nCông cụ nào trong Android Studio giúp kiểm tra và tối ưu tài\nnguyên hình ảnh cho các màn hình có mật độ khác nhau?\nTrả lời:\nA. Memory Profiler\nB. Lint Check\nC. Layout Editor\nD. Resource Manager\nCâu hỏi\n6/15\n>",
+    "options": [
+      {
+        "key": "A",
+        "text": "Memory Profiler"
+      },
+      {
+        "key": "B",
+        "text": "Lint Check"
+      },
+      {
+        "key": "C",
+        "text": "Layout Editor"
+      },
+      {
+        "key": "D",
+        "text": "Resource Manager"
+      }
+    ],
+    "time": "08:06:54 PM",
+    "duration": 929,
+    "copied": true,
+    "copyCount": 1,
+    "lastCopiedTime": "08:06:59 PM",
+    "scanCount": 1
+  },
+  {
+    "id": 1792068993743,
+    "title": "Câu 5: Để phản hồi người dùng khi họ nhấn vào một nút bấm trên ứng dụng di động, lập trình viên nên làm gì?",
+    "question_title": "Câu 5: Để phản hồi người dùng khi họ nhấn vào một nút bấm trên ứng dụng di động, lập trình viên nên làm gì?",
+    "question_body": "Để phản hồi người dùng khi họ nhấn vào một nút bấm trên ứng dụng di động, lập trình viên nên làm gì?",
+    "instruction": "",
+    "search_query": "Để phản hồi người dùng khi họ nhấn vào một nút bấm trên ứng dụng di động, lập trình viên nên làm gì?",
+    "text": "Câu 5: Để phản hồi người dùng khi họ nhấn vào một nút bấm trên ứng dụng di động, lập trình viên nên làm gì?\nA. Thay đổi hình nền\nB. Tăng kích thước nút bấm\nC. Đổi màu nút bấm khi nhấn\nD. Giảm độ phân giải màn hình",
+    "smart_text": "Câu 5: Để phản hồi người dùng khi họ nhấn vào một nút bấm trên ứng dụng di động, lập trình viên nên làm gì?\nA. Thay đổi hình nền\nB. Tăng kích thước nút bấm\nC. Đổi màu nút bấm khi nhấn\nD. Giảm độ phân giải màn hình",
+    "smart_text_no_prefix": "Để phản hồi người dùng khi họ nhấn vào một nút bấm trên ứng dụng di động, lập trình viên nên làm gì?\nA. Thay đổi hình nền\nB. Tăng kích thước nút bấm\nC. Đổi màu nút bấm khi nhấn\nD. Giảm độ phân giải màn hình",
+    "raw_text": "19:12\n51\nKiểm tra tuầก\n13:02\nCâu 5:\nĐể phản hồi người dùng khi họ nhấn vào một nút bấm trên\nứng dụng di động, lập trình viên nên làm gì?\nTrả lời:\nA. Thay đổi hình nền\nB. Tăng kích thước nút bấm\nC. Đổi màu nút bấm khi nhấn\nD. Giảm độ phân giải màn hình\nCâu hỏi\n5/15\n>",
+    "options": [
+      {
+        "key": "A",
+        "text": "Thay đổi hình nền"
+      },
+      {
+        "key": "B",
+        "text": "Tăng kích thước nút bấm"
+      },
+      {
+        "key": "C",
+        "text": "Đổi màu nút bấm khi nhấn"
+      },
+      {
+        "key": "D",
+        "text": "Giảm độ phân giải màn hình"
+      }
+    ],
+    "time": "07:56:33 PM",
+    "duration": 766,
+    "copied": true,
+    "copyCount": 2,
+    "lastCopiedTime": "07:56:33 PM",
+    "scanCount": 2,
+    "lastScanTime": "08:06:48 PM"
+  },
+  {
+    "id": 1792069577922,
+    "title": "Kiểm tra tuầก yid !? for (i in 1..10) {",
+    "question_title": "Kiểm tra tuầก yid !? for (i in 1..10) {",
+    "question_body": "Kiểm tra tuầก yid !? for (i in 1..10) {",
+    "instruction": "",
+    "search_query": "Kiểm tra tuầก yid !? for (i in 1..10) {",
+    "text": "Kiểm tra tuầก yid !? for (i in 1..10) {\nA. if (i == 5) println(i)\nB. } for (i in 1..10 step 5) println(i) for (i in 1..10) {\nC. if (i == 5) continue; println(i) } for (i in 1..10)\nD. continue if (i == 5)",
+    "smart_text": "Kiểm tra tuầก yid !? for (i in 1..10) {\nA. if (i == 5) println(i)\nB. } for (i in 1..10 step 5) println(i) for (i in 1..10) {\nC. if (i == 5) continue; println(i) } for (i in 1..10)\nD. continue if (i == 5)",
+    "smart_text_no_prefix": "Kiểm tra tuầก yid !? for (i in 1..10) {\nA. if (i == 5) println(i)\nB. } for (i in 1..10 step 5) println(i) for (i in 1..10) {\nC. if (i == 5) continue; println(i) } for (i in 1..10)\nD. continue if (i == 5)",
+    "raw_text": "19:53\n45\nKiểm tra tuầก\n13:32\nyid !?\nTrả lời:\nfor (i in 1..10)\n{\nA. if (i == 5)\nprintln(i)\nB.\n}\nfor (i in 1..10 step 5)\nprintln(i)\nfor (i in 1..10)\n{\nC. if (i == 5)\ncontinue; println(i)\n}\nfor (i in 1..10)\nD.\ncontinue if (i == 5)\nCâu hỏi\n4/15\n>",
+    "options": [
+      {
+        "key": "A",
+        "text": "if (i == 5) println(i)"
+      },
+      {
+        "key": "B",
+        "text": "} for (i in 1..10 step 5) println(i) for (i in 1..10) {"
+      },
+      {
+        "key": "C",
+        "text": "if (i == 5) continue; println(i) } for (i in 1..10)"
+      },
+      {
+        "key": "D",
+        "text": "continue if (i == 5)"
+      }
+    ],
+    "time": "08:06:17 PM",
+    "duration": 846,
+    "copied": false,
+    "copyCount": 0,
+    "lastCopiedTime": null,
+    "scanCount": 1
+  },
+  {
+    "id": 1792069416317,
+    "title": "Câu 4: Viết đoạn mã lệnh để in ra các số từ 1 đến 10 nhưng bỏ qua giá trị 5? for (i in 1..10) {",
+    "question_title": "Câu 4: Viết đoạn mã lệnh để in ra các số từ 1 đến 10 nhưng bỏ qua giá trị 5? for (i in 1..10) {",
+    "question_body": "Viết đoạn mã lệnh để in ra các số từ 1 đến 10 nhưng bỏ qua giá trị 5? for (i in 1..10) {",
+    "instruction": "",
+    "search_query": "Viết đoạn mã lệnh để in ra các số từ 1 đến 10 nhưng bỏ qua giá trị 5? for (i in 1..10) {",
+    "text": "Câu 4: Viết đoạn mã lệnh để in ra các số từ 1 đến 10 nhưng bỏ qua giá trị 5? for (i in 1..10) {\nA. if (i == 5) println(i) }\nB. for (i in 1..10 step 5) println(i) for (i in 1..10) {\nC. if (i == 5) continue; println(i) } for (i in 1..10)",
+    "smart_text": "Câu 4: Viết đoạn mã lệnh để in ra các số từ 1 đến 10 nhưng bỏ qua giá trị 5? for (i in 1..10) {\nA. if (i == 5) println(i) }\nB. for (i in 1..10 step 5) println(i) for (i in 1..10) {\nC. if (i == 5) continue; println(i) } for (i in 1..10)",
+    "smart_text_no_prefix": "Viết đoạn mã lệnh để in ra các số từ 1 đến 10 nhưng bỏ qua giá trị 5? for (i in 1..10) {\nA. if (i == 5) println(i) }\nB. for (i in 1..10 step 5) println(i) for (i in 1..10) {\nC. if (i == 5) continue; println(i) } for (i in 1..10)",
+    "raw_text": "19:53\n45\nKiểm tra tuầก\n13:34\nCâu 4:\nViết đoạn mã lệnh để in ra các số từ 1 đến 10 nhưng bỏ qua\ngiá trị 5?\nTrả lời:\nfor (i in 1..10)\n{\nA. if (i == 5)\nprintln(i)\n}\nB.\nfor (i in 1..10 step 5)\nprintln(i)\nfor (i in 1..10)\n{\nC. if (i == 5)\ncontinue; println(i)\n}\nfor (i in 1..10)\nCâu hỏi\n4/15\n>",
+    "options": [
+      {
+        "key": "A",
+        "text": "if (i == 5) println(i) }"
+      },
+      {
+        "key": "B",
+        "text": "for (i in 1..10 step 5) println(i) for (i in 1..10) {"
+      },
+      {
+        "key": "C",
+        "text": "if (i == 5) continue; println(i) } for (i in 1..10)"
+      }
+    ],
+    "time": "08:03:36 PM",
+    "duration": 734,
+    "copied": true,
+    "copyCount": 1,
+    "lastCopiedTime": "08:03:39 PM",
+    "scanCount": 1
+  },
+  {
+    "id": 1792069396264,
+    "title": "Câu 3: Cách khai báo biến nào sau đây trong Kotlin là hợp lệ?",
+    "question_title": "Câu 3: Cách khai báo biến nào sau đây trong Kotlin là hợp lệ?",
+    "question_body": "Cách khai báo biến nào sau đây trong Kotlin là hợp lệ?",
+    "instruction": "",
+    "search_query": "Cách khai báo biến nào sau đây trong Kotlin là hợp lệ?",
+    "text": "Câu 3: Cách khai báo biến nào sau đây trong Kotlin là hợp lệ?\nA. var hello: Int? =\nB. String \"hello\" = hello\nC. val hello = \"hello\"\nD. hello: String = \"hello\"",
+    "smart_text": "Câu 3: Cách khai báo biến nào sau đây trong Kotlin là hợp lệ?\nA. var hello: Int? =\nB. String \"hello\" = hello\nC. val hello = \"hello\"\nD. hello: String = \"hello\"",
+    "smart_text_no_prefix": "Cách khai báo biến nào sau đây trong Kotlin là hợp lệ?\nA. var hello: Int? =\nB. String \"hello\" = hello\nC. val hello = \"hello\"\nD. hello: String = \"hello\"",
+    "raw_text": "19:53\n45\nKiểm tra tuầก\n13:36\nCâu 3:\nCách khai báo biến nào sau đây trong Kotlin là hợp lệ?\nTrả lời:\nA. var hello: Int? =\nB. String \"hello\" = hello\nC. val hello = \"hello\"\nD. hello: String = \"hello\"\nCâu hỏi\n3/15\n>",
+    "options": [
+      {
+        "key": "A",
+        "text": "var hello: Int? ="
+      },
+      {
+        "key": "B",
+        "text": "String \"hello\" = hello"
+      },
+      {
+        "key": "C",
+        "text": "val hello = \"hello\""
+      },
+      {
+        "key": "D",
+        "text": "hello: String = \"hello\""
+      }
+    ],
+    "time": "08:03:16 PM",
+    "duration": 704,
+    "copied": true,
+    "copyCount": 2,
+    "lastCopiedTime": "08:03:21 PM",
+    "scanCount": 1
+  },
+  {
+    "id": 1792068958416,
+    "title": "Câu 3: Từ khóa val trong Kotlin được sử dụng để làm gì?",
+    "question_title": "Câu 3: Từ khóa val trong Kotlin được sử dụng để làm gì?",
+    "question_body": "Từ khóa val trong Kotlin được sử dụng để làm gì?",
+    "instruction": "",
+    "search_query": "Từ khóa val trong Kotlin được sử dụng để làm gì?",
+    "text": "Câu 3: Từ khóa val trong Kotlin được sử dụng để làm gì?\nA. Khai báo biến có thể thay đổi\nB. Khai báo hàm\nC. Khai báo biến không thể thay đổi\nD. Khai báo lớp",
+    "smart_text": "Câu 3: Từ khóa val trong Kotlin được sử dụng để làm gì?\nA. Khai báo biến có thể thay đổi\nB. Khai báo hàm\nC. Khai báo biến không thể thay đổi\nD. Khai báo lớp",
+    "smart_text_no_prefix": "Từ khóa val trong Kotlin được sử dụng để làm gì?\nA. Khai báo biến có thể thay đổi\nB. Khai báo hàm\nC. Khai báo biến không thể thay đổi\nD. Khai báo lớp",
+    "raw_text": "19:12\n51\nKiểm tra tuầก\n13:05\nCâu 3:\nTừ khóa val trong Kotlin được sử dụng để làm gì?\nTrả lời:\nA. Khai báo biến có thể thay đổi\nB. Khai báo hàm\nC. Khai báo biến không thể thay đổi\nD. Khai báo lớp\nCâu hỏi\n3/15\n>",
+    "options": [
+      {
+        "key": "A",
+        "text": "Khai báo biến có thể thay đổi"
+      },
+      {
+        "key": "B",
+        "text": "Khai báo hàm"
+      },
+      {
+        "key": "C",
+        "text": "Khai báo biến không thể thay đổi"
+      },
+      {
+        "key": "D",
+        "text": "Khai báo lớp"
+      }
+    ],
+    "time": "07:55:58 PM",
+    "duration": 732,
+    "copied": true,
+    "copyCount": 3,
+    "lastCopiedTime": "08:03:00 PM",
+    "scanCount": 2,
+    "lastScanTime": "08:03:00 PM"
+  },
+  {
+    "id": 1792068942560,
+    "title": "Câu 2: Khi cài đặt Android Studio, công cụ nào cần được cài đặt để kiểm tra ứng dụng trên môi trường giả lập? SDK manager",
+    "question_title": "Câu 2: Khi cài đặt Android Studio, công cụ nào cần được cài đặt để kiểm tra ứng dụng trên môi trường giả lập? SDK manager",
+    "question_body": "Khi cài đặt Android Studio, công cụ nào cần được cài đặt để kiểm tra ứng dụng trên môi trường giả lập? SDK manager",
+    "instruction": "",
+    "search_query": "Khi cài đặt Android Studio, công cụ nào cần được cài đặt để kiểm tra ứng dụng trên môi trường giả lập? SDK manager",
+    "text": "Câu 2: Khi cài đặt Android Studio, công cụ nào cần được cài đặt để kiểm tra ứng dụng trên môi trường giả lập? SDK manager\nA. \nB. Android Image\nC. Java Runtime Environment\nD. Android Emulator",
+    "smart_text": "Câu 2: Khi cài đặt Android Studio, công cụ nào cần được cài đặt để kiểm tra ứng dụng trên môi trường giả lập? SDK manager\nA. \nB. Android Image\nC. Java Runtime Environment\nD. Android Emulator",
+    "smart_text_no_prefix": "Khi cài đặt Android Studio, công cụ nào cần được cài đặt để kiểm tra ứng dụng trên môi trường giả lập? SDK manager\nA. \nB. Android Image\nC. Java Runtime Environment\nD. Android Emulator",
+    "raw_text": "19:12\n51\nKiểm tra tuầก\n13:07\nCâu 2:\nKhi cài đặt Android Studio, công cụ nào cần được cài đặt để\nkiểm tra ứng dụng trên môi trường giả lập?\nTrả lời:\nSDK manager\nA.\nB. Android Image\nC. Java Runtime Environment\nD. Android Emulator\nCâu hỏi\n2/15\n>",
+    "options": [
+      {
+        "key": "A",
+        "text": ""
+      },
+      {
+        "key": "B",
+        "text": "Android Image"
+      },
+      {
+        "key": "C",
+        "text": "Java Runtime Environment"
+      },
+      {
+        "key": "D",
+        "text": "Android Emulator"
+      }
+    ],
+    "time": "07:55:42 PM",
+    "duration": 920,
+    "copied": true,
+    "copyCount": 3,
+    "lastCopiedTime": "08:02:54 PM",
+    "scanCount": 2,
+    "lastScanTime": "08:02:54 PM"
+  },
+  {
+    "id": 1792069047913,
+    "title": "Câu 12: Sau khi chạy chương trình sau biến count có giá trị bằng bao nhiêu? fun main() { var count = 0 for (i in 1 until 5) { if (i % 2 == 0) count++ } }",
+    "question_title": "Câu 12: Sau khi chạy chương trình sau biến count có giá trị bằng bao nhiêu? fun main() { var count = 0 for (i in 1 until 5) { if (i % 2 == 0) count++ } }",
+    "question_body": "Sau khi chạy chương trình sau biến count có giá trị bằng bao nhiêu? fun main() { var count = 0 for (i in 1 until 5) { if (i % 2 == 0) count++ } }",
+    "instruction": "",
+    "search_query": "Sau khi chạy chương trình sau biến count có giá trị bằng bao nhiêu? fun main() { var count = 0 for (i in 1 until 5) { if (i % 2 == 0) count++ } }",
+    "text": "Câu 12: Sau khi chạy chương trình sau biến count có giá trị bằng bao nhiêu? fun main() { var count = 0 for (i in 1 until 5) { if (i % 2 == 0) count++ } }\nA. 1\nB. 3\nC. O\nD. 2",
+    "smart_text": "Câu 12: Sau khi chạy chương trình sau biến count có giá trị bằng bao nhiêu? fun main() { var count = 0 for (i in 1 until 5) { if (i % 2 == 0) count++ } }\nA. 1\nB. 3\nC. O\nD. 2",
+    "smart_text_no_prefix": "Sau khi chạy chương trình sau biến count có giá trị bằng bao nhiêu? fun main() { var count = 0 for (i in 1 until 5) { if (i % 2 == 0) count++ } }\nA. 1\nB. 3\nC. O\nD. 2",
+    "raw_text": "19:12\n51\nKiểm tra tuầก\n12:50\nCâu 12:\nSau khi chạy chương trình sau biến count có giá trị bằng bao\nnhiêu?\nfun main() {\nvar count = 0\nfor (i in 1 until 5) {\nif (i % 2 == 0) count++\n}\n}\nTrả lời:\nA. 1\nB. 3\nC. O\nD. 2\nCâu hỏi\n12/15\n>",
+    "options": [
+      {
+        "key": "A",
+        "text": "1"
+      },
+      {
+        "key": "B",
+        "text": "3"
+      },
+      {
+        "key": "C",
+        "text": "O"
+      },
+      {
+        "key": "D",
+        "text": "2"
+      }
+    ],
+    "time": "07:57:27 PM",
+    "duration": 766,
+    "copied": true,
+    "copyCount": 2,
+    "lastCopiedTime": "07:57:27 PM",
+    "scanCount": 1
+  },
+  {
+    "id": 1792069033511,
+    "title": "Câu 10: Một trong những ưu điểm chính của Kotlin so với Java là gì?",
+    "question_title": "Câu 10: Một trong những ưu điểm chính của Kotlin so với Java là gì?",
+    "question_body": "Một trong những ưu điểm chính của Kotlin so với Java là gì?",
+    "instruction": "",
+    "search_query": "Một trong những ưu điểm chính của Kotlin so với Java là gì?",
+    "text": "Câu 10: Một trong những ưu điểm chính của Kotlin so với Java là gì?\nA. Mã Kotlin rõ ràng, dễ hiểu hơn với người mới học\nB. Kotlin chỉ chạy trên Android\nC. Kotlin yêu cầu ít mã nguồn hơn và hỗ trợ cú pháp ngắn gọn\nD. Kotlin không hỗ trợ lập trình hướng đối tượng",
+    "smart_text": "Câu 10: Một trong những ưu điểm chính của Kotlin so với Java là gì?\nA. Mã Kotlin rõ ràng, dễ hiểu hơn với người mới học\nB. Kotlin chỉ chạy trên Android\nC. Kotlin yêu cầu ít mã nguồn hơn và hỗ trợ cú pháp ngắn gọn\nD. Kotlin không hỗ trợ lập trình hướng đối tượng",
+    "smart_text_no_prefix": "Một trong những ưu điểm chính của Kotlin so với Java là gì?\nA. Mã Kotlin rõ ràng, dễ hiểu hơn với người mới học\nB. Kotlin chỉ chạy trên Android\nC. Kotlin yêu cầu ít mã nguồn hơn và hỗ trợ cú pháp ngắn gọn\nD. Kotlin không hỗ trợ lập trình hướng đối tượng",
+    "raw_text": "19:12\n51\nKiểm tra tuầก\nCâu 10:\n12:53\nMột trong những ưu điểm chính của Kotlin so với Java là gì?\nTrả lời:\nA. Mã Kotlin rõ ràng, dễ hiểu hơn với người mới học\nB. Kotlin chỉ chạy trên Android\nC.\nKotlin yêu cầu ít mã nguồn hơn và hỗ trợ cú pháp\nngắn gọn\nD. Kotlin không hỗ trợ lập trình hướng đối tượng\nCâu hỏi\n10/15\n>",
+    "options": [
+      {
+        "key": "A",
+        "text": "Mã Kotlin rõ ràng, dễ hiểu hơn với người mới học"
+      },
+      {
+        "key": "B",
+        "text": "Kotlin chỉ chạy trên Android"
+      },
+      {
+        "key": "C",
+        "text": "Kotlin yêu cầu ít mã nguồn hơn và hỗ trợ cú pháp ngắn gọn"
+      },
+      {
+        "key": "D",
+        "text": "Kotlin không hỗ trợ lập trình hướng đối tượng"
+      }
+    ],
+    "time": "07:57:13 PM",
+    "duration": 741,
+    "copied": true,
+    "copyCount": 2,
+    "lastCopiedTime": "07:57:13 PM",
+    "scanCount": 1
+  },
+  {
+    "id": 1792069026250,
+    "title": "Câu 9: Tại sao Kotlin được coi là null-safe?",
+    "question_title": "Câu 9: Tại sao Kotlin được coi là null-safe?",
+    "question_body": "Tại sao Kotlin được coi là null-safe?",
+    "instruction": "",
+    "search_query": "Tại sao Kotlin được coi là null-safe?",
+    "text": "Câu 9: Tại sao Kotlin được coi là null-safe?\nA. Kotlin yêu cầu khai báo rõ ràng các biến có thể null với \"?\"\nB. Kotlin không cho phép sử dụng giá trị null\nC. Kotlin sử dụng từ khóa null khác\nD. Kotlin không có khái niệm null",
+    "smart_text": "Câu 9: Tại sao Kotlin được coi là null-safe?\nA. Kotlin yêu cầu khai báo rõ ràng các biến có thể null với \"?\"\nB. Kotlin không cho phép sử dụng giá trị null\nC. Kotlin sử dụng từ khóa null khác\nD. Kotlin không có khái niệm null",
+    "smart_text_no_prefix": "Tại sao Kotlin được coi là null-safe?\nA. Kotlin yêu cầu khai báo rõ ràng các biến có thể null với \"?\"\nB. Kotlin không cho phép sử dụng giá trị null\nC. Kotlin sử dụng từ khóa null khác\nD. Kotlin không có khái niệm null",
+    "raw_text": "19:12\nKiểm tra tuầก\nCâu 9:\n12:55\nTại sao Kotlin được coi là null-safe?\nTrả lời:\nA.\nKotlin yêu cầu khai báo rõ ràng các biến có thể null\nvới \"?\"\n51\nB. Kotlin không cho phép sử dụng giá trị null\nC. Kotlin sử dụng từ khóa null khác\nD. Kotlin không có khái niệm null\nCâu hỏi\n9/15\n>",
+    "options": [
+      {
+        "key": "A",
+        "text": "Kotlin yêu cầu khai báo rõ ràng các biến có thể null với \"?\""
+      },
+      {
+        "key": "B",
+        "text": "Kotlin không cho phép sử dụng giá trị null"
+      },
+      {
+        "key": "C",
+        "text": "Kotlin sử dụng từ khóa null khác"
+      },
+      {
+        "key": "D",
+        "text": "Kotlin không có khái niệm null"
+      }
+    ],
+    "time": "07:57:06 PM",
+    "duration": 724,
+    "copied": true,
+    "copyCount": 2,
+    "lastCopiedTime": "07:57:06 PM",
+    "scanCount": 1
+  },
+  {
+    "id": 1792069018676,
+    "title": "Câu 8: Vòng lặp for có thể sử dụng với một khoảng giá trị không?",
+    "question_title": "Câu 8: Vòng lặp for có thể sử dụng với một khoảng giá trị không?",
+    "question_body": "Vòng lặp for có thể sử dụng với một khoảng giá trị không?",
+    "instruction": "",
+    "search_query": "Vòng lặp for có thể sử dụng với một khoảng giá trị không?",
+    "text": "Câu 8: Vòng lặp for có thể sử dụng với một khoảng giá trị không?\nA. Có, nhưng cần dùng thư viện bổ sung\nB. Không, chỉ với các số nguyên\nC. Có thể sử dụng với một khoảng giá trị\nD. Không, chỉ với danh sách hoặc mảng",
+    "smart_text": "Câu 8: Vòng lặp for có thể sử dụng với một khoảng giá trị không?\nA. Có, nhưng cần dùng thư viện bổ sung\nB. Không, chỉ với các số nguyên\nC. Có thể sử dụng với một khoảng giá trị\nD. Không, chỉ với danh sách hoặc mảng",
+    "smart_text_no_prefix": "Vòng lặp for có thể sử dụng với một khoảng giá trị không?\nA. Có, nhưng cần dùng thư viện bổ sung\nB. Không, chỉ với các số nguyên\nC. Có thể sử dụng với một khoảng giá trị\nD. Không, chỉ với danh sách hoặc mảng",
+    "raw_text": "19:12\nKiểm tra tuầก\n12:57\n51\nCâu 8:\nVòng lặp for có thể sử dụng với một khoảng giá trị không?\nTrả lời:\nA. Có, nhưng cần dùng thư viện bổ sung\nB. Không, chỉ với các số nguyên\nC. Có thể sử dụng với một khoảng giá trị\nD. Không, chỉ với danh sách hoặc mảng\nCâu hỏi\n8/15\n>",
+    "options": [
+      {
+        "key": "A",
+        "text": "Có, nhưng cần dùng thư viện bổ sung"
+      },
+      {
+        "key": "B",
+        "text": "Không, chỉ với các số nguyên"
+      },
+      {
+        "key": "C",
+        "text": "Có thể sử dụng với một khoảng giá trị"
+      },
+      {
+        "key": "D",
+        "text": "Không, chỉ với danh sách hoặc mảng"
+      }
+    ],
+    "time": "07:56:58 PM",
+    "duration": 747,
+    "copied": true,
+    "copyCount": 2,
+    "lastCopiedTime": "07:56:58 PM",
+    "scanCount": 1
+  },
+  {
+    "id": 1792069002398,
+    "title": "Câu 6: Yếu tố nào sau đây ảnh hưởng đến độ rõ nét của hình ảnh và văn bản trên màn hình di động?",
+    "question_title": "Câu 6: Yếu tố nào sau đây ảnh hưởng đến độ rõ nét của hình ảnh và văn bản trên màn hình di động?",
+    "question_body": "Yếu tố nào sau đây ảnh hưởng đến độ rõ nét của hình ảnh và văn bản trên màn hình di động?",
+    "instruction": "",
+    "search_query": "Yếu tố nào sau đây ảnh hưởng đến độ rõ nét của hình ảnh và văn bản trên màn hình di động?",
+    "text": "Câu 6: Yếu tố nào sau đây ảnh hưởng đến độ rõ nét của hình ảnh và văn bản trên màn hình di động?\nA. Tốc độ vi xử lý\nB. Độ phân giải\nC. Mật độ điểm ảnh\nD. Độ phân giải và mật độ điểm ảnh của màn hình",
+    "smart_text": "Câu 6: Yếu tố nào sau đây ảnh hưởng đến độ rõ nét của hình ảnh và văn bản trên màn hình di động?\nA. Tốc độ vi xử lý\nB. Độ phân giải\nC. Mật độ điểm ảnh\nD. Độ phân giải và mật độ điểm ảnh của màn hình",
+    "smart_text_no_prefix": "Yếu tố nào sau đây ảnh hưởng đến độ rõ nét của hình ảnh và văn bản trên màn hình di động?\nA. Tốc độ vi xử lý\nB. Độ phân giải\nC. Mật độ điểm ảnh\nD. Độ phân giải và mật độ điểm ảnh của màn hình",
+    "raw_text": "19:12\n51\nKiểm tra tuầก\n13:01\nCâu 6:\nYếu tố nào sau đây ảnh hưởng đến độ rõ nét của hình ảnh và\nvăn bản trên màn hình di động?\nTrả lời:\nA. Tốc độ vi xử lý\nB. Độ phân giải\nC. Mật độ điểm ảnh\nD. Độ phân giải và mật độ điểm ảnh của màn hình\nCâu hỏi\n6/15\n>",
+    "options": [
+      {
+        "key": "A",
+        "text": "Tốc độ vi xử lý"
+      },
+      {
+        "key": "B",
+        "text": "Độ phân giải"
+      },
+      {
+        "key": "C",
+        "text": "Mật độ điểm ảnh"
+      },
+      {
+        "key": "D",
+        "text": "Độ phân giải và mật độ điểm ảnh của màn hình"
+      }
+    ],
+    "time": "07:56:42 PM",
+    "duration": 720,
+    "copied": true,
+    "copyCount": 2,
+    "lastCopiedTime": "07:56:42 PM",
+    "scanCount": 1
+  },
+  {
+    "id": 1792068969930,
+    "title": "Câu 4: Đoạn mã sau gây ra lỗi ở đâu: fun main() { val x = 5 var y = x +2 y += 3 x += 1 println(\"x = x, y = y\")}",
+    "question_title": "Câu 4: Đoạn mã sau gây ra lỗi ở đâu: fun main() { val x = 5 var y = x +2 y += 3 x += 1 println(\"x = x, y = y\")}",
+    "question_body": "Đoạn mã sau gây ra lỗi ở đâu: fun main() { val x = 5 var y = x +2 y += 3 x += 1 println(\"x = x, y = y\")}",
+    "instruction": "",
+    "search_query": "Đoạn mã sau gây ra lỗi ở đâu: fun main() { val x = 5 var y = x +2 y += 3 x += 1 println(\"x = x, y = y\")}",
+    "text": "Câu 4: Đoạn mã sau gây ra lỗi ở đâu: fun main() { val x = 5 var y = x +2 y += 3 x += 1 println(\"x = x, y = y\")}\nA. Không có lỗi, chương trình in ra x = 6, y = 10.\nB. Lỗi biên dịch tại dòng val x = 5 vì x không thể thay đổi.\nC. Lỗi biên dịch tại dòng x += 1 vì x được khai báo là val.\nD. Lỗi tại đồng y+=3 do ý không được thay đổi giá trị.",
+    "smart_text": "Câu 4: Đoạn mã sau gây ra lỗi ở đâu: fun main() { val x = 5 var y = x +2 y += 3 x += 1 println(\"x = x, y = y\")}\nA. Không có lỗi, chương trình in ra x = 6, y = 10.\nB. Lỗi biên dịch tại dòng val x = 5 vì x không thể thay đổi.\nC. Lỗi biên dịch tại dòng x += 1 vì x được khai báo là val.\nD. Lỗi tại đồng y+=3 do ý không được thay đổi giá trị.",
+    "smart_text_no_prefix": "Đoạn mã sau gây ra lỗi ở đâu: fun main() { val x = 5 var y = x +2 y += 3 x += 1 println(\"x = x, y = y\")}\nA. Không có lỗi, chương trình in ra x = 6, y = 10.\nB. Lỗi biên dịch tại dòng val x = 5 vì x không thể thay đổi.\nC. Lỗi biên dịch tại dòng x += 1 vì x được khai báo là val.\nD. Lỗi tại đồng y+=3 do ý không được thay đổi giá trị.",
+    "raw_text": "19:12\n51\nKiểm tra tuầก\n13:04\nCâu 4:\nĐoạn mã sau gây ra lỗi ở đâu: fun main() { val x = 5 var y = x\n+2 y += 3 x += 1 println(\"x =\nx, y = y\")}\nTrả lời:\nA. Không có lỗi, chương trình in ra x = 6, y = 10.\nB.\nLỗi biên dịch tại dòng val x = 5 vì x không thể thay\nđổi.\nC.\nLỗi biên dịch tại dòng x += 1 vì x được khai báo là\nval.\nD. Lỗi tại đồng y+=3 do ý không được thay đổi giá trị.\nCâu hỏi\n4/15\n>",
+    "options": [
+      {
+        "key": "A",
+        "text": "Không có lỗi, chương trình in ra x = 6, y = 10."
+      },
+      {
+        "key": "B",
+        "text": "Lỗi biên dịch tại dòng val x = 5 vì x không thể thay đổi."
+      },
+      {
+        "key": "C",
+        "text": "Lỗi biên dịch tại dòng x += 1 vì x được khai báo là val."
+      },
+      {
+        "key": "D",
+        "text": "Lỗi tại đồng y+=3 do ý không được thay đổi giá trị."
+      }
+    ],
+    "time": "07:56:09 PM",
+    "duration": 719,
+    "copied": true,
+    "copyCount": 2,
+    "lastCopiedTime": "07:56:09 PM",
+    "scanCount": 1
+  },
+  {
+    "id": 1792068915255,
+    "title": "Câu 1: Đơn vị kích thước nào được khuyến nghị sử dụng để đảm bảo bố cục hiển thị đúng trên các màn hình có mật độ khác nhau?",
+    "question_title": "Câu 1: Đơn vị kích thước nào được khuyến nghị sử dụng để đảm bảo bố cục hiển thị đúng trên các màn hình có mật độ khác nhau?",
+    "question_body": "Đơn vị kích thước nào được khuyến nghị sử dụng để đảm bảo bố cục hiển thị đúng trên các màn hình có mật độ khác nhau?",
+    "instruction": "",
+    "search_query": "Đơn vị kích thước nào được khuyến nghị sử dụng để đảm bảo bố cục hiển thị đúng trên các màn hình có mật độ khác nhau?",
+    "text": "Câu 1: Đơn vị kích thước nào được khuyến nghị sử dụng để đảm bảo bố cục hiển thị đúng trên các màn hình có mật độ khác nhau?\nA. dp\nB. sp\nC. px\nD. inch",
+    "smart_text": "Câu 1: Đơn vị kích thước nào được khuyến nghị sử dụng để đảm bảo bố cục hiển thị đúng trên các màn hình có mật độ khác nhau?\nA. dp\nB. sp\nC. px\nD. inch",
+    "smart_text_no_prefix": "Đơn vị kích thước nào được khuyến nghị sử dụng để đảm bảo bố cục hiển thị đúng trên các màn hình có mật độ khác nhau?\nA. dp\nB. sp\nC. px\nD. inch",
+    "raw_text": "19:12\n51\nKiểm tra tuầก\n13:09\nCâu 1:\nĐơn vị kích thước nào được khuyến nghị sử dụng để đảm\nbảo bố cục hiển thị đúng trên các màn hình có mật độ khác\nnhau?\nTrả lời:\nA. dp\nB. sp\nC. px\nD. inch\nCâu hỏi\n1/15\n>",
+    "options": [
+      {
+        "key": "A",
+        "text": "dp"
+      },
+      {
+        "key": "B",
+        "text": "sp"
+      },
+      {
+        "key": "C",
+        "text": "px"
+      },
+      {
+        "key": "D",
+        "text": "inch"
+      }
+    ],
+    "time": "07:55:15 PM",
+    "duration": 1241,
+    "copied": true,
+    "copyCount": 3,
+    "lastCopiedTime": "07:55:16 PM",
+    "scanCount": 1
+  },
+  {
+    "id": 1792066979008,
+    "title": "Câu 7: Trong xử lý ngôn ngữ tự nhiên (NLP), học máy thường được dùng để làm gì?",
+    "question_title": "Câu 7: Trong xử lý ngôn ngữ tự nhiên (NLP), học máy thường được dùng để làm gì?",
+    "question_body": "Trong xử lý ngôn ngữ tự nhiên (NLP), học máy thường được dùng để làm gì?",
+    "instruction": "",
+    "search_query": "Trong xử lý ngôn ngữ tự nhiên (NLP), học máy thường được dùng để làm gì?",
+    "text": "Câu 7: Trong xử lý ngôn ngữ tự nhiên (NLP), học máy thường được dùng để làm gì?\nA. Dịch văn bản bằng tay\nB. Hiển thị văn bản\nC. Chuyển file ảnh sang text\nD. Phân tích cú pháp và dự đoán ý nghĩa văn bản",
+    "smart_text": "Câu 7: Trong xử lý ngôn ngữ tự nhiên (NLP), học máy thường được dùng để làm gì?\nA. Dịch văn bản bằng tay\nB. Hiển thị văn bản\nC. Chuyển file ảnh sang text\nD. Phân tích cú pháp và dự đoán ý nghĩa văn bản",
+    "smart_text_no_prefix": "Trong xử lý ngôn ngữ tự nhiên (NLP), học máy thường được dùng để làm gì?\nA. Dịch văn bản bằng tay\nB. Hiển thị văn bản\nC. Chuyển file ảnh sang text\nD. Phân tích cú pháp và dự đoán ý nghĩa văn bản",
+    "raw_text": "19:22\nKiểm tra tuầก\n14:34\n50\nCâu 7:\nTrong xử lý ngôn ngữ tự nhiên (NLP), học máy thường được\ndùng để làm gì?\nTrả lời:\nA. Dịch văn bản bằng tay\nB. Hiển thị văn bản\nC. Chuyển file ảnh sang text\nD. Phân tích cú pháp và dự đoán ý nghĩa văn bản\nCâu hỏi\n7/15\n>",
+    "options": [
+      {
+        "key": "A",
+        "text": "Dịch văn bản bằng tay"
+      },
+      {
+        "key": "B",
+        "text": "Hiển thị văn bản"
+      },
+      {
+        "key": "C",
+        "text": "Chuyển file ảnh sang text"
+      },
+      {
+        "key": "D",
+        "text": "Phân tích cú pháp và dự đoán ý nghĩa văn bản"
+      }
+    ],
+    "time": "07:22:59 PM",
+    "duration": 786,
+    "copied": true,
+    "copyCount": 1,
+    "lastCopiedTime": "07:23:00 PM",
+    "scanCount": 1
+  },
+  {
+    "id": 1791981844423,
+    "title": "Câu 7: Đặc điểm nào dưới đây phù hợp nhất với Public Cloud?",
+    "question_title": "Câu 7: Đặc điểm nào dưới đây phù hợp nhất với Public Cloud?",
+    "question_body": "Đặc điểm nào dưới đây phù hợp nhất với Public Cloud?",
+    "instruction": "",
+    "search_query": "Đặc điểm nào dưới đây phù hợp nhất với Public Cloud?",
+    "text": "Câu 7: Đặc điểm nào dưới đây phù hợp nhất với Public Cloud?\nA. Toàn quyền kiểm soát cấu hình đám mây\nB. Dễ dàng mở rộng quy mô nhanh chóng bất cứ lúc nào\nC. Chỉ phù hợp cho doanh nghiệp lớn\nD. Chi phí cao do phải xây dựng cơ sở hạ tầng riêng",
+    "smart_text": "Câu 7: Đặc điểm nào dưới đây phù hợp nhất với Public Cloud?\nA. Toàn quyền kiểm soát cấu hình đám mây\nB. Dễ dàng mở rộng quy mô nhanh chóng bất cứ lúc nào\nC. Chỉ phù hợp cho doanh nghiệp lớn\nD. Chi phí cao do phải xây dựng cơ sở hạ tầng riêng",
+    "smart_text_no_prefix": "Đặc điểm nào dưới đây phù hợp nhất với Public Cloud?\nA. Toàn quyền kiểm soát cấu hình đám mây\nB. Dễ dàng mở rộng quy mô nhanh chóng bất cứ lúc nào\nC. Chỉ phù hợp cho doanh nghiệp lớn\nD. Chi phí cao do phải xây dựng cơ sở hạ tầng riêng",
+    "raw_text": "19:22\nKiểm tra tuầก\n14:00\n58\nCâu 7:\nĐặc điểm nào dưới đây phù hợp nhất với Public Cloud?\nTrả lời:\nA. Toàn quyền kiểm soát cấu hình đám mây\nB.\nDễ dàng mở rộng quy mô nhanh chóng bất cứ lúc\nnào\nC. Chỉ phù hợp cho doanh nghiệp lớn\nD. Chi phí cao do phải xây dựng cơ sở hạ tầng riêng\nCâu hỏi\n7/15\n>",
+    "options": [
+      {
+        "key": "A",
+        "text": "Toàn quyền kiểm soát cấu hình đám mây"
+      },
+      {
+        "key": "B",
+        "text": "Dễ dàng mở rộng quy mô nhanh chóng bất cứ lúc nào"
+      },
+      {
+        "key": "C",
+        "text": "Chỉ phù hợp cho doanh nghiệp lớn"
+      },
+      {
+        "key": "D",
+        "text": "Chi phí cao do phải xây dựng cơ sở hạ tầng riêng"
+      }
+    ],
+    "time": "07:44:04 PM",
+    "duration": 727,
+    "copied": true,
+    "copyCount": 1,
+    "lastCopiedTime": "07:44:09 PM",
+    "scanCount": 2,
+    "lastScanTime": "07:18:46 PM"
+  },
+  {
+    "id": 1791985108538,
+    "title": "Câu 12: Cho dãy số sau, cho biết giá trị trung vị của dãy số 9, 0, 2, 1, 4, 5, 8, 0, 7, 2, 1",
+    "question_title": "Câu 12: Cho dãy số sau, cho biết giá trị trung vị của dãy số 9, 0, 2, 1, 4, 5, 8, 0, 7, 2, 1",
+    "question_body": "Cho dãy số sau, cho biết giá trị trung vị của dãy số 9, 0, 2, 1, 4, 5, 8, 0, 7, 2, 1",
+    "instruction": "",
+    "search_query": "Cho dãy số sau, cho biết giá trị trung vị của dãy số 9, 0, 2, 1, 4, 5, 8, 0, 7, 2, 1",
+    "text": "Câu 12: Cho dãy số sau, cho biết giá trị trung vị của dãy số 9, 0, 2, 1, 4, 5, 8, 0, 7, 2, 1\nA. 2\nB. 4\nC. 1\nD. 3",
+    "smart_text": "Câu 12: Cho dãy số sau, cho biết giá trị trung vị của dãy số 9, 0, 2, 1, 4, 5, 8, 0, 7, 2, 1\nA. 2\nB. 4\nC. 1\nD. 3",
+    "smart_text_no_prefix": "Cho dãy số sau, cho biết giá trị trung vị của dãy số 9, 0, 2, 1, 4, 5, 8, 0, 7, 2, 1\nA. 2\nB. 4\nC. 1\nD. 3",
+    "raw_text": "13:43\n5G\n96\nKiểm tra tuầก\n12:18\nCâu 12:\nCho dãy số sau, cho biết giá trị trung vị của dãy số\n9, 0, 2, 1, 4, 5, 8, 0, 7, 2, 1\nTrả lời:\nA. 2\nB. 4\nC. 1\nD. 3\nCâu hỏi\n12/15\n>",
+    "options": [
+      {
+        "key": "A",
+        "text": "2"
+      },
+      {
+        "key": "B",
+        "text": "4"
+      },
+      {
+        "key": "C",
+        "text": "1"
+      },
+      {
+        "key": "D",
+        "text": "3"
+      }
+    ],
+    "time": "08:38:28 PM",
+    "duration": 811,
+    "copied": true,
+    "copyCount": 3,
+    "lastCopiedTime": "09:00:59 PM",
+    "scanCount": 3,
+    "lastScanTime": "09:00:55 PM"
+  },
+  {
+    "id": 1791986252068,
+    "title": "Câu 11: Cho 2 ảnh 11, 12 sau, histogram ảnh 11 là h(11), histogram của ảnh 12 là h(12). Hãy so sánh h(11), h(12). 11= 12=",
+    "question_title": "Câu 11: Cho 2 ảnh 11, 12 sau, histogram ảnh 11 là h(11), histogram của ảnh 12 là h(12). Hãy so sánh h(11), h(12). 11= 12=",
+    "question_body": "Cho 2 ảnh 11, 12 sau, histogram ảnh 11 là h(11), histogram của ảnh 12 là h(12). Hãy so sánh h(11), h(12). 11= 12=",
+    "instruction": "",
+    "search_query": "Cho 2 ảnh 11, 12 sau, histogram ảnh 11 là h(11), histogram của ảnh 12 là h(12). Hãy so sánh h(11), h(12). 11= 12=",
+    "text": "Câu 11: Cho 2 ảnh 11, 12 sau, histogram ảnh 11 là h(11), histogram của ảnh 12 là h(12). Hãy so sánh h(11), h(12). 11= 12=\nA. khác nhau\nB. h(11)> h(12)\nC. bằng nhau\nD. h(11)<h (12)",
+    "smart_text": "Câu 11: Cho 2 ảnh 11, 12 sau, histogram ảnh 11 là h(11), histogram của ảnh 12 là h(12). Hãy so sánh h(11), h(12). 11= 12=\nA. khác nhau\nB. h(11)> h(12)\nC. bằng nhau\nD. h(11)<h (12)",
+    "smart_text_no_prefix": "Cho 2 ảnh 11, 12 sau, histogram ảnh 11 là h(11), histogram của ảnh 12 là h(12). Hãy so sánh h(11), h(12). 11= 12=\nA. khác nhau\nB. h(11)> h(12)\nC. bằng nhau\nD. h(11)<h (12)",
+    "raw_text": "19:10\nKiểm tra tuầก\n10:15\n77\nCâu 11:\nCho 2 ảnh 11, 12 sau, histogram ảnh 11 là h(11), histogram của\nảnh 12 là h(12).\nHãy so sánh h(11), h(12).\n11=\n1\n1\n0\n0\n12=\n0\n0\n1\n1\n1\n1\n0\n0\n0\n0\n1\n1\nTrả lời:\n0\n0\n1\n1\n0 0\n1\n1\n0\n0\n1\n1\n0\n0\n1\n1\nA. khác nhau\nB. h(11)> h(12)\nC. bằng nhau\nD. h(11)<h (12)\nCâu hỏi\n11/15",
+    "options": [
+      {
+        "key": "A",
+        "text": "khác nhau"
+      },
+      {
+        "key": "B",
+        "text": "h(11)> h(12)"
+      },
+      {
+        "key": "C",
+        "text": "bằng nhau"
+      },
+      {
+        "key": "D",
+        "text": "h(11)<h (12)"
+      }
+    ],
+    "time": "08:57:32 PM",
+    "duration": 893,
+    "copied": true,
+    "copyCount": 1,
+    "lastCopiedTime": "08:58:09 PM",
+    "scanCount": 1
+  },
+  {
+    "id": 1791986216065,
+    "title": "Câu 10: Cho ảnh I sau, hãy cho biết histogram của ảnh I |=",
+    "question_title": "Câu 10: Cho ảnh I sau, hãy cho biết histogram của ảnh I |=",
+    "question_body": "Cho ảnh I sau, hãy cho biết histogram của ảnh I |=",
+    "instruction": "",
+    "search_query": "Cho ảnh I sau, hãy cho biết histogram của ảnh I |=",
+    "text": "Câu 10: Cho ảnh I sau, hãy cho biết histogram của ảnh I |=\nA. h( g)\nB. h( g)",
+    "smart_text": "Câu 10: Cho ảnh I sau, hãy cho biết histogram của ảnh I |=\nA. h( g)\nB. h( g)",
+    "smart_text_no_prefix": "Cho ảnh I sau, hãy cho biết histogram của ảnh I |=\nA. h( g)\nB. h( g)",
+    "raw_text": "19:10\nKiểm tra tuầก\nCâu 10:\n10:43\nCho ảnh I sau, hãy cho biết histogram của ảnh I\n0\n1\n4\n5\n|=\n3\n2\n5\n7\n4\n0\n5\n3\n2\n1\n3\n4\n9\n0\n1\n2\n3\n4\n5\n7\nA.\nTrả lời:\nh(\ng)\n1\n6\n3\n2\n5\n1\n7\n9\n0\n1\n2\n3\n4\n5\n7\nB.\nh(\n3\n5\n3\n4\n5 6\n7\ng)\nCâu hỏi\n10/15\n77",
+    "options": [
+      {
+        "key": "A",
+        "text": "h( g)"
+      },
+      {
+        "key": "B",
+        "text": "h( g)"
+      }
+    ],
+    "time": "08:56:56 PM",
+    "duration": 740,
+    "copied": false,
+    "copyCount": 0,
+    "lastCopiedTime": null,
+    "scanCount": 1
+  },
+  {
+    "id": 1791983996780,
+    "title": "Câu 6: 1. Cho ảnh I sau, thực hiện kỹ thuật tăng giảm độ sáng ảnh I, với C=5. Cho biết ảnh kết quả l' I= -5 -4 -3",
+    "question_title": "Câu 6: 1. Cho ảnh I sau, thực hiện kỹ thuật tăng giảm độ sáng ảnh I, với C=5. Cho biết ảnh kết quả l' I= -5 -4 -3",
+    "question_body": "1. Cho ảnh I sau, thực hiện kỹ thuật tăng giảm độ sáng ảnh I, với C=5. Cho biết ảnh kết quả l' I= -5 -4 -3",
+    "instruction": "",
+    "search_query": "1. Cho ảnh I sau, thực hiện kỹ thuật tăng giảm độ sáng ảnh I, với C=5. Cho biết ảnh kết quả l' I= -5 -4 -3",
+    "text": "Câu 6: 1. Cho ảnh I sau, thực hiện kỹ thuật tăng giảm độ sáng ảnh I, với C=5. Cho biết ảnh kết quả l' I= -5 -4 -3\nA. ן'= -2 -2 -3\nB. 1'=\nC. 1'=",
+    "smart_text": "Câu 6: 1. Cho ảnh I sau, thực hiện kỹ thuật tăng giảm độ sáng ảnh I, với C=5. Cho biết ảnh kết quả l' I= -5 -4 -3\nA. ן'= -2 -2 -3\nB. 1'=\nC. 1'=",
+    "smart_text_no_prefix": "1. Cho ảnh I sau, thực hiện kỹ thuật tăng giảm độ sáng ảnh I, với C=5. Cho biết ảnh kết quả l' I= -5 -4 -3\nA. ן'= -2 -2 -3\nB. 1'=\nC. 1'=",
+    "raw_text": "13:42\n5G\n97\nKiểm tra tuầก\n12:45\nCâu 6:\n1. Cho ảnh I sau, thực hiện kỹ thuật tăng giảm độ sáng ảnh I,\nvới C=5. Cho biết ảnh kết quả l'\n0\n1\n2\nI=\n6\n3\n5\n3\n8\n2\nTrả lời:\n-5\n-4\n-3\nA.\nן'=\n1\n-2\n3\n-2\n-3\n0\n0\n0\nB.\n1'=\n1\n1\n0\n1\n1\n2\n0\n0\n5\n10\nC.\n1'=\n30\n15\n25\n15\n40\n10\n<\nCâu hỏi\n6/15\n>",
+    "options": [
+      {
+        "key": "A",
+        "text": "ן'= -2 -2 -3"
+      },
+      {
+        "key": "B",
+        "text": "1'="
+      },
+      {
+        "key": "C",
+        "text": "1'="
+      }
+    ],
+    "time": "08:19:56 PM",
+    "duration": 975,
+    "copied": false,
+    "copyCount": 0,
+    "lastCopiedTime": null,
+    "scanCount": 4,
+    "lastScanTime": "08:53:37 PM"
+  },
+  {
+    "id": 1791985855936,
+    "title": "Câu 4: Một ảnh sau khi được tăng độ sáng thì histogram của ảnh đó sẽ thay đổi như thế nào?",
+    "question_title": "Câu 4: Một ảnh sau khi được tăng độ sáng thì histogram của ảnh đó sẽ thay đổi như thế nào?",
+    "question_body": "Một ảnh sau khi được tăng độ sáng thì histogram của ảnh đó sẽ thay đổi như thế nào?",
+    "instruction": "",
+    "search_query": "Một ảnh sau khi được tăng độ sáng thì histogram của ảnh đó sẽ thay đổi như thế nào?",
+    "text": "Câu 4: Một ảnh sau khi được tăng độ sáng thì histogram của ảnh đó sẽ thay đổi như thế nào?\nA. dịch xuống dưới\nB. dịch về bên phải\nC. dịch về bên trái\nD. dịch về bên trên",
+    "smart_text": "Câu 4: Một ảnh sau khi được tăng độ sáng thì histogram của ảnh đó sẽ thay đổi như thế nào?\nA. dịch xuống dưới\nB. dịch về bên phải\nC. dịch về bên trái\nD. dịch về bên trên",
+    "smart_text_no_prefix": "Một ảnh sau khi được tăng độ sáng thì histogram của ảnh đó sẽ thay đổi như thế nào?\nA. dịch xuống dưới\nB. dịch về bên phải\nC. dịch về bên trái\nD. dịch về bên trên",
+    "raw_text": "19:06\nKiểm tra tuầก\nCâu 4:\n14:19\n77\nMột ảnh sau khi được tăng độ sáng thì histogram của ảnh đó\nsẽ thay đổi như thế nào?\nTrả lời:\nA. dịch xuống dưới\nB. dịch về bên phải\nC. dịch về bên trái\nD. dịch về bên trên\nCâu hỏi\n4/15\n>",
+    "options": [
+      {
+        "key": "A",
+        "text": "dịch xuống dưới"
+      },
+      {
+        "key": "B",
+        "text": "dịch về bên phải"
+      },
+      {
+        "key": "C",
+        "text": "dịch về bên trái"
+      },
+      {
+        "key": "D",
+        "text": "dịch về bên trên"
+      }
+    ],
+    "time": "08:50:55 PM",
+    "duration": 752,
+    "copied": true,
+    "copyCount": 1,
+    "lastCopiedTime": "08:50:57 PM",
+    "scanCount": 1
+  },
+  {
+    "id": 1791985821101,
+    "title": "Câu 2: Phép toán không phụ thuộc không gian là gì?",
+    "question_title": "Câu 2: Phép toán không phụ thuộc không gian là gì?",
+    "question_body": "Phép toán không phụ thuộc không gian là gì?",
+    "instruction": "",
+    "search_query": "Phép toán không phụ thuộc không gian là gì?",
+    "text": "Câu 2: Phép toán không phụ thuộc không gian là gì?\nA. Phép toán xử lý điểm ảnh dựa vào giá trị của điểm ảnh và các điểm ảnh lân cận\nB. Phép toán không sử dụng hàm biến đổi\nC. Phép toán sử dụng giá trị của tất cả các điểm ảnh trong ảnh Phép toán xử lý điểm ảnh chỉ dựa vào giá trị của\nD. điểm ảnh đó mà không phụ thuộc vào điểm ảnh khác",
+    "smart_text": "Câu 2: Phép toán không phụ thuộc không gian là gì?\nA. Phép toán xử lý điểm ảnh dựa vào giá trị của điểm ảnh và các điểm ảnh lân cận\nB. Phép toán không sử dụng hàm biến đổi\nC. Phép toán sử dụng giá trị của tất cả các điểm ảnh trong ảnh Phép toán xử lý điểm ảnh chỉ dựa vào giá trị của\nD. điểm ảnh đó mà không phụ thuộc vào điểm ảnh khác",
+    "smart_text_no_prefix": "Phép toán không phụ thuộc không gian là gì?\nA. Phép toán xử lý điểm ảnh dựa vào giá trị của điểm ảnh và các điểm ảnh lân cận\nB. Phép toán không sử dụng hàm biến đổi\nC. Phép toán sử dụng giá trị của tất cả các điểm ảnh trong ảnh Phép toán xử lý điểm ảnh chỉ dựa vào giá trị của\nD. điểm ảnh đó mà không phụ thuộc vào điểm ảnh khác",
+    "raw_text": "19:06\nKiểm tra tuầก\nCâu 2:\n14:23\nPhép toán không phụ thuộc không gian là gì?\nTrả lời:\n77\nA.\nPhép toán xử lý điểm ảnh dựa vào giá trị của điểm\nảnh và các điểm ảnh lân cận\nB. Phép toán không sử dụng hàm biến đổi\nC.\nPhép toán sử dụng giá trị của tất cả các điểm ảnh\ntrong ảnh\nPhép toán xử lý điểm ảnh chỉ dựa vào giá trị của\nD. điểm ảnh đó mà không phụ thuộc vào điểm ảnh\nkhác\nCâu hỏi\n2/15\n>",
+    "options": [
+      {
+        "key": "A",
+        "text": "Phép toán xử lý điểm ảnh dựa vào giá trị của điểm ảnh và các điểm ảnh lân cận"
+      },
+      {
+        "key": "B",
+        "text": "Phép toán không sử dụng hàm biến đổi"
+      },
+      {
+        "key": "C",
+        "text": "Phép toán sử dụng giá trị của tất cả các điểm ảnh trong ảnh Phép toán xử lý điểm ảnh chỉ dựa vào giá trị của"
+      },
+      {
+        "key": "D",
+        "text": "điểm ảnh đó mà không phụ thuộc vào điểm ảnh khác"
+      }
+    ],
+    "time": "08:50:21 PM",
+    "duration": 796,
+    "copied": true,
+    "copyCount": 2,
+    "lastCopiedTime": "08:50:28 PM",
+    "scanCount": 1
+  },
+  {
+    "id": 1791983284310,
+    "title": "Câu 2: Đâu là từ tiếng anh của từ lược đồ xám",
+    "question_title": "Câu 2: Đâu là từ tiếng anh của từ lược đồ xám",
+    "question_body": "Đâu là từ tiếng anh của từ lược đồ xám",
+    "instruction": "",
+    "search_query": "Đâu là từ tiếng anh của từ lược đồ xám",
+    "text": "Câu 2: Đâu là từ tiếng anh của từ lược đồ xám\nA. histogram\nB. preprocessing\nC. feature extraction\nD. segmentation",
+    "smart_text": "Câu 2: Đâu là từ tiếng anh của từ lược đồ xám\nA. histogram\nB. preprocessing\nC. feature extraction\nD. segmentation",
+    "smart_text_no_prefix": "Đâu là từ tiếng anh của từ lược đồ xám\nA. histogram\nB. preprocessing\nC. feature extraction\nD. segmentation",
+    "raw_text": "13:42\n5G 97\nKiểm tra tuầก\n13:07\nCâu 2:\nĐâu là từ tiếng anh của từ lược đồ xám\nTrả lời:\nA. histogram\nB. preprocessing\nC. feature extraction\nD. segmentation\nCâu hỏi\n2/15\n>",
+    "options": [
+      {
+        "key": "A",
+        "text": "histogram"
+      },
+      {
+        "key": "B",
+        "text": "preprocessing"
+      },
+      {
+        "key": "C",
+        "text": "feature extraction"
+      },
+      {
+        "key": "D",
+        "text": "segmentation"
+      }
+    ],
+    "time": "08:08:04 PM",
+    "duration": 808,
+    "copied": true,
+    "copyCount": 1,
+    "lastCopiedTime": "08:08:06 PM",
+    "scanCount": 2,
+    "lastScanTime": "08:50:13 PM"
+  },
+  {
+    "id": 1791985049323,
+    "title": "Câu 11: Trong kỹ thuật cộng 2 ảnh: la [i, j] =(1-a)I₁[i, j]+a 12 [i, j] với a ∈ [0,1] Với giá trị a bằng bao nhiêu thì ảnh la trùng với ảnh 11 Α. 0.25",
+    "question_title": "Câu 11: Trong kỹ thuật cộng 2 ảnh: la [i, j] =(1-a)I₁[i, j]+a 12 [i, j] với a ∈ [0,1] Với giá trị a bằng bao nhiêu thì ảnh la trùng với ảnh 11 Α. 0.25",
+    "question_body": "Trong kỹ thuật cộng 2 ảnh: la [i, j] =(1-a)I₁[i, j]+a 12 [i, j] với a ∈ [0,1] Với giá trị a bằng bao nhiêu thì ảnh la trùng với ảnh 11 Α. 0.25",
+    "instruction": "",
+    "search_query": "Trong kỹ thuật cộng 2 ảnh: la [i, j] =(1-a)I₁[i, j]+a 12 [i, j] với a ∈ [0,1] Với giá trị a bằng bao nhiêu thì ảnh la trùng với ảnh 11 Α. 0.25",
+    "text": "Câu 11: Trong kỹ thuật cộng 2 ảnh: la [i, j] =(1-a)I₁[i, j]+a 12 [i, j] với a ∈ [0,1] Với giá trị a bằng bao nhiêu thì ảnh la trùng với ảnh 11 Α. 0.25\nB. 1\nC. O\nD. 0.5",
+    "smart_text": "Câu 11: Trong kỹ thuật cộng 2 ảnh: la [i, j] =(1-a)I₁[i, j]+a 12 [i, j] với a ∈ [0,1] Với giá trị a bằng bao nhiêu thì ảnh la trùng với ảnh 11 Α. 0.25\nB. 1\nC. O\nD. 0.5",
+    "smart_text_no_prefix": "Trong kỹ thuật cộng 2 ảnh: la [i, j] =(1-a)I₁[i, j]+a 12 [i, j] với a ∈ [0,1] Với giá trị a bằng bao nhiêu thì ảnh la trùng với ảnh 11 Α. 0.25\nB. 1\nC. O\nD. 0.5",
+    "raw_text": "13:43\n5G\n96\nKiểm tra tuầก\n12:21\nCâu 11:\nTrong kỹ thuật cộng 2 ảnh: la [i, j] =(1-a)I₁[i, j]+a 12 [i, j] với a ∈\n[0,1]\nVới giá trị a bằng bao nhiêu thì ảnh la trùng với ảnh 11\nTrả lời:\nΑ. 0.25\nB. 1\nC. O\nD. 0.5\nCâu hỏi\n11/15\n>",
+    "options": [
+      {
+        "key": "B",
+        "text": "1"
+      },
+      {
+        "key": "C",
+        "text": "O"
+      },
+      {
+        "key": "D",
+        "text": "0.5"
+      }
+    ],
+    "time": "08:37:29 PM",
+    "duration": 728,
+    "copied": true,
+    "copyCount": 1,
+    "lastCopiedTime": "08:37:34 PM",
+    "scanCount": 1
+  },
+  {
+    "id": 1791984977547,
+    "title": "Câu 10: Công thức này là cho kỹ thuật nào: I(P)=12(P)-11(P) VP (P là toạ độ)",
+    "question_title": "Câu 10: Công thức này là cho kỹ thuật nào: I(P)=12(P)-11(P) VP (P là toạ độ)",
+    "question_body": "Công thức này là cho kỹ thuật nào: I(P)=12(P)-11(P) VP (P là toạ độ)",
+    "instruction": "",
+    "search_query": "Công thức này là cho kỹ thuật nào: I(P)=12(P)-11(P) VP (P là toạ độ)",
+    "text": "Câu 10: Công thức này là cho kỹ thuật nào: I(P)=12(P)-11(P) VP (P là toạ độ)\nA. Trừ hai ảnh\nB. Lọc trung vị đa ảnh\nC. Lọc trung bình đa ảnh\nD. Cộng hai ảnh",
+    "smart_text": "Câu 10: Công thức này là cho kỹ thuật nào: I(P)=12(P)-11(P) VP (P là toạ độ)\nA. Trừ hai ảnh\nB. Lọc trung vị đa ảnh\nC. Lọc trung bình đa ảnh\nD. Cộng hai ảnh",
+    "smart_text_no_prefix": "Công thức này là cho kỹ thuật nào: I(P)=12(P)-11(P) VP (P là toạ độ)\nA. Trừ hai ảnh\nB. Lọc trung vị đa ảnh\nC. Lọc trung bình đa ảnh\nD. Cộng hai ảnh",
+    "raw_text": "13:43\n5G\n96\nKiểm tra tuầก\nCâu 10:\n12:23\nCông thức này là cho kỹ thuật nào: I(P)=12(P)-11(P) VP (P là toạ\nđộ)\nTrả lời:\nA. Trừ hai ảnh\nB. Lọc trung vị đa ảnh\nC. Lọc trung bình đa ảnh\nD. Cộng hai ảnh\nCâu hỏi\n10/15\n>",
+    "options": [
+      {
+        "key": "A",
+        "text": "Trừ hai ảnh"
+      },
+      {
+        "key": "B",
+        "text": "Lọc trung vị đa ảnh"
+      },
+      {
+        "key": "C",
+        "text": "Lọc trung bình đa ảnh"
+      },
+      {
+        "key": "D",
+        "text": "Cộng hai ảnh"
+      }
+    ],
+    "time": "08:36:17 PM",
+    "duration": 786,
+    "copied": true,
+    "copyCount": 1,
+    "lastCopiedTime": "08:36:25 PM",
+    "scanCount": 1
+  },
+  {
+    "id": 1791984790511,
+    "title": "Câu 9: Cho ảnh I sau và bảng tra LUT, cho biết ảnh kết quả l' khi sử dụng kỹ thuật bảng tra LUT |=",
+    "question_title": "Câu 9: Cho ảnh I sau và bảng tra LUT, cho biết ảnh kết quả l' khi sử dụng kỹ thuật bảng tra LUT |=",
+    "question_body": "Cho ảnh I sau và bảng tra LUT, cho biết ảnh kết quả l' khi sử dụng kỹ thuật bảng tra LUT |=",
+    "instruction": "",
+    "search_query": "Cho ảnh I sau và bảng tra LUT, cho biết ảnh kết quả l' khi sử dụng kỹ thuật bảng tra LUT |=",
+    "text": "Câu 9: Cho ảnh I sau và bảng tra LUT, cho biết ảnh kết quả l' khi sử dụng kỹ thuật bảng tra LUT |=\nA. 1'=\nB. 1'=",
+    "smart_text": "Câu 9: Cho ảnh I sau và bảng tra LUT, cho biết ảnh kết quả l' khi sử dụng kỹ thuật bảng tra LUT |=\nA. 1'=\nB. 1'=",
+    "smart_text_no_prefix": "Cho ảnh I sau và bảng tra LUT, cho biết ảnh kết quả l' khi sử dụng kỹ thuật bảng tra LUT |=\nA. 1'=\nB. 1'=",
+    "raw_text": "13:43\nKiểm tra tuầก\n12:27\n5G 96\nCâu 9:\nCho ảnh I sau và bảng tra LUT, cho biết ảnh kết quả l' khi sử\ndụng kỹ thuật bảng tra\nLUT\n5\n7\n0\n5\n|=\n3\n2\n1\n4\n4\n1\n2\n7\n3\n6\n4\n5\n5\n2\n6\n1\n7\n0\nTrả lời:\n0\n2\nA.\n1'=\n6\n7\n5\n4\n0\n2\nB.\n1'=\n6\n5\nCâu hỏi\n9/15\n>",
+    "options": [
+      {
+        "key": "A",
+        "text": "1'="
+      },
+      {
+        "key": "B",
+        "text": "1'="
+      }
+    ],
+    "time": "08:33:10 PM",
+    "duration": 831,
+    "copied": false,
+    "copyCount": 0,
+    "lastCopiedTime": null,
+    "scanCount": 1
+  },
+  {
+    "id": 1791984576710,
+    "title": "Câu 8: Cho bảng thông tin của ảnh I sau, trong kỹ thuật cân bằng histogram hãy tính giá trị f(6), f(7) , f(8) cho biết new_level = 5 : g) h ( t (g 1 5 )",
+    "question_title": "Câu 8: Cho bảng thông tin của ảnh I sau, trong kỹ thuật cân bằng histogram hãy tính giá trị f(6), f(7) , f(8) cho biết new_level = 5 : g) h ( t (g 1 5 )",
+    "question_body": "Cho bảng thông tin của ảnh I sau, trong kỹ thuật cân bằng histogram hãy tính giá trị f(6), f(7) , f(8) cho biết new_level = 5 : g) h ( t (g 1 5 )",
+    "instruction": "",
+    "search_query": "Cho bảng thông tin của ảnh I sau, trong kỹ thuật cân bằng histogram hãy tính giá trị f(6), f(7) , f(8) cho biết new_level = 5 : g) h ( t (g 1 5 )",
+    "text": "Câu 8: Cho bảng thông tin của ảnh I sau, trong kỹ thuật cân bằng histogram hãy tính giá trị f(6), f(7) , f(8) cho biết new_level = 5 : g) h ( t (g 1 5 )\nA. f(6) = 3 f(7) = 4 f(8) = 5\nB. F(6) = 3 f(7) = 4 f(8) = 4\nC. f(6) = 6 f(7) = 7 f(8) = 8\nD. f(6) = 2 f(7) = 3 f(8) = 3",
+    "smart_text": "Câu 8: Cho bảng thông tin của ảnh I sau, trong kỹ thuật cân bằng histogram hãy tính giá trị f(6), f(7) , f(8) cho biết new_level = 5 : g) h ( t (g 1 5 )\nA. f(6) = 3 f(7) = 4 f(8) = 5\nB. F(6) = 3 f(7) = 4 f(8) = 4\nC. f(6) = 6 f(7) = 7 f(8) = 8\nD. f(6) = 2 f(7) = 3 f(8) = 3",
+    "smart_text_no_prefix": "Cho bảng thông tin của ảnh I sau, trong kỹ thuật cân bằng histogram hãy tính giá trị f(6), f(7) , f(8) cho biết new_level = 5 : g) h ( t (g 1 5 )\nA. f(6) = 3 f(7) = 4 f(8) = 5\nB. F(6) = 3 f(7) = 4 f(8) = 4\nC. f(6) = 6 f(7) = 7 f(8) = 8\nD. f(6) = 2 f(7) = 3 f(8) = 3",
+    "raw_text": "13:43\n5G 97\nKiểm tra tuầก\n12:33\nCâu 8:\nCho bảng thông tin của ảnh I sau, trong kỹ thuật cân bằng\nhistogram hãy tính giá trị f(6), f(7) , f(8) cho biết new_level\n= 5 :\ng)\nh (\nt (g 1 5\n)\n8\n12 17\n2\n0\n21\n2\n3\n2\nTrả lời:\n9\n0\n1\n2\n3\n4\n5 6\n7\n8\n1\n4\n3\n4\n5\n3\n1\n2\n2\n5\nA. f(6) = 3 f(7) = 4 f(8) = 5\nB. F(6) = 3 f(7) = 4 f(8) = 4\nC. f(6) = 6 f(7) = 7 f(8) = 8\nD. f(6) = 2 f(7) = 3 f(8) = 3\nCâu hỏi\n8/15\n>",
+    "options": [
+      {
+        "key": "A",
+        "text": "f(6) = 3 f(7) = 4 f(8) = 5"
+      },
+      {
+        "key": "B",
+        "text": "F(6) = 3 f(7) = 4 f(8) = 4"
+      },
+      {
+        "key": "C",
+        "text": "f(6) = 6 f(7) = 7 f(8) = 8"
+      },
+      {
+        "key": "D",
+        "text": "f(6) = 2 f(7) = 3 f(8) = 3"
+      }
+    ],
+    "time": "08:29:36 PM",
+    "duration": 820,
+    "copied": true,
+    "copyCount": 1,
+    "lastCopiedTime": "08:29:55 PM",
+    "scanCount": 1
+  },
+  {
+    "id": 1791984286277,
+    "title": "Câu 7: Cho histogram của ảnh dưới đây, trong kỹ thuật cân bằng histogram hãy tính giá trị t(g)? h( g)",
+    "question_title": "Câu 7: Cho histogram của ảnh dưới đây, trong kỹ thuật cân bằng histogram hãy tính giá trị t(g)? h( g)",
+    "question_body": "Cho histogram của ảnh dưới đây, trong kỹ thuật cân bằng histogram hãy tính giá trị t(g)? h( g)",
+    "instruction": "",
+    "search_query": "Cho histogram của ảnh dưới đây, trong kỹ thuật cân bằng histogram hãy tính giá trị t(g)? h( g)",
+    "text": "Câu 7: Cho histogram của ảnh dưới đây, trong kỹ thuật cân bằng histogram hãy tính giá trị t(g)? h( g)\nA. ) t(2 3 4 5 6 7 8 25047 3 4 5 6 7 8\nB. t(1 ) 27013",
+    "smart_text": "Câu 7: Cho histogram của ảnh dưới đây, trong kỹ thuật cân bằng histogram hãy tính giá trị t(g)? h( g)\nA. ) t(2 3 4 5 6 7 8 25047 3 4 5 6 7 8\nB. t(1 ) 27013",
+    "smart_text_no_prefix": "Cho histogram của ảnh dưới đây, trong kỹ thuật cân bằng histogram hãy tính giá trị t(g)? h( g)\nA. ) t(2 3 4 5 6 7 8 25047 3 4 5 6 7 8\nB. t(1 ) 27013",
+    "raw_text": "13:43\n5G 97\nKiểm tra tuầก\n12:39\nCâu 7:\nCho histogram của ảnh dưới đây, trong kỹ thuật cân bằng\nhistogram hãy tính giá trị t(g)?\nh(\n1\n4\n3\n4\n5 3\n1\n2\n2\ng)\n9\nTrả lời:\n9 0\n1\n2\n3\n4\n5 6\n7\n8\nA.\n9\n)\nt(2\n01\n2\n3 4 5 6 7 8\n481 1\n22\n230\n25047\n9\n3 4 5 6 7 8\nB.\n01\n2\nt(1\n581\n1\n22\n230\n9\n)\n27013\nCâu hỏi\n7/15\n>",
+    "options": [
+      {
+        "key": "A",
+        "text": ") t(2 3 4 5 6 7 8 25047 3 4 5 6 7 8"
+      },
+      {
+        "key": "B",
+        "text": "t(1 ) 27013"
+      }
+    ],
+    "time": "08:24:46 PM",
+    "duration": 1061,
+    "copied": false,
+    "copyCount": 0,
+    "lastCopiedTime": null,
+    "scanCount": 1
+  },
+  {
+    "id": 1791983945463,
+    "title": "45678",
+    "question_title": "45678",
+    "question_body": "45678",
+    "instruction": "",
+    "search_query": "",
+    "text": "45678\nB. h ( )",
+    "smart_text": "45678\nB. h ( )",
+    "smart_text_no_prefix": "45678\nB. h ( )",
+    "raw_text": "9\n01\n23\n45678\nB.\nh\n2\n3\n4\n3\n531\n22\n(\n9\n)",
+    "options": [
+      {
+        "key": "B",
+        "text": "h ( )"
+      }
+    ],
+    "time": "08:19:05 PM",
+    "duration": 916,
+    "copied": false,
+    "copyCount": 0,
+    "lastCopiedTime": null,
+    "scanCount": 1
+  },
+  {
+    "id": 1791982068480,
+    "title": "Câu 5: Cho ảnh I sau, hãy tính histogram của ảnh I I= 012345678 h2 3 4 3 5 3 1",
+    "question_title": "Câu 5: Cho ảnh I sau, hãy tính histogram của ảnh I I= 012345678 h2 3 4 3 5 3 1",
+    "question_body": "Cho ảnh I sau, hãy tính histogram của ảnh I I= 012345678 h2 3 4 3 5 3 1",
+    "instruction": "",
+    "search_query": "Cho ảnh I sau, hãy tính histogram của ảnh I I= 012345678 h2 3 4 3 5 3 1",
+    "text": "Câu 5: Cho ảnh I sau, hãy tính histogram của ảnh I I= 012345678 h2 3 4 3 5 3 1\nA. ( ) 2345678 h ( ) 3 4 4 5 3 1\nB. ",
+    "smart_text": "Câu 5: Cho ảnh I sau, hãy tính histogram của ảnh I I= 012345678 h2 3 4 3 5 3 1\nA. ( ) 2345678 h ( ) 3 4 4 5 3 1\nB. ",
+    "smart_text_no_prefix": "Cho ảnh I sau, hãy tính histogram của ảnh I I= 012345678 h2 3 4 3 5 3 1\nA. ( ) 2345678 h ( ) 3 4 4 5 3 1\nB. ",
+    "raw_text": "19:06\nKiểm tra tuầก\nCâu 5:\n14:17\nCho ảnh I sau, hãy tính histogram của ảnh I\n0 1\n2\n5\n7\n6\n3\n5\n1\n2\nI=\n3\n8\n2\n4\n1\n1\n4\n3\n7\n8\n4\n5\n4\n3\n4\nTrả lời:\n9\n012345678\nh2 3 4 3 5 3 1\n22\nA.\n(\n9\n)\n9\n01\n2345678\nh\n(\n9\n)\n1\n3 4 4 5 3 1\n22\nB.\nCâu hỏi\n5/15\n77",
+    "options": [
+      {
+        "key": "A",
+        "text": "( ) 2345678 h ( ) 3 4 4 5 3 1"
+      },
+      {
+        "key": "B",
+        "text": ""
+      }
+    ],
+    "image": null,
+    "has_image": true,
+    "has_illustration": false,
+    "time": "07:47:48 PM",
+    "duration": 915,
+    "copied": false,
+    "copyCount": 0,
+    "lastCopiedTime": null,
+    "scanCount": 2,
+    "lastScanTime": "08:15:05 PM"
+  },
+  {
+    "id": 1791983690546,
+    "title": "Câu 4: Đối với ảnh màu RGB thì có bao nhiêu lược đồ xám?",
+    "question_title": "Câu 4: Đối với ảnh màu RGB thì có bao nhiêu lược đồ xám?",
+    "question_body": "Đối với ảnh màu RGB thì có bao nhiêu lược đồ xám?",
+    "instruction": "",
+    "search_query": "Đối với ảnh màu RGB thì có bao nhiêu lược đồ xám?",
+    "text": "Câu 4: Đối với ảnh màu RGB thì có bao nhiêu lược đồ xám?\nA. 3\nB. 1\nC. 4\nD. 2",
+    "smart_text": "Câu 4: Đối với ảnh màu RGB thì có bao nhiêu lược đồ xám?\nA. 3\nB. 1\nC. 4\nD. 2",
+    "smart_text_no_prefix": "Đối với ảnh màu RGB thì có bao nhiêu lược đồ xám?\nA. 3\nB. 1\nC. 4\nD. 2",
+    "raw_text": "13:42\n5G 97\nKiểm tra tuầก\n12:59\nCâu 4:\nĐối với ảnh màu RGB thì có bao nhiêu lược đồ xám?\nTrả lời:\nA. 3\nB. 1\nC. 4\nD. 2\nCâu hỏi\n4/15\n>",
+    "options": [
+      {
+        "key": "A",
+        "text": "3"
+      },
+      {
+        "key": "B",
+        "text": "1"
+      },
+      {
+        "key": "C",
+        "text": "4"
+      },
+      {
+        "key": "D",
+        "text": "2"
+      }
+    ],
+    "time": "08:14:50 PM",
+    "duration": 707,
+    "copied": true,
+    "copyCount": 1,
+    "lastCopiedTime": "08:14:51 PM",
+    "scanCount": 1
+  },
+  {
+    "id": 1791983225483,
+    "title": "Câu 1: Đâu là kỹ thuật tăng giảm độ sáng của ảnh?",
+    "question_title": "Câu 1: Đâu là kỹ thuật tăng giảm độ sáng của ảnh?",
+    "question_body": "Đâu là kỹ thuật tăng giảm độ sáng của ảnh?",
+    "instruction": "",
+    "search_query": "Đâu là kỹ thuật tăng giảm độ sáng của ảnh?",
+    "text": "Câu 1: Đâu là kỹ thuật tăng giảm độ sáng của ảnh?\nA. I'(x, y) = I(x, y) + C\nB. I'(x, y)=(I(x, y))y = eY In (x, y)\nC. I'(x,y) = al (x,y) + β\nD. I'(x, y) = I(x, y)C",
+    "smart_text": "Câu 1: Đâu là kỹ thuật tăng giảm độ sáng của ảnh?\nA. I'(x, y) = I(x, y) + C\nB. I'(x, y)=(I(x, y))y = eY In (x, y)\nC. I'(x,y) = al (x,y) + β\nD. I'(x, y) = I(x, y)C",
+    "smart_text_no_prefix": "Đâu là kỹ thuật tăng giảm độ sáng của ảnh?\nA. I'(x, y) = I(x, y) + C\nB. I'(x, y)=(I(x, y))y = eY In (x, y)\nC. I'(x,y) = al (x,y) + β\nD. I'(x, y) = I(x, y)C",
+    "raw_text": "13:42\n5G 97\nKiểm tra tuầก\nCâu 1:\n13:10\nĐâu là kỹ thuật tăng giảm độ sáng của ảnh?\nTrả lời:\nA. I'(x, y) = I(x, y) + C\nB. I'(x, y)=(I(x, y))y = eY In (x, y)\nC. I'(x,y) = al (x,y) + β\nD. I'(x, y) = I(x, y)C\nCâu hỏi\n1/15\n>",
+    "options": [
+      {
+        "key": "A",
+        "text": "I'(x, y) = I(x, y) + C"
+      },
+      {
+        "key": "B",
+        "text": "I'(x, y)=(I(x, y))y = eY In (x, y)"
+      },
+      {
+        "key": "C",
+        "text": "I'(x,y) = al (x,y) + β"
+      },
+      {
+        "key": "D",
+        "text": "I'(x, y) = I(x, y)C"
+      }
+    ],
+    "time": "08:07:05 PM",
+    "duration": 860,
+    "copied": true,
+    "copyCount": 1,
+    "lastCopiedTime": "08:07:08 PM",
+    "scanCount": 1
+  },
+  {
+    "id": 1791981447843,
+    "title": "Câu 15: Cho thông tin tham khảo như bảng phía dưới. Hãy kéo thả các đặc điểm vào cột phù hợp với loại hình đám mây Đặc điểm/Ví dụ Private Cloud Public Cloud Hybrid Cloud Community Cloud X Google Drive Ngân hàng lưu trữ dữ liệu nhạy cảm Netflix xử lý nội dung phim Nhóm trường đại học chia sẻ tài nguyên học thuật Mức độ bảo mật cao 1. Private Cloud Ngân hàng lưu trữ dữ liệu nhạy cảm; Mức độ bảo mật cao 2. Public Cloud Netflix xử lý nội dung phim 3. Hybrid Cloud Google Drive 4. Community Cloud Nhóm trường đại học chia sẻ tài nguyên học thuật X X X",
+    "question_title": "Câu 15: Cho thông tin tham khảo như bảng phía dưới. Hãy kéo thả các đặc điểm vào cột phù hợp với loại hình đám mây Đặc điểm/Ví dụ Private Cloud Public Cloud Hybrid Cloud Community Cloud X Google Drive Ngân hàng lưu trữ dữ liệu nhạy cảm Netflix xử lý nội dung phim Nhóm trường đại học chia sẻ tài nguyên học thuật Mức độ bảo mật cao 1. Private Cloud Ngân hàng lưu trữ dữ liệu nhạy cảm; Mức độ bảo mật cao 2. Public Cloud Netflix xử lý nội dung phim 3. Hybrid Cloud Google Drive 4. Community Cloud Nhóm trường đại học chia sẻ tài nguyên học thuật X X X",
+    "question_body": "Cho thông tin tham khảo như bảng phía dưới. Hãy kéo thả các đặc điểm vào cột phù hợp với loại hình đám mây Đặc điểm/Ví dụ Private Cloud Public Cloud Hybrid Cloud Community Cloud X Google Drive Ngân hàng lưu trữ dữ liệu nhạy cảm Netflix xử lý nội dung phim Nhóm trường đại học chia sẻ tài nguyên học thuật Mức độ bảo mật cao 1. Private Cloud Ngân hàng lưu trữ dữ liệu nhạy cảm; Mức độ bảo mật cao 2. Public Cloud Netflix xử lý nội dung phim 3. Hybrid Cloud Google Drive 4. Community Cloud Nhóm trường đại học chia sẻ tài nguyên học thuật X X X",
+    "instruction": "",
+    "search_query": "Cho thông tin tham khảo như bảng phía dưới. Hãy kéo thả các đặc điểm vào cột phù hợp với loại hình đám mây Đặc điểm/Ví dụ Private Cloud Public Cloud Hybrid Cloud Community Cloud X Google Drive Ngân hàng lưu trữ dữ liệu nhạy cảm Netflix xử lý nội dung phim Nhóm trường đại học chia sẻ tài nguyên học thuật Mức độ bảo mật cao 1. Private Cloud Ngân hàng lưu trữ dữ liệu nhạy cảm; Mức độ bảo mật cao 2. Public Cloud Netflix xử lý nội dung phim 3. Hybrid Cloud Google Drive 4. Community Cloud Nhóm trường đại học chia sẻ tài nguyên học thuật X X X",
+    "text": "Câu 15: Cho thông tin tham khảo như bảng phía dưới. Hãy kéo thả các đặc điểm vào cột phù hợp với loại hình đám mây Đặc điểm/Ví dụ Private Cloud Public Cloud Hybrid Cloud Community Cloud X Google Drive Ngân hàng lưu trữ dữ liệu nhạy cảm Netflix xử lý nội dung phim Nhóm trường đại học chia sẻ tài nguyên học thuật Mức độ bảo mật cao 1. Private Cloud Ngân hàng lưu trữ dữ liệu nhạy cảm; Mức độ bảo mật cao 2. Public Cloud Netflix xử lý nội dung phim 3. Hybrid Cloud Google Drive 4. Community Cloud Nhóm trường đại học chia sẻ tài nguyên học thuật X X X",
+    "smart_text": "Câu 15: Cho thông tin tham khảo như bảng phía dưới. Hãy kéo thả các đặc điểm vào cột phù hợp với loại hình đám mây Đặc điểm/Ví dụ Private Cloud Public Cloud Hybrid Cloud Community Cloud X Google Drive Ngân hàng lưu trữ dữ liệu nhạy cảm Netflix xử lý nội dung phim Nhóm trường đại học chia sẻ tài nguyên học thuật Mức độ bảo mật cao 1. Private Cloud Ngân hàng lưu trữ dữ liệu nhạy cảm; Mức độ bảo mật cao 2. Public Cloud Netflix xử lý nội dung phim 3. Hybrid Cloud Google Drive 4. Community Cloud Nhóm trường đại học chia sẻ tài nguyên học thuật X X X",
+    "smart_text_no_prefix": "Cho thông tin tham khảo như bảng phía dưới. Hãy kéo thả các đặc điểm vào cột phù hợp với loại hình đám mây Đặc điểm/Ví dụ Private Cloud Public Cloud Hybrid Cloud Community Cloud X Google Drive Ngân hàng lưu trữ dữ liệu nhạy cảm Netflix xử lý nội dung phim Nhóm trường đại học chia sẻ tài nguyên học thuật Mức độ bảo mật cao 1. Private Cloud Ngân hàng lưu trữ dữ liệu nhạy cảm; Mức độ bảo mật cao 2. Public Cloud Netflix xử lý nội dung phim 3. Hybrid Cloud Google Drive 4. Community Cloud Nhóm trường đại học chia sẻ tài nguyên học thuật X X X",
+    "raw_text": "18:43\n4G 63\nKiểm tra tuầก\n12:38\nCâu 15:\nCho thông tin tham khảo như bảng phía dưới. Hãy kéo thả\ncác đặc điểm vào cột phù hợp với loại hình đám mây\nĐặc điểm/Ví dụ\nPrivate Cloud Public Cloud Hybrid Cloud\nCommunity Cloud\nX\nGoogle Drive\nNgân hàng lưu trữ dữ liệu nhạy cảm\nNetflix xử lý nội dung phim\nNhóm trường đại học chia sẻ tài nguyên học thuật\nMức độ bảo mật cao\n1. Private Cloud\nNgân hàng lưu trữ dữ liệu nhạy\ncảm; Mức độ bảo mật cao\n2. Public Cloud\nNetflix xử lý nội dung phim\n3. Hybrid Cloud\nGoogle Drive\n4. Community Cloud\nNhóm trường đại học chia sẻ tài\nnguyên học thuật\nX\nX\nX\nCâu hỏi\n15/15\nNộp bài",
+    "options": [],
+    "time": "07:37:27 PM",
+    "duration": 854,
+    "copied": true,
+    "copyCount": 5,
+    "lastCopiedTime": "07:48:59 PM",
+    "scanCount": 5,
+    "lastScanTime": "07:48:51 PM",
+    "image": null,
+    "has_image": true
+  },
+  {
+    "id": 1791981405492,
+    "title": "Câu 14: Có các loại hình đám mây phân biệt theo mô hình triển khai như: Hybrid Cloud, Private Cloud, Public Cloud, Community Cloud 1. Loại hình đám mây nào phù hợp nhất cho các doanh nghiệp muốn bảo mật, kiểm soát dữ liệu nhưng vẫn cần giải pháp mở rộng quy mô tiết kiệm chi phí để xử lý khối lượng công việc tăng đột biến?",
+    "question_title": "Câu 14: Có các loại hình đám mây phân biệt theo mô hình triển khai như: Hybrid Cloud, Private Cloud, Public Cloud, Community Cloud 1. Loại hình đám mây nào phù hợp nhất cho các doanh nghiệp muốn bảo mật, kiểm soát dữ liệu nhưng vẫn cần giải pháp mở rộng quy mô tiết kiệm chi phí để xử lý khối lượng công việc tăng đột biến?",
+    "question_body": "Có các loại hình đám mây phân biệt theo mô hình triển khai như: Hybrid Cloud, Private Cloud, Public Cloud, Community Cloud 1. Loại hình đám mây nào phù hợp nhất cho các doanh nghiệp muốn bảo mật, kiểm soát dữ liệu nhưng vẫn cần giải pháp mở rộng quy mô tiết kiệm chi phí để xử lý khối lượng công việc tăng đột biến?",
+    "instruction": "",
+    "search_query": "Có các loại hình đám mây phân biệt theo mô hình triển khai như: Hybrid Cloud, Private Cloud, Public Cloud, Community Cloud 1. Loại hình đám mây nào phù hợp nhất cho các doanh nghiệp muốn bảo mật, kiểm soát dữ liệu nhưng vẫn cần giải pháp mở rộng quy mô tiết kiệm chi phí để xử lý khối lượng công việc tăng đột biến?",
+    "text": "Câu 14: Có các loại hình đám mây phân biệt theo mô hình triển khai như: Hybrid Cloud, Private Cloud, Public Cloud, Community Cloud 1. Loại hình đám mây nào phù hợp nhất cho các doanh nghiệp muốn bảo mật, kiểm soát dữ liệu nhưng vẫn cần giải pháp mở rộng quy mô tiết kiệm chi phí để xử lý khối lượng công việc tăng đột biến?",
+    "smart_text": "Câu 14: Có các loại hình đám mây phân biệt theo mô hình triển khai như: Hybrid Cloud, Private Cloud, Public Cloud, Community Cloud 1. Loại hình đám mây nào phù hợp nhất cho các doanh nghiệp muốn bảo mật, kiểm soát dữ liệu nhưng vẫn cần giải pháp mở rộng quy mô tiết kiệm chi phí để xử lý khối lượng công việc tăng đột biến?",
+    "smart_text_no_prefix": "Có các loại hình đám mây phân biệt theo mô hình triển khai như: Hybrid Cloud, Private Cloud, Public Cloud, Community Cloud 1. Loại hình đám mây nào phù hợp nhất cho các doanh nghiệp muốn bảo mật, kiểm soát dữ liệu nhưng vẫn cần giải pháp mở rộng quy mô tiết kiệm chi phí để xử lý khối lượng công việc tăng đột biến?",
+    "raw_text": "18:43\n4G 63\nKiểm tra tuầก\n12:42\nCâu 14:\nCó các loại hình đám mây phân biệt theo mô hình triển khai\nnhư: Hybrid Cloud, Private Cloud, Public Cloud, Community\nCloud\n1. Loại hình đám mây nào phù hợp nhất cho các doanh\nnghiệp muốn bảo mật, kiểm soát dữ liệu nhưng vẫn cần\ngiải pháp mở rộng quy mô tiết kiệm chi phí để xử lý khối\nlượng công việc tăng đột biến?\nCâu hỏi\n14/15\n>",
+    "options": [],
+    "time": "07:36:45 PM",
+    "duration": 707,
+    "copied": true,
+    "copyCount": 2,
+    "lastCopiedTime": "07:36:45 PM",
+    "scanCount": 2,
+    "lastScanTime": "07:46:41 PM"
+  },
+  {
+    "id": 1791981953161,
+    "title": "Câu 13: Có các dịch vụ của đám mây công cộng như: Google Drive, Google Cloud Platform (GCP), Amazon Web Services (AWS), Microsoft Azure, Alibaba Cloud, IBM Cloud,.... 1. Dịch vụ nào là điển hình của Public Cloud, cho phép người dùng lưu trữ và truy cập dữ liệu từ bất kỳ thiết bị nào có kết nối internet?",
+    "question_title": "Câu 13: Có các dịch vụ của đám mây công cộng như: Google Drive, Google Cloud Platform (GCP), Amazon Web Services (AWS), Microsoft Azure, Alibaba Cloud, IBM Cloud,.... 1. Dịch vụ nào là điển hình của Public Cloud, cho phép người dùng lưu trữ và truy cập dữ liệu từ bất kỳ thiết bị nào có kết nối internet?",
+    "question_body": "Có các dịch vụ của đám mây công cộng như: Google Drive, Google Cloud Platform (GCP), Amazon Web Services (AWS), Microsoft Azure, Alibaba Cloud, IBM Cloud,.... 1. Dịch vụ nào là điển hình của Public Cloud, cho phép người dùng lưu trữ và truy cập dữ liệu từ bất kỳ thiết bị nào có kết nối internet?",
+    "instruction": "",
+    "search_query": "Có các dịch vụ của đám mây công cộng như: Google Drive, Google Cloud Platform (GCP), Amazon Web Services (AWS), Microsoft Azure, Alibaba Cloud, IBM Cloud,.... 1. Dịch vụ nào là điển hình của Public Cloud, cho phép người dùng lưu trữ và truy cập dữ liệu từ bất kỳ thiết bị nào có kết nối internet?",
+    "text": "Câu 13: Có các dịch vụ của đám mây công cộng như: Google Drive, Google Cloud Platform (GCP), Amazon Web Services (AWS), Microsoft Azure, Alibaba Cloud, IBM Cloud,.... 1. Dịch vụ nào là điển hình của Public Cloud, cho phép người dùng lưu trữ và truy cập dữ liệu từ bất kỳ thiết bị nào có kết nối internet?",
+    "smart_text": "Câu 13: Có các dịch vụ của đám mây công cộng như: Google Drive, Google Cloud Platform (GCP), Amazon Web Services (AWS), Microsoft Azure, Alibaba Cloud, IBM Cloud,.... 1. Dịch vụ nào là điển hình của Public Cloud, cho phép người dùng lưu trữ và truy cập dữ liệu từ bất kỳ thiết bị nào có kết nối internet?",
+    "smart_text_no_prefix": "Có các dịch vụ của đám mây công cộng như: Google Drive, Google Cloud Platform (GCP), Amazon Web Services (AWS), Microsoft Azure, Alibaba Cloud, IBM Cloud,.... 1. Dịch vụ nào là điển hình của Public Cloud, cho phép người dùng lưu trữ và truy cập dữ liệu từ bất kỳ thiết bị nào có kết nối internet?",
+    "raw_text": "19:22\nKiểm tra tuầก\n13:50\n58\nCâu 13:\nCó các dịch vụ của đám mây công cộng như: Google Drive,\nGoogle Cloud Platform (GCP), Amazon Web Services (AWS),\nMicrosoft Azure, Alibaba Cloud, IBM Cloud,....\n1. Dịch vụ nào là điển hình của Public Cloud, cho phép người\ndùng lưu trữ và truy cập dữ liệu từ bất kỳ thiết bị nào có\nkết nối internet?\nCâu hỏi\n13/15\n>",
+    "options": [],
+    "time": "07:45:53 PM",
+    "duration": 832,
+    "copied": true,
+    "copyCount": 1,
+    "lastCopiedTime": "07:46:14 PM",
+    "scanCount": 1
+  },
+  {
+    "id": 1791981369244,
+    "title": "Câu 12: Loại hình đám mây nào có đặc điểm quản lý đơn giản, không yêu cầu nhiều kỹ thuật từ phía người dùng, nhưng có thể gặp rủi ro về bảo mật nếu không chọn nhà cung cấp uy tín?",
+    "question_title": "Câu 12: Loại hình đám mây nào có đặc điểm quản lý đơn giản, không yêu cầu nhiều kỹ thuật từ phía người dùng, nhưng có thể gặp rủi ro về bảo mật nếu không chọn nhà cung cấp uy tín?",
+    "question_body": "Loại hình đám mây nào có đặc điểm quản lý đơn giản, không yêu cầu nhiều kỹ thuật từ phía người dùng, nhưng có thể gặp rủi ro về bảo mật nếu không chọn nhà cung cấp uy tín?",
+    "instruction": "",
+    "search_query": "Loại hình đám mây nào có đặc điểm quản lý đơn giản, không yêu cầu nhiều kỹ thuật từ phía người dùng, nhưng có thể gặp rủi ro về bảo mật nếu không chọn nhà cung cấp uy tín?",
+    "text": "Câu 12: Loại hình đám mây nào có đặc điểm quản lý đơn giản, không yêu cầu nhiều kỹ thuật từ phía người dùng, nhưng có thể gặp rủi ro về bảo mật nếu không chọn nhà cung cấp uy tín?\nA. Public Cloud\nB. Private Cloud\nC. Community Cloud\nD. Hybrid Cloud",
+    "smart_text": "Câu 12: Loại hình đám mây nào có đặc điểm quản lý đơn giản, không yêu cầu nhiều kỹ thuật từ phía người dùng, nhưng có thể gặp rủi ro về bảo mật nếu không chọn nhà cung cấp uy tín?\nA. Public Cloud\nB. Private Cloud\nC. Community Cloud\nD. Hybrid Cloud",
+    "smart_text_no_prefix": "Loại hình đám mây nào có đặc điểm quản lý đơn giản, không yêu cầu nhiều kỹ thuật từ phía người dùng, nhưng có thể gặp rủi ro về bảo mật nếu không chọn nhà cung cấp uy tín?\nA. Public Cloud\nB. Private Cloud\nC. Community Cloud\nD. Hybrid Cloud",
+    "raw_text": "18:43\n4G 63\nKiểm tra tuầก\n12:45\nCâu 12:\nLoại hình đám mây nào có đặc điểm quản lý đơn giản, không\nyêu cầu nhiều kỹ thuật từ phía người dùng, nhưng có thể\ngặp rủi ro về bảo mật nếu không chọn nhà cung cấp uy tín?\nTrả lời:\nA. Public Cloud\nB. Private Cloud\nC. Community Cloud\nD. Hybrid Cloud\nCâu hỏi\n12/15\n>",
+    "options": [
+      {
+        "key": "A",
+        "text": "Public Cloud"
+      },
+      {
+        "key": "B",
+        "text": "Private Cloud"
+      },
+      {
+        "key": "C",
+        "text": "Community Cloud"
+      },
+      {
+        "key": "D",
+        "text": "Hybrid Cloud"
+      }
+    ],
+    "time": "07:36:09 PM",
+    "duration": 691,
+    "copied": true,
+    "copyCount": 2,
+    "lastCopiedTime": "07:36:09 PM",
+    "scanCount": 2,
+    "lastScanTime": "07:45:46 PM"
+  },
+  {
+    "id": 1791981924141,
+    "title": "Câu 11: Hybrid Cloud có ưu điểm gì so với Private Cloud?",
+    "question_title": "Câu 11: Hybrid Cloud có ưu điểm gì so với Private Cloud?",
+    "question_body": "Hybrid Cloud có ưu điểm gì so với Private Cloud?",
+    "instruction": "",
+    "search_query": "Hybrid Cloud có ưu điểm gì so với Private Cloud?",
+    "text": "Câu 11: Hybrid Cloud có ưu điểm gì so với Private Cloud?\nA. Quản lý đơn giản hơn\nB. Bảo mật cao hơn\nC. Chi phí thấp hơn do không cần cơ sở hạ tầng\nD. Linh hoạt sử dụng nhiều môi trường đám mây",
+    "smart_text": "Câu 11: Hybrid Cloud có ưu điểm gì so với Private Cloud?\nA. Quản lý đơn giản hơn\nB. Bảo mật cao hơn\nC. Chi phí thấp hơn do không cần cơ sở hạ tầng\nD. Linh hoạt sử dụng nhiều môi trường đám mây",
+    "smart_text_no_prefix": "Hybrid Cloud có ưu điểm gì so với Private Cloud?\nA. Quản lý đơn giản hơn\nB. Bảo mật cao hơn\nC. Chi phí thấp hơn do không cần cơ sở hạ tầng\nD. Linh hoạt sử dụng nhiều môi trường đám mây",
+    "raw_text": "19:22\nKiểm tra tuầก\n13:53\nCâu 11:\nHybrid Cloud có ưu điểm gì so với Private Cloud?\nTrả lời:\nA. Quản lý đơn giản hơn\nB. Bảo mật cao hơn\nC. Chi phí thấp hơn do không cần cơ sở hạ tầng\n58\nD. Linh hoạt sử dụng nhiều môi trường đám mây\nCâu hỏi\n11/15\n>",
+    "options": [
+      {
+        "key": "A",
+        "text": "Quản lý đơn giản hơn"
+      },
+      {
+        "key": "B",
+        "text": "Bảo mật cao hơn"
+      },
+      {
+        "key": "C",
+        "text": "Chi phí thấp hơn do không cần cơ sở hạ tầng"
+      },
+      {
+        "key": "D",
+        "text": "Linh hoạt sử dụng nhiều môi trường đám mây"
+      }
+    ],
+    "time": "07:45:24 PM",
+    "duration": 904,
+    "copied": true,
+    "copyCount": 1,
+    "lastCopiedTime": "07:45:33 PM",
+    "scanCount": 1
+  },
+  {
+    "id": 1791981879225,
+    "title": "Câu 10: Loại hình đám mây nào được các trường đại học sử dụng để chia sẻ tài nguyên học thuật và nghiên cứu?",
+    "question_title": "Câu 10: Loại hình đám mây nào được các trường đại học sử dụng để chia sẻ tài nguyên học thuật và nghiên cứu?",
+    "question_body": "Loại hình đám mây nào được các trường đại học sử dụng để chia sẻ tài nguyên học thuật và nghiên cứu?",
+    "instruction": "",
+    "search_query": "Loại hình đám mây nào được các trường đại học sử dụng để chia sẻ tài nguyên học thuật và nghiên cứu?",
+    "text": "Câu 10: Loại hình đám mây nào được các trường đại học sử dụng để chia sẻ tài nguyên học thuật và nghiên cứu?\nA. Public Cloud\nB. Hybrid Cloud\nC. Community Cloud\nD. Private Cloud",
+    "smart_text": "Câu 10: Loại hình đám mây nào được các trường đại học sử dụng để chia sẻ tài nguyên học thuật và nghiên cứu?\nA. Public Cloud\nB. Hybrid Cloud\nC. Community Cloud\nD. Private Cloud",
+    "smart_text_no_prefix": "Loại hình đám mây nào được các trường đại học sử dụng để chia sẻ tài nguyên học thuật và nghiên cứu?\nA. Public Cloud\nB. Hybrid Cloud\nC. Community Cloud\nD. Private Cloud",
+    "raw_text": "19:22\nKiểm tra tuầก\nCâu 10:\n13:55\n58\nLoại hình đám mây nào được các trường đại học sử dụng để\nchia sẻ tài nguyên học thuật và nghiên cứu?\nTrả lời:\nA. Public Cloud\nB. Hybrid Cloud\nC. Community Cloud\nD. Private Cloud\nCâu hỏi\n10/15\n>",
+    "options": [
+      {
+        "key": "A",
+        "text": "Public Cloud"
+      },
+      {
+        "key": "B",
+        "text": "Hybrid Cloud"
+      },
+      {
+        "key": "C",
+        "text": "Community Cloud"
+      },
+      {
+        "key": "D",
+        "text": "Private Cloud"
+      }
+    ],
+    "time": "07:44:39 PM",
+    "duration": 770,
+    "copied": true,
+    "copyCount": 1,
+    "lastCopiedTime": "07:44:41 PM",
+    "scanCount": 1
+  },
+  {
+    "id": 1791981354313,
+    "title": "Câu 10: Loại hình đám mây nào có khả năng bảo mật cao nhất?",
+    "question_title": "Câu 10: Loại hình đám mây nào có khả năng bảo mật cao nhất?",
+    "question_body": "Loại hình đám mây nào có khả năng bảo mật cao nhất?",
+    "instruction": "",
+    "search_query": "Loại hình đám mây nào có khả năng bảo mật cao nhất?",
+    "text": "Câu 10: Loại hình đám mây nào có khả năng bảo mật cao nhất?\nA. Hybrid Cloud\nB. Community Cloud\nC. Public Cloud\nD. Private Cloud",
+    "smart_text": "Câu 10: Loại hình đám mây nào có khả năng bảo mật cao nhất?\nA. Hybrid Cloud\nB. Community Cloud\nC. Public Cloud\nD. Private Cloud",
+    "smart_text_no_prefix": "Loại hình đám mây nào có khả năng bảo mật cao nhất?\nA. Hybrid Cloud\nB. Community Cloud\nC. Public Cloud\nD. Private Cloud",
+    "raw_text": "18:43\n4G 63\nKiểm tra tuầก\n12:49\nCâu 10:\nLoại hình đám mây nào có khả năng bảo mật cao nhất?\nTrả lời:\nA. Hybrid Cloud\nB. Community Cloud\nC. Public Cloud\nD. Private Cloud\nCâu hỏi\n10/15\n>",
+    "options": [
+      {
+        "key": "A",
+        "text": "Hybrid Cloud"
+      },
+      {
+        "key": "B",
+        "text": "Community Cloud"
+      },
+      {
+        "key": "C",
+        "text": "Public Cloud"
+      },
+      {
+        "key": "D",
+        "text": "Private Cloud"
+      }
+    ],
+    "time": "07:35:54 PM",
+    "duration": 744,
+    "copied": true,
+    "copyCount": 2,
+    "lastCopiedTime": "07:35:54 PM",
+    "scanCount": 2,
+    "lastScanTime": "07:44:32 PM"
+  },
+  {
+    "id": 1791981319209,
+    "title": "Câu 6: Loại hình đám mây nào được sử dụng khi một ngân hàng lưu trữ dữ liệu nhạy cảm như thông tin khách hàng và giao dịch?",
+    "question_title": "Câu 6: Loại hình đám mây nào được sử dụng khi một ngân hàng lưu trữ dữ liệu nhạy cảm như thông tin khách hàng và giao dịch?",
+    "question_body": "Loại hình đám mây nào được sử dụng khi một ngân hàng lưu trữ dữ liệu nhạy cảm như thông tin khách hàng và giao dịch?",
+    "instruction": "",
+    "search_query": "Loại hình đám mây nào được sử dụng khi một ngân hàng lưu trữ dữ liệu nhạy cảm như thông tin khách hàng và giao dịch?",
+    "text": "Câu 6: Loại hình đám mây nào được sử dụng khi một ngân hàng lưu trữ dữ liệu nhạy cảm như thông tin khách hàng và giao dịch?\nA. Hybrid Cloud\nB. Community Cloud\nC. Private Cloud\nD. Public Cloud",
+    "smart_text": "Câu 6: Loại hình đám mây nào được sử dụng khi một ngân hàng lưu trữ dữ liệu nhạy cảm như thông tin khách hàng và giao dịch?\nA. Hybrid Cloud\nB. Community Cloud\nC. Private Cloud\nD. Public Cloud",
+    "smart_text_no_prefix": "Loại hình đám mây nào được sử dụng khi một ngân hàng lưu trữ dữ liệu nhạy cảm như thông tin khách hàng và giao dịch?\nA. Hybrid Cloud\nB. Community Cloud\nC. Private Cloud\nD. Public Cloud",
+    "raw_text": "18:43\n4G\n64\nKiểm tra tuầก\n12:56\nCâu 6:\nLoại hình đám mây nào được sử dụng khi một ngân hàng lưu\ntrữ dữ liệu nhạy cảm như thông tin khách hàng và giao dịch?\nTrả lời:\nA. Hybrid Cloud\nB. Community Cloud\nC. Private Cloud\nD. Public Cloud\nCâu hỏi\n6/15\n>",
+    "options": [
+      {
+        "key": "A",
+        "text": "Hybrid Cloud"
+      },
+      {
+        "key": "B",
+        "text": "Community Cloud"
+      },
+      {
+        "key": "C",
+        "text": "Private Cloud"
+      },
+      {
+        "key": "D",
+        "text": "Public Cloud"
+      }
+    ],
+    "time": "07:35:19 PM",
+    "duration": 786,
+    "copied": true,
+    "copyCount": 2,
+    "lastCopiedTime": "07:35:19 PM",
+    "scanCount": 2,
+    "lastScanTime": "07:44:26 PM"
+  },
+  {
+    "id": 1791981309567,
+    "title": "Câu 5: Loại hình đám mây nào có quyền kiểm soát cơ sở hạ tầng và cấu hình cao nhất?",
+    "question_title": "Câu 5: Loại hình đám mây nào có quyền kiểm soát cơ sở hạ tầng và cấu hình cao nhất?",
+    "question_body": "Loại hình đám mây nào có quyền kiểm soát cơ sở hạ tầng và cấu hình cao nhất?",
+    "instruction": "",
+    "search_query": "Loại hình đám mây nào có quyền kiểm soát cơ sở hạ tầng và cấu hình cao nhất?",
+    "text": "Câu 5: Loại hình đám mây nào có quyền kiểm soát cơ sở hạ tầng và cấu hình cao nhất?\nA. Public Cloud\nB. Hybrid Cloud\nC. Community Cloud\nD. Private Cloud",
+    "smart_text": "Câu 5: Loại hình đám mây nào có quyền kiểm soát cơ sở hạ tầng và cấu hình cao nhất?\nA. Public Cloud\nB. Hybrid Cloud\nC. Community Cloud\nD. Private Cloud",
+    "smart_text_no_prefix": "Loại hình đám mây nào có quyền kiểm soát cơ sở hạ tầng và cấu hình cao nhất?\nA. Public Cloud\nB. Hybrid Cloud\nC. Community Cloud\nD. Private Cloud",
+    "raw_text": "18:43\n4G\n64\nKiểm tra tuầก\n12:57\nCâu 5:\nLoại hình đám mây nào có quyền kiểm soát cơ sở hạ tầng và\ncấu hình cao nhất?\nTrả lời:\nA. Public Cloud\nB. Hybrid Cloud\nC. Community Cloud\nD. Private Cloud\nCâu hỏi\n5/15\n>",
+    "options": [
+      {
+        "key": "A",
+        "text": "Public Cloud"
+      },
+      {
+        "key": "B",
+        "text": "Hybrid Cloud"
+      },
+      {
+        "key": "C",
+        "text": "Community Cloud"
+      },
+      {
+        "key": "D",
+        "text": "Private Cloud"
+      }
+    ],
+    "time": "07:35:09 PM",
+    "duration": 705,
+    "copied": true,
+    "copyCount": 2,
+    "lastCopiedTime": "07:35:09 PM",
+    "scanCount": 2,
+    "lastScanTime": "07:43:37 PM"
+  },
+  {
+    "id": 1791981295937,
+    "title": "Câu 4: Cho biết phát biểu bên dưới Đúng hay Sai? 1. Đám mây lai (Hybrid Cloud) kết hợp đám mây riêng và đám mây công cộng để cho phép di chuyển dữ liệu và ứng dụng giữa hai môi trường.",
+    "question_title": "Câu 4: Cho biết phát biểu bên dưới Đúng hay Sai? 1. Đám mây lai (Hybrid Cloud) kết hợp đám mây riêng và đám mây công cộng để cho phép di chuyển dữ liệu và ứng dụng giữa hai môi trường.",
+    "question_body": "Cho biết phát biểu bên dưới Đúng hay Sai? 1. Đám mây lai (Hybrid Cloud) kết hợp đám mây riêng và đám mây công cộng để cho phép di chuyển dữ liệu và ứng dụng giữa hai môi trường.",
+    "instruction": "",
+    "search_query": "Cho biết phát biểu bên dưới Đúng hay Sai? 1. Đám mây lai (Hybrid Cloud) kết hợp đám mây riêng và đám mây công cộng để cho phép di chuyển dữ liệu và ứng dụng giữa hai môi trường.",
+    "text": "Câu 4: Cho biết phát biểu bên dưới Đúng hay Sai? 1. Đám mây lai (Hybrid Cloud) kết hợp đám mây riêng và đám mây công cộng để cho phép di chuyển dữ liệu và ứng dụng giữa hai môi trường.\nA. Đúng\nB. Sai",
+    "smart_text": "Câu 4: Cho biết phát biểu bên dưới Đúng hay Sai? 1. Đám mây lai (Hybrid Cloud) kết hợp đám mây riêng và đám mây công cộng để cho phép di chuyển dữ liệu và ứng dụng giữa hai môi trường.\nA. Đúng\nB. Sai",
+    "smart_text_no_prefix": "Cho biết phát biểu bên dưới Đúng hay Sai? 1. Đám mây lai (Hybrid Cloud) kết hợp đám mây riêng và đám mây công cộng để cho phép di chuyển dữ liệu và ứng dụng giữa hai môi trường.\nA. Đúng\nB. Sai",
+    "raw_text": "18:42\n4G\n64\nKiểm tra tuầก\n12:59\nCâu 4:\nCho biết phát biểu bên dưới Đúng hay Sai?\nTrả lời:\n1. Đám mây lai (Hybrid Cloud) kết hợp đám mây riêng và đám\nmây công cộng để cho phép di chuyển dữ liệu và ứng dụng\ngiữa hai môi trường.\nA. Đúng\nB. Sai\nCâu hỏi\n4/15\n>",
+    "options": [
+      {
+        "key": "A",
+        "text": "Đúng"
+      },
+      {
+        "key": "B",
+        "text": "Sai"
+      }
+    ],
+    "time": "07:34:55 PM",
+    "duration": 806,
+    "copied": true,
+    "copyCount": 1,
+    "lastCopiedTime": "07:34:58 PM",
+    "scanCount": 2,
+    "lastScanTime": "07:43:30 PM"
+  },
+  {
+    "id": 1791981279500,
+    "title": "Câu 3: Cho biết nhận định bên dưới Đúng hay Sai? 1. Đám mây cộng đồng (Community Cloud) cho phép nhiều tổ chức cùng ngành hoặc có mục tiêu chung chia sẻ tài nguyên.",
+    "question_title": "Câu 3: Cho biết nhận định bên dưới Đúng hay Sai? 1. Đám mây cộng đồng (Community Cloud) cho phép nhiều tổ chức cùng ngành hoặc có mục tiêu chung chia sẻ tài nguyên.",
+    "question_body": "Cho biết nhận định bên dưới Đúng hay Sai? 1. Đám mây cộng đồng (Community Cloud) cho phép nhiều tổ chức cùng ngành hoặc có mục tiêu chung chia sẻ tài nguyên.",
+    "instruction": "",
+    "search_query": "Cho biết nhận định bên dưới Đúng hay Sai? 1. Đám mây cộng đồng (Community Cloud) cho phép nhiều tổ chức cùng ngành hoặc có mục tiêu chung chia sẻ tài nguyên.",
+    "text": "Câu 3: Cho biết nhận định bên dưới Đúng hay Sai? 1. Đám mây cộng đồng (Community Cloud) cho phép nhiều tổ chức cùng ngành hoặc có mục tiêu chung chia sẻ tài nguyên.\nA. Đúng\nB. Sai",
+    "smart_text": "Câu 3: Cho biết nhận định bên dưới Đúng hay Sai? 1. Đám mây cộng đồng (Community Cloud) cho phép nhiều tổ chức cùng ngành hoặc có mục tiêu chung chia sẻ tài nguyên.\nA. Đúng\nB. Sai",
+    "smart_text_no_prefix": "Cho biết nhận định bên dưới Đúng hay Sai? 1. Đám mây cộng đồng (Community Cloud) cho phép nhiều tổ chức cùng ngành hoặc có mục tiêu chung chia sẻ tài nguyên.\nA. Đúng\nB. Sai",
+    "raw_text": "18:42\n4G\n64\nKiểm tra tuầก\n13:01\nCâu 3:\nCho biết nhận định bên dưới Đúng hay Sai?\nTrả lời:\n1. Đám mây cộng đồng (Community Cloud) cho phép nhiều\ntổ chức cùng ngành hoặc có mục tiêu chung chia sẻ tài\nnguyên.\nA. Đúng\nB. Sai\nCâu hỏi\n3/15\n>",
+    "options": [
+      {
+        "key": "A",
+        "text": "Đúng"
+      },
+      {
+        "key": "B",
+        "text": "Sai"
+      }
+    ],
+    "time": "07:34:39 PM",
+    "duration": 788,
+    "copied": true,
+    "copyCount": 1,
+    "lastCopiedTime": "07:34:41 PM",
+    "scanCount": 2,
+    "lastScanTime": "07:43:23 PM"
+  },
+  {
+    "id": 1791981265825,
+    "title": "Câu 2: Cho biết nhận định bên dưới là Đúng hay Sai? 1. Đám mây riêng (Private Cloud) có thể được lưu trữ bởi nhà cung cấp dịch vụ bên thứ ba hoặc tại cơ sở của tổ chức.",
+    "question_title": "Câu 2: Cho biết nhận định bên dưới là Đúng hay Sai? 1. Đám mây riêng (Private Cloud) có thể được lưu trữ bởi nhà cung cấp dịch vụ bên thứ ba hoặc tại cơ sở của tổ chức.",
+    "question_body": "Cho biết nhận định bên dưới là Đúng hay Sai? 1. Đám mây riêng (Private Cloud) có thể được lưu trữ bởi nhà cung cấp dịch vụ bên thứ ba hoặc tại cơ sở của tổ chức.",
+    "instruction": "",
+    "search_query": "Cho biết nhận định bên dưới là Đúng hay Sai? 1. Đám mây riêng (Private Cloud) có thể được lưu trữ bởi nhà cung cấp dịch vụ bên thứ ba hoặc tại cơ sở của tổ chức.",
+    "text": "Câu 2: Cho biết nhận định bên dưới là Đúng hay Sai? 1. Đám mây riêng (Private Cloud) có thể được lưu trữ bởi nhà cung cấp dịch vụ bên thứ ba hoặc tại cơ sở của tổ chức.\nA. Đúng\nB. Sai",
+    "smart_text": "Câu 2: Cho biết nhận định bên dưới là Đúng hay Sai? 1. Đám mây riêng (Private Cloud) có thể được lưu trữ bởi nhà cung cấp dịch vụ bên thứ ba hoặc tại cơ sở của tổ chức.\nA. Đúng\nB. Sai",
+    "smart_text_no_prefix": "Cho biết nhận định bên dưới là Đúng hay Sai? 1. Đám mây riêng (Private Cloud) có thể được lưu trữ bởi nhà cung cấp dịch vụ bên thứ ba hoặc tại cơ sở của tổ chức.\nA. Đúng\nB. Sai",
+    "raw_text": "18:42\n4G\n64\nKiểm tra tuầก\n13:02\nCâu 2:\nCho biết nhận định bên dưới là Đúng hay Sai?\nTrả lời:\n1. Đám mây riêng (Private Cloud) có thể được lưu trữ bởi nhà\ncung cấp dịch vụ bên thứ ba hoặc tại cơ sở của tổ chức.\nA. Đúng\nB. Sai\nCâu hỏi\n2/15\n>",
+    "options": [
+      {
+        "key": "A",
+        "text": "Đúng"
+      },
+      {
+        "key": "B",
+        "text": "Sai"
+      }
+    ],
+    "time": "07:34:25 PM",
+    "duration": 849,
+    "copied": true,
+    "copyCount": 1,
+    "lastCopiedTime": "07:34:26 PM",
+    "scanCount": 2,
+    "lastScanTime": "07:43:17 PM"
+  },
+  {
+    "id": 1791981769279,
+    "title": "Câu 2: Hai đặc điểm nào dưới đây đúng với Hybrid Cloud?",
+    "question_title": "Câu 2: Hai đặc điểm nào dưới đây đúng với Hybrid Cloud?",
+    "question_body": "Hai đặc điểm nào dưới đây đúng với Hybrid Cloud?",
+    "instruction": "Hãy chọn 2 đáp án đúng nhất !",
+    "search_query": "Hai đặc điểm nào dưới đây đúng với Hybrid Cloud?",
+    "text": "Câu 2: Hai đặc điểm nào dưới đây đúng với Hybrid Cloud?\nHãy chọn 2 đáp án đúng nhất !\nA. Tốn nhiều chi phí cho cơ sở hạ tầng\nB. Chi phí thấp do không cần cơ sở hạ tầng\nC. Bảo mật cao\nD. Linh hoạt sử dụng nhiều môi trường đám mây",
+    "smart_text": "Câu 2: Hai đặc điểm nào dưới đây đúng với Hybrid Cloud?\nHãy chọn 2 đáp án đúng nhất !\nA. Tốn nhiều chi phí cho cơ sở hạ tầng\nB. Chi phí thấp do không cần cơ sở hạ tầng\nC. Bảo mật cao\nD. Linh hoạt sử dụng nhiều môi trường đám mây",
+    "smart_text_no_prefix": "Hai đặc điểm nào dưới đây đúng với Hybrid Cloud?\nHãy chọn 2 đáp án đúng nhất !\nA. Tốn nhiều chi phí cho cơ sở hạ tầng\nB. Chi phí thấp do không cần cơ sở hạ tầng\nC. Bảo mật cao\nD. Linh hoạt sử dụng nhiều môi trường đám mây",
+    "raw_text": "19:22\nKiểm tra tuầก\n14:08\nCâu 2:\nHai đặc điểm nào dưới đây đúng với Hybrid Cloud?\nHãy chọn 2 đáp án đúng nhất !\nTrả lời:\nA. Tốn nhiều chi phí cho cơ sở hạ tầng\nB. Chi phí thấp do không cần cơ sở hạ tầng\nC. Bảo mật cao\n58\nD. Linh hoạt sử dụng nhiều môi trường đám mây\nCâu hỏi\n2/15\n>",
+    "options": [
+      {
+        "key": "A",
+        "text": "Tốn nhiều chi phí cho cơ sở hạ tầng"
+      },
+      {
+        "key": "B",
+        "text": "Chi phí thấp do không cần cơ sở hạ tầng"
+      },
+      {
+        "key": "C",
+        "text": "Bảo mật cao"
+      },
+      {
+        "key": "D",
+        "text": "Linh hoạt sử dụng nhiều môi trường đám mây"
+      }
+    ],
+    "time": "07:42:49 PM",
+    "duration": 916,
+    "copied": true,
+    "copyCount": 3,
+    "lastCopiedTime": "07:42:55 PM",
+    "scanCount": 1
+  },
+  {
+    "id": 1791981237285,
+    "title": "Câu 1: Bạn hiểu nhận định bên dưới là Đúng hay Sai? 1. Đám mây riêng (Private Cloud) phù hợp hơn cho các tổ chức cần tùy chỉnh tài nguyên và kiểm soát cao độ bảo mật, nhưng có thể bị hạn chế về khả năng mở rộng quy mô so với đám mây công cộng.",
+    "question_title": "Câu 1: Bạn hiểu nhận định bên dưới là Đúng hay Sai? 1. Đám mây riêng (Private Cloud) phù hợp hơn cho các tổ chức cần tùy chỉnh tài nguyên và kiểm soát cao độ bảo mật, nhưng có thể bị hạn chế về khả năng mở rộng quy mô so với đám mây công cộng.",
+    "question_body": "Bạn hiểu nhận định bên dưới là Đúng hay Sai? 1. Đám mây riêng (Private Cloud) phù hợp hơn cho các tổ chức cần tùy chỉnh tài nguyên và kiểm soát cao độ bảo mật, nhưng có thể bị hạn chế về khả năng mở rộng quy mô so với đám mây công cộng.",
+    "instruction": "",
+    "search_query": "Bạn hiểu nhận định bên dưới là Đúng hay Sai? 1. Đám mây riêng (Private Cloud) phù hợp hơn cho các tổ chức cần tùy chỉnh tài nguyên và kiểm soát cao độ bảo mật, nhưng có thể bị hạn chế về khả năng mở rộng quy mô so với đám mây công cộng.",
+    "text": "Câu 1: Bạn hiểu nhận định bên dưới là Đúng hay Sai? 1. Đám mây riêng (Private Cloud) phù hợp hơn cho các tổ chức cần tùy chỉnh tài nguyên và kiểm soát cao độ bảo mật, nhưng có thể bị hạn chế về khả năng mở rộng quy mô so với đám mây công cộng.\nA. Đúng\nB. Sai",
+    "smart_text": "Câu 1: Bạn hiểu nhận định bên dưới là Đúng hay Sai? 1. Đám mây riêng (Private Cloud) phù hợp hơn cho các tổ chức cần tùy chỉnh tài nguyên và kiểm soát cao độ bảo mật, nhưng có thể bị hạn chế về khả năng mở rộng quy mô so với đám mây công cộng.\nA. Đúng\nB. Sai",
+    "smart_text_no_prefix": "Bạn hiểu nhận định bên dưới là Đúng hay Sai? 1. Đám mây riêng (Private Cloud) phù hợp hơn cho các tổ chức cần tùy chỉnh tài nguyên và kiểm soát cao độ bảo mật, nhưng có thể bị hạn chế về khả năng mở rộng quy mô so với đám mây công cộng.\nA. Đúng\nB. Sai",
+    "raw_text": "18:42\n4G\n64\nKiểm tra tuầก\n13:04\nCâu 1:\nBạn hiểu nhận định bên dưới là Đúng hay Sai?\nTrả lời:\n1. Đám mây riêng (Private Cloud) phù hợp hơn cho các tổ\nchức cần tùy chỉnh tài nguyên và kiểm soát cao độ bảo\nmật, nhưng có thể bị hạn chế về khả năng mở rộng quy mô\nso với đám mây công cộng.\nA. Đúng\nB. Sai\nCâu hỏi\n1/15\n>",
+    "options": [
+      {
+        "key": "A",
+        "text": "Đúng"
+      },
+      {
+        "key": "B",
+        "text": "Sai"
+      }
+    ],
+    "time": "07:33:57 PM",
+    "duration": 984,
+    "copied": true,
+    "copyCount": 2,
+    "lastCopiedTime": "07:42:41 PM",
+    "scanCount": 2,
+    "lastScanTime": "07:42:41 PM"
+  }
+]

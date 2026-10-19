@@ -1,0 +1,2307 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Google Lens Quiz OCR - Chuyển Ảnh Thành Text Siêu Tốc</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%231a73e8'><path d='M12 15a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z'/><path d='M4 4h3l2-2h6l2 2h3a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2m8 3a5 5 0 1 0 0 10 5 5 0 0 0 0-10Z'/></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #1a73e8;
+      --primary-hover: #1557b0;
+      --primary-light: #e8f0fe;
+      --success: #1e8e3e;
+      --success-light: #e6f4ea;
+      --warning: #f9ab00;
+      --danger: #d93025;
+      --bg: #f8f9fa;
+      --surface: #ffffff;
+      --border: #dadce0;
+      --text: #202124;
+      --text-muted: #5f6368;
+      --shadow: 0 1px 3px rgba(60,64,67, 0.3), 0 4px 8px 3px rgba(60,64,67, 0.15);
+      --shadow-sm: 0 1px 2px 0 rgba(60,64,67, 0.3), 0 1px 3px 1px rgba(60,64,67, 0.15);
+      --radius: 12px;
+      --radius-sm: 8px;
+    }
+
+    [data-theme="dark"] {
+      --primary: #8ab4f8;
+      --primary-hover: #aecbfa;
+      --primary-light: #172b4d;
+      --success: #81c995;
+      --success-light: #0f3822;
+      --warning: #fdd663;
+      --danger: #f28b82;
+      --bg: #202124;
+      --surface: #2d2f31;
+      --border: #3c4043;
+      --text: #e8eaed;
+      --text-muted: #9aa0a6;
+      --shadow: 0 2px 8px rgba(0,0,0, 0.5);
+      --shadow-sm: 0 1px 4px rgba(0,0,0, 0.4);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      transition: background-color 0.2s, color 0.2s;
+    }
+
+    /* Header */
+    header {
+      background-color: var(--surface);
+      border-bottom: 1px solid var(--border);
+      padding: 12px 24px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: sticky;
+      top: 0;
+      z-index: 50;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .brand-icon {
+      width: 36px;
+      height: 36px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: linear-gradient(135deg, #4285F4, #34A853, #FBBC05, #EA4335);
+      border-radius: 10px;
+      color: white;
+    }
+
+    .brand-title {
+      font-size: 1.15rem;
+      font-weight: 700;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .badge-speed {
+      font-size: 0.75rem;
+      font-weight: 600;
+      background-color: var(--success-light);
+      color: var(--success);
+      padding: 2px 8px;
+      border-radius: 12px;
+      border: 1px solid rgba(30, 142, 62, 0.2);
+    }
+
+    .header-actions {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .auto-copy-toggle {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 0.85rem;
+      font-weight: 500;
+      cursor: pointer;
+      user-select: none;
+      background: var(--primary-light);
+      color: var(--primary);
+      padding: 6px 12px;
+      border-radius: 20px;
+      border: 1px solid rgba(26, 115, 232, 0.2);
+    }
+
+    .auto-copy-toggle input {
+      accent-color: var(--primary);
+      cursor: pointer;
+    }
+
+    .theme-toggle-btn {
+      background: none;
+      border: 1px solid var(--border);
+      color: var(--text);
+      cursor: pointer;
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: background-color 0.15s;
+    }
+
+    .theme-toggle-btn:hover {
+      background-color: var(--primary-light);
+    }
+
+    /* Main Container */
+    main {
+      flex: 1;
+      max-width: 1400px;
+      width: 100%;
+      margin: 0 auto;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    /* Google Lens Style Dropzone (Ảnh 3) */
+    .lens-hero {
+      background: var(--surface);
+      border-radius: var(--radius);
+      border: 2px dashed var(--border);
+      padding: 32px 24px;
+      text-align: center;
+      position: relative;
+      transition: all 0.2s ease;
+      box-shadow: var(--shadow-sm);
+      cursor: pointer;
+    }
+
+    .lens-hero.drag-over {
+      border-color: var(--primary);
+      background-color: var(--primary-light);
+      transform: scale(1.005);
+    }
+
+    .lens-hero-title {
+      font-size: 1.25rem;
+      font-weight: 600;
+      margin-bottom: 8px;
+      color: var(--text);
+    }
+
+    .lens-hero-icon {
+      width: 56px;
+      height: 56px;
+      margin: 0 auto 12px auto;
+      border-radius: 14px;
+      background: #e8f0fe;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--primary);
+    }
+
+    .lens-hero-sub {
+      font-size: 0.95rem;
+      color: var(--text-muted);
+      margin-bottom: 16px;
+    }
+
+    .lens-hero-sub a {
+      color: var(--primary);
+      font-weight: 600;
+      text-decoration: underline;
+      cursor: pointer;
+    }
+
+    .lens-shortcut-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: var(--bg);
+      border: 1px solid var(--border);
+      padding: 6px 14px;
+      border-radius: 20px;
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      font-weight: 500;
+    }
+
+    .lens-shortcut-pill kbd {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+      padding: 2px 6px;
+      border-radius: 4px;
+      font-family: inherit;
+      font-weight: 700;
+      color: var(--text);
+    }
+
+    /* Workspace 2 Columns */
+    .workspace {
+      display: grid;
+      grid-template-columns: 1fr 1.2fr;
+      gap: 20px;
+      min-height: 580px;
+    }
+
+    @media (max-width: 960px) {
+      .workspace {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .card {
+      background: var(--surface);
+      border-radius: var(--radius);
+      border: 1px solid var(--border);
+      box-shadow: var(--shadow-sm);
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+    }
+
+    .card-header {
+      padding: 12px 18px;
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background: rgba(0,0,0, 0.02);
+    }
+
+    .card-title {
+      font-size: 0.95rem;
+      font-weight: 600;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    /* Left: Image Preview & Cropper */
+    .image-preview-area {
+      flex: 1;
+      padding: 16px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background: #18191a;
+      position: relative;
+      min-height: 400px;
+      user-select: none;
+      overflow: hidden;
+    }
+
+    .image-wrapper {
+      position: relative;
+      max-width: 100%;
+      max-height: 520px;
+      display: inline-block;
+    }
+
+    #preview-img {
+      max-width: 100%;
+      max-height: 520px;
+      object-fit: contain;
+      display: block;
+      border-radius: 4px;
+    }
+
+    /* Crop box overlay */
+    #crop-box {
+      position: absolute;
+      border: 2px dashed #4285F4;
+      background: rgba(66, 133, 244, 0.15);
+      cursor: move;
+      display: none;
+      z-index: 10;
+    }
+
+    .crop-handle {
+      position: absolute;
+      width: 10px;
+      height: 10px;
+      background: white;
+      border: 2px solid #4285F4;
+      border-radius: 50%;
+    }
+
+    .crop-handle.tl { top: -5px; left: -5px; cursor: nwse-resize; }
+    .crop-handle.tr { top: -5px; right: -5px; cursor: nesw-resize; }
+    .crop-handle.bl { bottom: -5px; left: -5px; cursor: nesw-resize; }
+    .crop-handle.br { bottom: -5px; right: -5px; cursor: nwse-resize; }
+
+    .image-tools {
+      padding: 10px 16px;
+      border-top: 1px solid var(--border);
+      display: flex;
+      gap: 8px;
+      background: var(--surface);
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    /* Right: Result Panel */
+    .result-body {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      position: relative;
+    }
+
+    .result-tabs {
+      display: flex;
+      border-bottom: 1px solid var(--border);
+      padding: 0 16px;
+      background: rgba(0,0,0, 0.01);
+      gap: 8px;
+    }
+
+    .tab-btn {
+      padding: 10px 14px;
+      background: none;
+      border: none;
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: var(--text-muted);
+      cursor: pointer;
+      position: relative;
+      transition: color 0.15s;
+    }
+
+    .tab-btn:hover {
+      color: var(--primary);
+    }
+
+    .tab-btn.active {
+      color: var(--primary);
+    }
+
+    .tab-btn.active::after {
+      content: '';
+      position: absolute;
+      bottom: -1px;
+      left: 0;
+      right: 0;
+      height: 2px;
+      background: var(--primary);
+    }
+
+    /* Action bar */
+    .result-action-bar {
+      padding: 12px 16px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      flex-wrap: wrap;
+      border-bottom: 1px solid var(--border);
+      background: var(--surface);
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 8px 16px;
+      border-radius: var(--radius-sm);
+      font-size: 0.85rem;
+      font-weight: 600;
+      cursor: pointer;
+      border: 1px solid transparent;
+      transition: all 0.15s ease;
+    }
+
+    .btn-primary {
+      background: var(--primary);
+      color: white;
+    }
+
+    .btn-primary:hover {
+      background: var(--primary-hover);
+    }
+
+    .btn-success {
+      background: var(--success);
+      color: white;
+    }
+
+    .btn-success:hover {
+      background: #137333;
+    }
+
+    .btn-outline {
+      background: var(--surface);
+      border-color: var(--border);
+      color: var(--text);
+    }
+
+    .btn-outline:hover {
+      background: var(--bg);
+      border-color: var(--text-muted);
+    }
+
+    .btn-copy-main {
+      font-size: 0.95rem;
+      padding: 9px 18px;
+      background: #1e8e3e;
+      color: white;
+      box-shadow: 0 1px 3px rgba(30,142,62,0.3);
+    }
+
+    .btn-copy-main:hover {
+      background: #137333;
+      transform: translateY(-1px);
+    }
+
+    .btn-copy-main.copied {
+      background: #0d652d;
+    }
+
+    /* Content Area */
+    .tab-content {
+      flex: 1;
+      display: none;
+      flex-direction: column;
+      position: relative;
+    }
+
+    .tab-content.active {
+      display: flex;
+    }
+
+    #text-editor {
+      flex: 1;
+      width: 100%;
+      border: none;
+      outline: none;
+      padding: 16px;
+      font-family: 'Inter', sans-serif;
+      font-size: 0.95rem;
+      line-height: 1.6;
+      background: var(--surface);
+      color: var(--text);
+      resize: none;
+    }
+
+    /* Word-like document view (ảnh 2) */
+    .doc-preview {
+      flex: 1;
+      padding: 24px;
+      background: var(--surface);
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 1.15rem;
+      line-height: 1.5;
+      overflow-y: auto;
+      user-select: text;
+    }
+
+    .doc-question {
+      font-weight: bold;
+      margin-bottom: 8px;
+    }
+
+    .doc-instruction {
+      background-color: #ffff00;
+      display: inline-block;
+      padding: 1px 6px;
+      margin-bottom: 8px;
+      font-weight: 500;
+    }
+
+    .doc-option {
+      margin-bottom: 4px;
+      padding: 4px 8px;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: background-color 0.1s;
+    }
+
+    .doc-option:hover {
+      background-color: rgba(0,0,0,0.04);
+    }
+
+    .doc-option.is-correct {
+      color: #d93025; /* Red color like Image 2 */
+      font-weight: bold;
+    }
+
+    .doc-option-badge {
+      font-size: 0.75rem;
+      margin-left: 8px;
+      color: #1e8e3e;
+      font-family: sans-serif;
+    }
+
+    /* Loading Overlay */
+    .loading-overlay {
+      position: absolute;
+      inset: 0;
+      background: rgba(255,255,255, 0.85);
+      display: none;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+      z-index: 20;
+      backdrop-filter: blur(2px);
+    }
+
+    [data-theme="dark"] .loading-overlay {
+      background: rgba(45, 47, 49, 0.85);
+    }
+
+    .spinner {
+      width: 36px;
+      height: 36px;
+      border: 3px solid rgba(26, 115, 232, 0.2);
+      border-top-color: var(--primary);
+      border-radius: 50%;
+      animation: spin 0.6s linear infinite;
+    }
+
+    @keyframes spin {
+      to { transform: rotate(360deg); }
+    }
+
+    /* Toast Notification */
+    .toast {
+      position: fixed;
+      bottom: 24px;
+      right: 24px;
+      background: #202124;
+      color: #ffffff;
+      padding: 12px 20px;
+      border-radius: 8px;
+      font-size: 0.9rem;
+      font-weight: 500;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      box-shadow: var(--shadow);
+      transform: translateY(100px);
+      opacity: 0;
+      transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+      z-index: 100;
+      max-width: 90vw;
+    }
+
+    .toast.show {
+      transform: translateY(0);
+      opacity: 1;
+    }
+
+    .toast.toast-success {
+      background: #1e8e3e;
+      color: #ffffff;
+    }
+
+    .toast.toast-warning {
+      background: #f29900;
+      color: #202124;
+      font-weight: 600;
+    }
+
+    .toast.toast-danger {
+      background: #d93025;
+      color: #ffffff;
+      font-weight: 600;
+    }
+
+    /* Duplicate Alert Banner */
+    .duplicate-alert {
+      margin: 12px 16px 0 16px;
+      border-radius: var(--radius-sm);
+      border: 1.5px solid #f9ab00;
+      background: #fef7e0;
+      color: #202124;
+      padding: 12px 14px;
+      animation: alertSlideDown 0.25s ease-out;
+      position: relative;
+      box-shadow: 0 1px 4px rgba(249, 171, 0, 0.25);
+    }
+
+    [data-theme="dark"] .duplicate-alert {
+      background: #382c14;
+      border-color: #fdd663;
+      color: #f8f9fa;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.45);
+    }
+
+    .duplicate-alert.alert-copied {
+      border-color: #d93025;
+      background: #fce8e6;
+    }
+
+    [data-theme="dark"] .duplicate-alert.alert-copied {
+      border-color: #f28b82;
+      background: #3c1a1a;
+    }
+
+    .duplicate-alert-inner {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .duplicate-alert-icon {
+      font-size: 1.5rem;
+      line-height: 1;
+      flex-shrink: 0;
+    }
+
+    .duplicate-alert-content {
+      flex: 1;
+      min-width: 0;
+    }
+
+    .duplicate-alert-title {
+      font-size: 0.88rem;
+      font-weight: 700;
+      color: #b06000;
+      text-transform: uppercase;
+      letter-spacing: 0.4px;
+      margin-bottom: 2px;
+    }
+
+    .duplicate-alert.alert-copied .duplicate-alert-title {
+      color: #c5221f;
+    }
+
+    [data-theme="dark"] .duplicate-alert .duplicate-alert-title {
+      color: #fdd663;
+    }
+
+    [data-theme="dark"] .duplicate-alert.alert-copied .duplicate-alert-title {
+      color: #f28b82;
+    }
+
+    .duplicate-alert-desc {
+      font-size: 0.85rem;
+      color: var(--text);
+      line-height: 1.45;
+      word-break: break-word;
+    }
+
+    .duplicate-alert-actions {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      flex-shrink: 0;
+    }
+
+    .btn-dup-view {
+      padding: 6px 12px;
+      font-size: 0.8rem;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      cursor: pointer;
+      font-weight: 600;
+      color: var(--text);
+      white-space: nowrap;
+      transition: all 0.15s;
+    }
+
+    .btn-dup-view:hover {
+      background: var(--primary-light);
+      border-color: var(--primary);
+      color: var(--primary);
+    }
+
+    .btn-dup-close {
+      background: none;
+      border: none;
+      font-size: 1.3rem;
+      cursor: pointer;
+      color: var(--text-muted);
+      line-height: 1;
+      padding: 4px 6px;
+      border-radius: 4px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .btn-dup-close:hover {
+      color: var(--text);
+      background: rgba(0,0,0,0.06);
+    }
+
+    @keyframes alertSlideDown {
+      from { opacity: 0; transform: translateY(-8px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    /* History section */
+    .history-card {
+      background: var(--surface);
+      border-radius: var(--radius);
+      border: 1px solid var(--border);
+      padding: 16px 20px;
+    }
+
+    .history-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 12px;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .history-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 12px;
+    }
+
+    .history-item {
+      border: 1px solid var(--border);
+      border-radius: var(--radius-sm);
+      padding: 10px 12px;
+      cursor: pointer;
+      background: var(--bg);
+      transition: all 0.18s ease;
+      position: relative;
+    }
+
+    .history-item:hover {
+      border-color: var(--primary);
+      background: var(--surface);
+      transform: translateY(-2px);
+      box-shadow: var(--shadow-sm);
+    }
+
+    .history-item.highlight-match {
+      border: 2px solid #ea4335 !important;
+      background: #fce8e6 !important;
+      box-shadow: 0 0 14px rgba(234, 67, 53, 0.45) !important;
+      animation: pulseHighlight 1.6s infinite alternate;
+    }
+
+    [data-theme="dark"] .history-item.highlight-match {
+      background: #462222 !important;
+      border-color: #f28b82 !important;
+      box-shadow: 0 0 14px rgba(242, 139, 130, 0.45) !important;
+    }
+
+    @keyframes pulseHighlight {
+      0% { transform: scale(1); }
+      100% { transform: scale(1.025); }
+    }
+
+    .history-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 3px;
+      font-size: 0.72rem;
+      font-weight: 600;
+      padding: 2px 7px;
+      border-radius: 4px;
+      line-height: 1.3;
+    }
+
+    .history-badge-copied {
+      background: var(--success-light);
+      color: var(--success);
+      border: 1px solid rgba(30, 142, 62, 0.3);
+    }
+
+    .history-badge-scanned {
+      background: rgba(0,0,0,0.06);
+      color: var(--text-muted);
+      border: 1px solid var(--border);
+    }
+
+    [data-theme="dark"] .history-badge-scanned {
+      background: rgba(255,255,255,0.08);
+    }
+
+    .history-item-title {
+      font-size: 0.85rem;
+      font-weight: 600;
+      margin-bottom: 4px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .history-item-meta {
+      font-size: 0.75rem;
+      color: var(--text-muted);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    /* Footer */
+    footer {
+      padding: 16px 24px;
+      text-align: center;
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      border-top: 1px solid var(--border);
+      background: var(--surface);
+    }
+
+    /* Custom Confirmation Modal */
+    .modal-overlay {
+      position: fixed;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.55);
+      backdrop-filter: blur(4px);
+      -webkit-backdrop-filter: blur(4px);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 200;
+      padding: 20px;
+      opacity: 0;
+      visibility: hidden;
+      transition: opacity 0.22s ease, visibility 0.22s ease;
+    }
+
+    .modal-overlay.active {
+      opacity: 1;
+      visibility: visible;
+    }
+
+    .modal-dialog {
+      background: var(--surface);
+      border-radius: 16px;
+      border: 1px solid var(--border);
+      box-shadow: 0 16px 40px rgba(0, 0, 0, 0.25), 0 4px 12px rgba(0, 0, 0, 0.12);
+      max-width: 440px;
+      width: 100%;
+      padding: 24px;
+      transform: scale(0.92) translateY(8px);
+      transition: transform 0.22s cubic-bezier(0.16, 1, 0.3, 1);
+      position: relative;
+    }
+
+    .modal-overlay.active .modal-dialog {
+      transform: scale(1) translateY(0);
+    }
+
+    .modal-header {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      margin-bottom: 12px;
+    }
+
+    .modal-icon-badge {
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      background: #fce8e6;
+      color: #d93025;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+    }
+
+    [data-theme="dark"] .modal-icon-badge {
+      background: #3c1a1a;
+      color: #f28b82;
+    }
+
+    .modal-title {
+      font-size: 1.12rem;
+      font-weight: 700;
+      color: var(--text);
+      line-height: 1.3;
+    }
+
+    .modal-body {
+      font-size: 0.92rem;
+      color: var(--text-muted);
+      line-height: 1.55;
+      margin-bottom: 24px;
+      padding-left: 58px;
+    }
+
+    @media (max-width: 480px) {
+      .modal-body {
+        padding-left: 0;
+      }
+    }
+
+    .modal-actions {
+      display: flex;
+      justify-content: flex-end;
+      gap: 10px;
+    }
+
+    .btn-modal-cancel {
+      padding: 9px 18px;
+      font-size: 0.88rem;
+      font-weight: 600;
+      border-radius: var(--radius-sm);
+      border: 1px solid var(--border);
+      background: var(--surface);
+      color: var(--text);
+      cursor: pointer;
+      transition: all 0.15s ease;
+    }
+
+    .btn-modal-cancel:hover {
+      background: var(--bg);
+      border-color: var(--text-muted);
+    }
+
+    .btn-modal-confirm {
+      padding: 9px 20px;
+      font-size: 0.88rem;
+      font-weight: 600;
+      border-radius: var(--radius-sm);
+      border: 1px solid transparent;
+      background: #d93025;
+      color: white;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      box-shadow: 0 1px 3px rgba(217, 48, 37, 0.35);
+      transition: all 0.15s ease;
+    }
+
+    .btn-modal-confirm:hover {
+      background: #b3261e;
+      transform: translateY(-1px);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="brand">
+      <div class="brand-icon">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path>
+          <circle cx="12" cy="13" r="4"></circle>
+        </svg>
+      </div>
+      <div>
+        <div class="brand-title">
+          Google Lens Quiz OCR
+          <span class="badge-speed" id="speed-badge">⚡ Tốc độ ~0.4s</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="header-actions">
+      <label class="auto-copy-toggle" id="strip-cau-toggle" title="Loại bỏ chữ 'Câu X:' ở đầu câu hỏi, chỉ giữ lại nội dung để sao chép">
+        <input type="checkbox" id="strip-cau-checkbox">
+        <span>✂️ Bỏ chữ "Câu:"</span>
+      </label>
+
+      <label class="auto-copy-toggle" title="Tự động sao chép văn bản vào clipboard ngay khi ảnh được quét">
+        <input type="checkbox" id="auto-copy-checkbox" checked>
+        <span>⚡ Tự động sao chép</span>
+      </label>
+
+      <button class="theme-toggle-btn" id="theme-btn" title="Chuyển chế độ sáng/tối">
+        🌙
+      </button>
+    </div>
+  </header>
+
+  <!-- Main Body -->
+  <main>
+    <!-- Dropzone styled after Image 3 (Google Lens) -->
+    <div class="lens-hero" id="drop-zone">
+      <input type="file" id="file-input" accept="image/*" style="display: none;">
+      
+      <div class="lens-hero-icon">
+        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+          <circle cx="8.5" cy="8.5" r="1.5"></circle>
+          <polyline points="21 15 16 10 5 21"></polyline>
+        </svg>
+      </div>
+
+      <div class="lens-hero-title">Tìm bằng hình ảnh qua Google Ống kính (Google Lens)</div>
+      <div class="lens-hero-sub">
+        Kéo hình ảnh vào đây hoặc <a id="browse-btn">tải tệp lên</a>
+      </div>
+
+      <div class="lens-shortcut-pill">
+        <span>💡 Hoặc nhấn</span>
+        <kbd>Ctrl + V</kbd>
+        <span>bất kỳ lúc nào để dán ảnh chụp màn hình ngay lập tức!</span>
+      </div>
+    </div>
+
+    <!-- Workspace -->
+    <div class="workspace">
+      <!-- Left: Image Preview & Interactive Region -->
+      <div class="card">
+        <div class="card-header">
+          <div class="card-title">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <rect x="3" y="3" width="18" height="18" rx="2"/>
+              <circle cx="9" cy="9" r="2"/>
+              <path d="m21 15-3.086-3.086a2 2 0 0 0-2.828 0L6 21"/>
+            </svg>
+            Hình ảnh đầu vào (Ảnh 1)
+          </div>
+          <span id="img-meta" style="font-size: 0.8rem; color: var(--text-muted);">Chưa có ảnh</span>
+        </div>
+
+        <div class="image-preview-area" id="image-container">
+          <div class="image-wrapper" id="image-wrapper">
+            <img id="preview-img" src="" alt="Xem trước ảnh" style="display: none;">
+            <!-- Crop box overlay -->
+            <div id="crop-box">
+              <div class="crop-handle tl"></div>
+              <div class="crop-handle tr"></div>
+              <div class="crop-handle bl"></div>
+              <div class="crop-handle br"></div>
+            </div>
+          </div>
+          <div id="empty-state-img" style="color: #9aa0a6; text-align: center;">
+            <p>Chưa có hình ảnh nào được chọn</p>
+            <p style="font-size: 0.85rem; margin-top: 6px;">Dán ảnh chụp màn hình bằng <strong>Ctrl+V</strong></p>
+          </div>
+        </div>
+
+        <div class="image-tools">
+          <div style="display: flex; gap: 8px;">
+            <button class="btn btn-outline" id="crop-full-btn" disabled title="Quét lại toàn bộ hình ảnh">
+              Quét toàn bộ
+            </button>
+            <button class="btn btn-outline" id="crop-region-btn" disabled title="Quét riêng vùng được kéo chọn">
+              Quét vùng chọn
+            </button>
+          </div>
+          <button class="btn btn-outline" id="clear-img-btn" style="color: var(--danger);" disabled>
+            Xóa ảnh
+          </button>
+        </div>
+      </div>
+
+      <!-- Right: Text Output & Copy Actions (Ảnh 2) -->
+      <div class="card">
+        <div class="card-header">
+          <div class="card-title">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+              <polyline points="14 2 14 8 20 8"></polyline>
+              <line x1="16" y1="13" x2="8" y2="13"></line>
+              <line x1="16" y1="17" x2="8" y2="17"></line>
+              <polyline points="10 9 9 9 8 9"></polyline>
+            </svg>
+            Văn bản trích xuất (Ảnh 2)
+          </div>
+          <span id="response-time" style="font-size: 0.8rem; font-weight: 600; color: var(--success);">
+            ⚡ 0 ms
+          </span>
+        </div>
+
+        <div class="result-body">
+          <!-- Loading Overlay -->
+          <div class="loading-overlay" id="loading-overlay">
+            <div class="spinner"></div>
+            <div style="font-weight: 600; font-size: 0.95rem;">Đang nhận diện qua Google Lens...</div>
+            <div style="font-size: 0.8rem; color: var(--text-muted);">Thường mất dưới 0.5 giây</div>
+          </div>
+
+          <!-- Duplicate Warning Banner -->
+          <div id="duplicate-alert" class="duplicate-alert" style="display: none;">
+            <div class="duplicate-alert-inner">
+              <div class="duplicate-alert-icon" id="dup-alert-icon">⚠️</div>
+              <div class="duplicate-alert-content">
+                <div class="duplicate-alert-title" id="dup-alert-title">PHÁT HIỆN CÂU TRÙNG LẶP</div>
+                <div class="duplicate-alert-desc" id="dup-alert-desc">Câu hỏi này đã từng được sao chép lúc 14:30.</div>
+              </div>
+              <div class="duplicate-alert-actions">
+                <button class="btn-dup-view" id="dup-view-btn" type="button" title="Xem vị trí câu này trong lịch sử">
+                  🔍 Xem câu cũ
+                </button>
+                <button class="btn-dup-close" id="dup-close-btn" type="button" title="Đóng">&times;</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Result Tabs -->
+          <div class="result-tabs">
+            <button class="tab-btn active" data-tab="smart">Chuẩn trắc nghiệm (Ảnh 2)</button>
+            <button class="tab-btn" data-tab="doc">Định dạng Word (Tô màu)</button>
+            <button class="tab-btn" data-tab="raw">Văn bản thô (Raw OCR)</button>
+          </div>
+
+          <!-- Action bar -->
+          <div class="result-action-bar">
+            <button class="btn btn-copy-main" id="copy-btn">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+              </svg>
+              <span>SAO CHÉP (Ctrl+C)</span>
+            </button>
+
+            <button class="btn btn-outline" id="google-search-btn" title="Mở tìm kiếm câu hỏi trên Google">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              </svg>
+              Tìm Google
+            </button>
+
+            <button class="btn btn-outline" id="copy-rich-btn" title="Sao chép giữ nguyên màu đỏ đáp án đúng để dán vào Word">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M4 7V4h16v3M9 20h6M12 4v16"/>
+              </svg>
+              Sao chép vào Word
+            </button>
+
+            <span id="char-count" style="margin-left: auto; font-size: 0.75rem; color: var(--text-muted);">
+              0 từ | 0 ký tự
+            </span>
+          </div>
+
+          <!-- Tab Content: Smart Text Editor -->
+          <div class="tab-content active" id="tab-smart">
+            <textarea id="text-editor" placeholder="Kết quả trích xuất dạng chuẩn trắc nghiệm sẽ xuất hiện ở đây..."></textarea>
+          </div>
+
+          <!-- Tab Content: Word Document Style View (như Ảnh 2) -->
+          <div class="tab-content" id="tab-doc">
+            <div class="doc-preview" id="doc-view">
+              <p style="color: var(--text-muted); font-style: italic;">
+                Chưa có dữ liệu. Hãy tải ảnh hoặc nhấn Ctrl+V để xem giao diện chuẩn như văn bản Word trong Ảnh 2.
+              </p>
+            </div>
+            <div style="padding: 8px 16px; background: var(--bg); border-top: 1px solid var(--border); font-size: 0.8rem; color: var(--text-muted);">
+              💡 <em>Mẹo: Nhấp vào các đáp án A, B, C, D bên trên để bật/tắt màu đỏ đáp án đúng y như Ảnh 2!</em>
+            </div>
+          </div>
+
+          <!-- Tab Content: Raw OCR -->
+          <div class="tab-content" id="tab-raw">
+            <textarea id="raw-editor" style="flex:1; width:100%; border:none; outline:none; padding:16px; font-family:'JetBrains Mono', monospace; font-size:0.85rem; line-height:1.5; background:var(--surface); color:var(--text); resize:none;" placeholder="Văn bản thô từ Google Lens..."></textarea>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- History Card -->
+    <div class="history-card" id="history-section" style="display: none;">
+      <div class="history-header">
+        <h3 style="font-size: 0.95rem; font-weight: 600;">🕒 Lịch sử quét gần đây (<span id="history-count">0</span> câu)</h3>
+        <div style="display: flex; gap: 8px; align-items: center;">
+          <input type="text" id="history-search-input" placeholder="🔍 Lọc câu hỏi..." style="padding: 4px 10px; font-size: 0.8rem; border-radius: var(--radius-sm); border: 1px solid var(--border); background: var(--bg); color: var(--text); outline: none;">
+          <button class="btn btn-outline" id="clear-history-btn" style="padding: 4px 10px; font-size: 0.75rem;">
+            Xóa lịch sử
+          </button>
+        </div>
+      </div>
+      <div class="history-list" id="history-items"></div>
+    </div>
+  </main>
+
+  <!-- Toast notification -->
+  <div class="toast" id="toast">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#81c995" stroke-width="2.5">
+      <polyline points="20 6 9 17 4 12"></polyline>
+    </svg>
+    <span id="toast-text">Đã sao chép vào bộ nhớ tạm!</span>
+  </div>
+
+  <!-- Custom Confirmation Modal -->
+  <div class="modal-overlay" id="confirm-modal-overlay">
+    <div class="modal-dialog" role="dialog" aria-modal="true" aria-labelledby="confirm-modal-title">
+      <div class="modal-header">
+        <div class="modal-icon-badge" id="confirm-modal-icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="3 6 5 6 21 6"></polyline>
+            <path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path>
+            <line x1="10" y1="11" x2="10" y2="17"></line>
+            <line x1="14" y1="11" x2="14" y2="17"></line>
+          </svg>
+        </div>
+        <div class="modal-title" id="confirm-modal-title">Xác nhận xóa toàn bộ lịch sử</div>
+      </div>
+      <div class="modal-body" id="confirm-modal-desc">
+        Bạn có chắc chắn muốn xóa toàn bộ lịch sử quét không? Toàn bộ danh sách câu hỏi và trạng thái đã sao chép sẽ bị dọn sạch.
+      </div>
+      <div class="modal-actions">
+        <button type="button" class="btn-modal-cancel" id="confirm-modal-cancel-btn">Hủy bỏ</button>
+        <button type="button" class="btn-modal-confirm" id="confirm-modal-ok-btn">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="3 6 5 6 21 6"></polyline>
+            <path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path>
+          </svg>
+          <span id="confirm-modal-ok-text">Xóa toàn bộ</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    Google Lens OCR Tool &bull; Tốc độ nhận diện tức thì ~0.4s &bull; Chuẩn hóa câu hỏi trắc nghiệm tự động
+  </footer>
+
+  <script>
+    // App State
+    let currentImageBlob = null;
+    let currentImageBase64 = null;
+    let currentParsedData = null;
+    let cropCoords = null; // {x, y, w, h} normalized
+    let isDraggingCrop = false;
+    let startX = 0, startY = 0;
+
+    // Persistent History State
+    const STORAGE_KEY = 'lens_quiz_history_persistent';
+    function loadSavedHistory() {
+      try {
+        const saved = localStorage.getItem(STORAGE_KEY) || localStorage.getItem('lens_quiz_history');
+        if (saved) {
+          const parsed = JSON.parse(saved);
+          if (Array.isArray(parsed)) return parsed;
+        }
+      } catch (e) {
+        console.warn('Lỗi đọc local history:', e);
+      }
+      return [];
+    }
+    let historyList = loadSavedHistory();
+
+    // DOM Elements
+    const dropZone = document.getElementById('drop-zone');
+    const fileInput = document.getElementById('file-input');
+    const browseBtn = document.getElementById('browse-btn');
+    const previewImg = document.getElementById('preview-img');
+    const imageWrapper = document.getElementById('image-wrapper');
+    const emptyStateImg = document.getElementById('empty-state-img');
+    const cropBox = document.getElementById('crop-box');
+    const cropFullBtn = document.getElementById('crop-full-btn');
+    const cropRegionBtn = document.getElementById('crop-region-btn');
+    const clearImgBtn = document.getElementById('clear-img-btn');
+    const imgMeta = document.getElementById('img-meta');
+
+    const loadingOverlay = document.getElementById('loading-overlay');
+    const textEditor = document.getElementById('text-editor');
+    const rawEditor = document.getElementById('raw-editor');
+    const docView = document.getElementById('doc-view');
+    const copyBtn = document.getElementById('copy-btn');
+    const copyRichBtn = document.getElementById('copy-rich-btn');
+    const googleSearchBtn = document.getElementById('google-search-btn');
+    const autoCopyCheckbox = document.getElementById('auto-copy-checkbox');
+    const stripCauCheckbox = document.getElementById('strip-cau-checkbox');
+    const speedBadge = document.getElementById('speed-badge');
+    const responseTime = document.getElementById('response-time');
+    const charCount = document.getElementById('char-count');
+    const toast = document.getElementById('toast');
+    const toastText = document.getElementById('toast-text');
+    const themeBtn = document.getElementById('theme-btn');
+
+    // Duplicate Banner & History Controls Elements
+    const dupAlert = document.getElementById('duplicate-alert');
+    const dupAlertTitle = document.getElementById('dup-alert-title');
+    const dupAlertDesc = document.getElementById('dup-alert-desc');
+    const dupAlertIcon = document.getElementById('dup-alert-icon');
+    const dupViewBtn = document.getElementById('dup-view-btn');
+    const dupCloseBtn = document.getElementById('dup-close-btn');
+    const historySearchInput = document.getElementById('history-search-input');
+    const historyCount = document.getElementById('history-count');
+    let lastMatchedIndex = -1;
+
+    const tabBtns = document.querySelectorAll('.tab-btn');
+    const tabContents = {
+      smart: document.getElementById('tab-smart'),
+      doc: document.getElementById('tab-doc'),
+      raw: document.getElementById('tab-raw')
+    };
+
+    // Load auto-copy preference
+    if (localStorage.getItem('lens_auto_copy') !== null) {
+      autoCopyCheckbox.checked = localStorage.getItem('lens_auto_copy') === 'true';
+    }
+    autoCopyCheckbox.addEventListener('change', () => {
+      localStorage.setItem('lens_auto_copy', autoCopyCheckbox.checked);
+      showToast(autoCopyCheckbox.checked ? '⚡ Đã bật tự động sao chép' : 'Đã tắt tự động sao chép', 'success');
+    });
+
+    // Helper functions for stripping 'Câu X:' prefix
+    function removeCauPrefix(text) {
+      if (!text) return '';
+      const lines = text.split('\n');
+      if (lines.length > 0) {
+        lines[0] = lines[0].replace(/^\s*(câu\s*hỏi\s*\d+|câu\s*\d+|câu\s*:|bài\s*\d+|\d+)\s*[:.\-]?\s*/i, '').trim();
+      }
+      return lines.join('\n');
+    }
+
+    function getFormattedSmartText(data, stripCau = false) {
+      if (!data) return '';
+      const fullText = data.smart_text || data.text || '';
+      if (stripCau) {
+        if (data.smart_text_no_prefix) return data.smart_text_no_prefix;
+        return removeCauPrefix(fullText);
+      }
+      return fullText;
+    }
+
+    // Load strip-cau preference
+    if (localStorage.getItem('lens_strip_cau') !== null) {
+      stripCauCheckbox.checked = localStorage.getItem('lens_strip_cau') === 'true';
+    }
+    stripCauCheckbox.addEventListener('change', () => {
+      const isStrip = stripCauCheckbox.checked;
+      localStorage.setItem('lens_strip_cau', isStrip);
+
+      if (currentParsedData) {
+        const textToDisplay = getFormattedSmartText(currentParsedData, isStrip);
+        textEditor.value = textToDisplay;
+        updateCounts(textToDisplay);
+        renderDocView(currentParsedData, isStrip);
+      } else if (textEditor.value.trim()) {
+        if (isStrip) {
+          textEditor.value = removeCauPrefix(textEditor.value);
+        }
+        updateCounts(textEditor.value);
+      }
+
+      showToast(isStrip ? '✂️ Đã bật: Bỏ chữ "Câu:" khi hiển thị & sao chép' : 'Đã tắt: Giữ nguyên chữ "Câu:"', 'success', 2200);
+    });
+
+    // Theme toggle
+    const currentTheme = localStorage.getItem('lens_theme') || 'light';
+    document.documentElement.setAttribute('data-theme', currentTheme);
+    themeBtn.textContent = currentTheme === 'dark' ? '☀️' : '🌙';
+
+    themeBtn.addEventListener('click', () => {
+      const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+      const newTheme = isDark ? 'light' : 'dark';
+      document.documentElement.setAttribute('data-theme', newTheme);
+      themeBtn.textContent = newTheme === 'dark' ? '☀️' : '🌙';
+      localStorage.setItem('lens_theme', newTheme);
+    });
+
+    // Tab Switching
+    tabBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        tabBtns.forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        const targetTab = btn.getAttribute('data-tab');
+        Object.keys(tabContents).forEach(tab => {
+          tabContents[tab].classList.toggle('active', tab === targetTab);
+        });
+      });
+    });
+
+    // Toast helper with type (normal, success, warning, danger)
+    let toastTimer = null;
+    function showToast(msg, type = 'normal', duration = 2500) {
+      clearTimeout(toastTimer);
+      toastText.textContent = msg;
+      toast.className = 'toast show';
+      if (type === 'danger') toast.classList.add('toast-danger');
+      else if (type === 'warning') toast.classList.add('toast-warning');
+      else if (type === 'success') toast.classList.add('toast-success');
+      
+      toastTimer = setTimeout(() => {
+        toast.className = 'toast';
+      }, duration);
+    }
+
+    // Update Counts
+    function updateCounts(text) {
+      const chars = text.length;
+      const words = text.trim() ? text.trim().split(/\s+/).length : 0;
+      charCount.textContent = `${words} từ | ${chars} ký tự`;
+    }
+
+    textEditor.addEventListener('input', () => {
+      updateCounts(textEditor.value);
+    });
+
+    // File input & Drag-drop
+    browseBtn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      fileInput.click();
+    });
+
+    dropZone.addEventListener('click', () => {
+      fileInput.click();
+    });
+
+    fileInput.addEventListener('change', (e) => {
+      if (e.target.files && e.target.files[0]) {
+        handleImageFile(e.target.files[0]);
+      }
+    });
+
+    ['dragenter', 'dragover'].forEach(eventName => {
+      dropZone.addEventListener(eventName, (e) => {
+        e.preventDefault();
+        dropZone.classList.add('drag-over');
+      });
+    });
+
+    ['dragleave', 'drop'].forEach(eventName => {
+      dropZone.addEventListener(eventName, (e) => {
+        e.preventDefault();
+        dropZone.classList.remove('drag-over');
+      });
+    });
+
+    dropZone.addEventListener('drop', (e) => {
+      if (e.dataTransfer && e.dataTransfer.files && e.dataTransfer.files[0]) {
+        handleImageFile(e.dataTransfer.files[0]);
+      }
+    });
+
+    // Global Paste Listener (Ctrl+V)
+    window.addEventListener('paste', (e) => {
+      const items = e.clipboardData ? e.clipboardData.items : [];
+      for (let i = 0; i < items.length; i++) {
+        if (items[i].type.indexOf('image') !== -1) {
+          const blob = items[i].getAsFile();
+          handleImageFile(blob);
+          e.preventDefault();
+          return;
+        }
+      }
+    });
+
+    // Global Copy Shortcut (Ctrl+C when not selecting editor)
+    window.addEventListener('keydown', (e) => {
+      if ((e.ctrlKey || e.metaKey) && e.key === 'c' && document.activeElement !== textEditor && document.activeElement !== rawEditor) {
+        if (textEditor.value.trim()) {
+          copyFormattedText();
+          e.preventDefault();
+        }
+      }
+    });
+
+    // Handle Image File
+    function handleImageFile(file) {
+      currentImageBlob = file;
+      cropCoords = null;
+      cropBox.style.display = 'none';
+
+      const reader = new FileReader();
+      reader.onload = (e) => {
+        currentImageBase64 = e.target.result;
+        previewImg.src = currentImageBase64;
+        previewImg.style.display = 'block';
+        emptyStateImg.style.display = 'none';
+        cropFullBtn.disabled = false;
+        clearImgBtn.disabled = false;
+
+        // Image dimensions
+        const img = new Image();
+        img.onload = () => {
+          imgMeta.textContent = `${img.width} × ${img.height}px (${(file.size / 1024).toFixed(1)} KB)`;
+        };
+        img.src = currentImageBase64;
+
+        // Trigger OCR immediately
+        executeOCR();
+      };
+      reader.readAsDataURL(file);
+    }
+
+    // ==========================================
+    // DUPLICATE DETECTION & PERSISTENCE ENGINE
+    // ==========================================
+
+    function normalizeForComparison(text) {
+      if (!text) return '';
+      return text
+        .toLowerCase()
+        // Loại bỏ các tiền tố câu thường gặp
+        .replace(/^\s*(câu\s*hỏi\s*\d+|câu\s*\d+|bài\s*\d+|\d+)\s*[:.]?\s*/i, '')
+        // Loại bỏ dấu câu và ký tự đặc biệt
+        .replace(/[.,:;!?()[\]{}"'""''«»_–—\-+*/\\=]/g, ' ')
+        // Chuẩn hóa khoảng trắng
+        .replace(/\s+/g, ' ')
+        .trim();
+    }
+
+    function calculateTextSimilarity(s1, s2) {
+      if (!s1 || !s2) return 0;
+      if (s1 === s2) return 1.0;
+      const l1 = s1.length;
+      const l2 = s2.length;
+      if (l1 < 2 || l2 < 2) return s1 === s2 ? 1.0 : 0.0;
+      
+      const pairs1 = new Map();
+      for (let i = 0; i < l1 - 1; i++) {
+        const pair = s1.substr(i, 2);
+        pairs1.set(pair, (pairs1.get(pair) || 0) + 1);
+      }
+      
+      let intersection = 0;
+      for (let i = 0; i < l2 - 1; i++) {
+        const pair = s2.substr(i, 2);
+        const count = pairs1.get(pair) || 0;
+        if (count > 0) {
+          pairs1.set(pair, count - 1);
+          intersection++;
+        }
+      }
+      return (2.0 * intersection) / ((l1 - 1) + (l2 - 1));
+    }
+
+    function matchOptionsCount(opts1, opts2) {
+      if (!opts1 || !opts2 || opts1.length === 0 || opts2.length === 0) return 0;
+      let matches = 0;
+      for (const o1 of opts1) {
+        const t1 = normalizeForComparison(o1.text || o1);
+        if (!t1) continue;
+        for (const o2 of opts2) {
+          const t2 = normalizeForComparison(o2.text || o2);
+          if (!t2) continue;
+          if (t1 === t2 || (t1.length > 5 && calculateTextSimilarity(t1, t2) >= 0.85)) {
+            matches++;
+            break;
+          }
+        }
+      }
+      return matches;
+    }
+
+    // Kiểm tra câu hỏi hiện tại có bị trùng lặp với lịch sử quét gần đây hay không
+    function checkDuplicateInHistory(data) {
+      if (!historyList || historyList.length === 0) return null;
+      
+      const newCore = normalizeForComparison(data.question_title || data.search_query || (data.smart_text ? data.smart_text.split('\n')[0] : ''));
+      const newFull = normalizeForComparison(data.smart_text || data.raw_text || '');
+      const newOptions = data.options || [];
+
+      for (let i = 0; i < historyList.length; i++) {
+        const item = historyList[i];
+        const itemCore = normalizeForComparison(item.question_title || item.search_query || item.title || (item.text ? item.text.split('\n')[0] : ''));
+        const itemFull = normalizeForComparison(item.text || item.raw_text || '');
+        const itemOptions = item.options || [];
+
+        // 1. Khớp hoàn toàn toàn bộ nội dung (100%)
+        if (newFull && itemFull && newFull === itemFull) {
+          return { match: item, index: i, confidence: 1.0, reason: 'Nội dung giống 100%' };
+        }
+
+        // 2. So sánh phần thân câu hỏi chính (đã loại bỏ "Câu X:")
+        if (newCore && itemCore && newCore.length >= 8 && itemCore.length >= 8) {
+          if (newCore === itemCore) {
+            return { match: item, index: i, confidence: 0.98, reason: 'Nội dung câu hỏi trùng khớp' };
+          }
+
+          const sim = calculateTextSimilarity(newCore, itemCore);
+          if (sim >= 0.85) {
+            return { match: item, index: i, confidence: sim, reason: `Câu hỏi tương đồng (~${Math.round(sim * 100)}%)` };
+          }
+
+          if (sim >= 0.70) {
+            const optMatches = matchOptionsCount(newOptions, itemOptions);
+            if (optMatches >= 2 || (optMatches >= 1 && newOptions.length <= 2)) {
+              return { match: item, index: i, confidence: 0.92, reason: 'Câu hỏi và đáp án trùng khớp' };
+            }
+          }
+        }
+
+        // 3. Toàn bộ văn bản tương đồng cao
+        if (newFull && itemFull && newFull.length >= 20 && itemFull.length >= 20) {
+          const fullSim = calculateTextSimilarity(newFull, itemFull);
+          if (fullSim >= 0.82) {
+            return { match: item, index: i, confidence: fullSim, reason: `Toàn bộ văn bản tương đồng (~${Math.round(fullSim * 100)}%)` };
+          }
+        }
+      }
+
+      return null;
+    }
+
+    // Âm thanh cảnh báo nhẹ nhàng khi phát hiện câu trùng lặp
+    function playDuplicateSound() {
+      try {
+        const AudioContext = window.AudioContext || window.webkitAudioContext;
+        if (!AudioContext) return;
+        const ctx = new AudioContext();
+        const osc = ctx.createOscillator();
+        const gain = ctx.createGain();
+        osc.type = 'triangle';
+        osc.frequency.setValueAtTime(587.33, ctx.currentTime);
+        osc.frequency.setValueAtTime(880, ctx.currentTime + 0.12);
+        gain.gain.setValueAtTime(0.12, ctx.currentTime);
+        gain.gain.exponentialRampToValueAtTime(0.001, ctx.currentTime + 0.3);
+        osc.connect(gain);
+        gain.connect(ctx.destination);
+        osc.start();
+        osc.stop(ctx.currentTime + 0.3);
+      } catch (e) {}
+    }
+
+    function showDuplicateBanner(title, desc, type, itemIndex) {
+      if (!dupAlert) return;
+      dupAlertTitle.textContent = title;
+      dupAlertDesc.innerHTML = desc;
+      if (dupAlertIcon) dupAlertIcon.textContent = type === 'copied' ? '⚠️' : '🔔';
+      dupAlert.className = 'duplicate-alert ' + (type === 'copied' ? 'alert-copied' : 'alert-existed');
+      dupAlert.style.display = 'block';
+      lastMatchedIndex = itemIndex;
+    }
+
+    function hideDuplicateBanner() {
+      if (!dupAlert) return;
+      dupAlert.style.display = 'none';
+      lastMatchedIndex = -1;
+    }
+
+    if (dupCloseBtn) dupCloseBtn.addEventListener('click', hideDuplicateBanner);
+    if (dupViewBtn) {
+      dupViewBtn.addEventListener('click', () => {
+        if (lastMatchedIndex >= 0) {
+          highlightHistoryItem(lastMatchedIndex);
+        }
+      });
+    }
+
+    function highlightHistoryItem(index) {
+      const historySection = document.getElementById('history-section');
+      if (historySection) {
+        historySection.style.display = 'block';
+        historySection.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+      }
+      const items = document.querySelectorAll('.history-item');
+      if (items && items[index]) {
+        const el = items[index];
+        el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        el.classList.add('highlight-match');
+        setTimeout(() => {
+          el.classList.remove('highlight-match');
+        }, 3000);
+      }
+    }
+
+    function saveHistory() {
+      if (historyList.length > 60) {
+        historyList = historyList.slice(0, 60);
+      }
+      try {
+        localStorage.setItem(STORAGE_KEY, JSON.stringify(historyList));
+      } catch (e) {}
+
+      // Đồng bộ ngầm với backend history.json
+      try {
+        fetch('/api/history', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(historyList)
+        }).catch(() => {});
+      } catch (e) {}
+    }
+
+    async function syncHistoryFromBackend() {
+      try {
+        const res = await fetch('/api/history');
+        if (res.ok) {
+          const backendList = await res.json();
+          if (Array.isArray(backendList) && backendList.length > 0) {
+            if (historyList.length === 0) {
+              historyList = backendList;
+              try { localStorage.setItem(STORAGE_KEY, JSON.stringify(historyList)); } catch (e) {}
+              renderHistory();
+            }
+          }
+        }
+      } catch (e) {}
+    }
+
+    function markItemAsCopied(text) {
+      if (!text || !historyList.length) return;
+      const dup = checkDuplicateInHistory({ smart_text: text });
+      const target = dup ? dup.match : historyList[0];
+      if (target) {
+        target.copied = true;
+        target.copyCount = (target.copyCount || 0) + 1;
+        target.lastCopiedTime = new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit', second: '2-digit' });
+        saveHistory();
+        renderHistory(historySearchInput ? historySearchInput.value : '');
+      }
+    }
+
+    // Execute OCR API Call
+    async function executeOCR(useCrop = false) {
+      if (!currentImageBlob && !currentImageBase64) return;
+
+      loadingOverlay.style.display = 'flex';
+      const formData = new FormData();
+
+      if (currentImageBlob) {
+        formData.append('file', currentImageBlob);
+      } else {
+        formData.append('image_base64', currentImageBase64);
+      }
+
+      if (useCrop && cropCoords) {
+        formData.append('crop_x', cropCoords.x);
+        formData.append('crop_y', cropCoords.y);
+        formData.append('crop_w', cropCoords.w);
+        formData.append('crop_h', cropCoords.h);
+      }
+
+      let retried = false;
+      async function doFetch() {
+        try {
+          const response = await fetch('/api/ocr', {
+            method: 'POST',
+            body: formData
+          });
+
+          if (!response.ok) {
+            throw new Error(`Máy chủ phản hồi mã lỗi ${response.status}`);
+          }
+
+          const data = await response.json();
+          loadingOverlay.style.display = 'none';
+
+          if (data.success) {
+            currentParsedData = data;
+            responseTime.textContent = `⚡ ${data.duration_ms} ms`;
+            speedBadge.textContent = `⚡ Phản hồi ${data.duration_ms} ms`;
+
+            // Populate editors
+            const isStrip = stripCauCheckbox ? stripCauCheckbox.checked : false;
+            const textToDisplay = getFormattedSmartText(data, isStrip);
+            textEditor.value = textToDisplay;
+            rawEditor.value = data.raw_text;
+            updateCounts(textToDisplay);
+
+            // Render Word-like view (Ảnh 2)
+            renderDocView(data, isStrip);
+
+            // Tự động kiểm tra xem câu này đã có hay đã sao chép chưa trong lịch sử gần đây
+            const dupResult = checkDuplicateInHistory(data);
+
+            if (dupResult) {
+              const matched = dupResult.match;
+              playDuplicateSound();
+
+              if (matched.copied) {
+                const timeStr = matched.lastCopiedTime || matched.time || 'trước đó';
+                const countStr = (matched.copyCount && matched.copyCount > 1) ? ` (${matched.copyCount} lần)` : '';
+                showDuplicateBanner(
+                  '⚠️ CẢNH BÁO: CÂU NÀY ĐÃ TỪNG ĐƯỢC SAO CHÉP!',
+                  `Câu hỏi này đã từng được sao chép vào bộ nhớ tạm lúc <strong>${timeStr}</strong>${countStr}. Bạn vừa quét lại cùng câu hỏi này!`,
+                  'copied',
+                  0
+                );
+                showToast(`⚠️ CÂU NÀY ĐÃ TỪNG SAO CHÉP (lúc ${timeStr})!`, 'danger', 4500);
+              } else {
+                const timeStr = matched.time || 'trước đó';
+                showDuplicateBanner(
+                  '🔔 THÔNG BÁO: CÂU NÀY ĐÃ CÓ TRONG LỊCH SỬ QUÉT!',
+                  `Câu hỏi này đã có trong lịch sử quét lúc <strong>${timeStr}</strong> (chưa sao chép).`,
+                  'existed',
+                  0
+                );
+                showToast(`⚠️ CÂU NÀY ĐÃ CÓ TRONG LỊCH SỬ QUÉT (lúc ${timeStr})!`, 'warning', 4500);
+              }
+
+              // Cập nhật số lần quét và thời gian quét gần nhất
+              matched.scanCount = (matched.scanCount || 1) + 1;
+              matched.lastScanTime = new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit', second: '2-digit' });
+
+              // Đưa câu trùng lặp này lên đầu danh sách để người dùng dễ theo dõi
+              historyList.splice(dupResult.index, 1);
+              historyList.unshift(matched);
+              saveHistory();
+              renderHistory(historySearchInput ? historySearchInput.value : '');
+
+              // Nếu bật tự động copy thì sao chép nội dung (đã áp dụng tùy chọn bỏ Câu nếu bật)
+              if (autoCopyCheckbox.checked) {
+                copyToClipboard(textToDisplay, true, true);
+              }
+            } else {
+              // Không trùng lặp: ẩn banner cảnh báo
+              hideDuplicateBanner();
+
+              // Thêm câu mới vào lịch sử
+              const newItem = {
+                id: Date.now(),
+                title: data.question_title || (data.smart_text ? data.smart_text.split('\n')[0] : 'Câu hỏi'),
+                question_title: data.question_title || '',
+                question_body: data.question_body || '',
+                instruction: data.instruction || '',
+                search_query: data.search_query || '',
+                text: data.smart_text,
+                smart_text: data.smart_text,
+                smart_text_no_prefix: data.smart_text_no_prefix || '',
+                raw_text: data.raw_text,
+                options: data.options || [],
+                time: new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit', second: '2-digit' }),
+                duration: data.duration_ms || 0,
+                copied: false,
+                copyCount: 0,
+                lastCopiedTime: null,
+                scanCount: 1
+              };
+
+              historyList.unshift(newItem);
+
+              if (autoCopyCheckbox.checked) {
+                newItem.copied = true;
+                newItem.copyCount = 1;
+                newItem.lastCopiedTime = newItem.time;
+                saveHistory();
+                renderHistory(historySearchInput ? historySearchInput.value : '');
+                copyToClipboard(textToDisplay, true, false);
+              } else {
+                saveHistory();
+                renderHistory(historySearchInput ? historySearchInput.value : '');
+                showToast(`✓ Đã nhận diện thành công trong ${data.duration_ms} ms!`, 'success');
+              }
+            }
+          } else {
+            showToast('⚠️ Lỗi: ' + (data.detail || 'Không thể nhận diện hình ảnh.'));
+          }
+        } catch (err) {
+          if (!retried) {
+            retried = true;
+            console.log('Đang thử kết nối lại máy chủ OCR...');
+            setTimeout(doFetch, 800);
+            return;
+          }
+          loadingOverlay.style.display = 'none';
+          console.error(err);
+          showToast('❌ Không thể kết nối tới máy chủ OCR (127.0.0.1:8000). Vui lòng đảm bảo ứng dụng đang chạy!');
+        }
+      }
+
+      doFetch();
+    }
+
+
+    // Render Word-like Document View (Ảnh 2)
+    function renderDocView(data, stripCau = (stripCauCheckbox ? stripCauCheckbox.checked : false)) {
+      docView.innerHTML = '';
+      
+      if (!data.question_title && (!data.options || data.options.length === 0)) {
+        const textToShow = getFormattedSmartText(data, stripCau);
+        docView.innerHTML = `<pre style="font-family: inherit; white-space: pre-wrap;">${escapeHtml(textToShow)}</pre>`;
+        return;
+      }
+
+      // Question Title
+      if (data.question_title) {
+        const qEl = document.createElement('div');
+        qEl.className = 'doc-question';
+        const titleText = stripCau ? (data.question_body || removeCauPrefix(data.question_title)) : data.question_title;
+        qEl.textContent = titleText;
+        docView.appendChild(qEl);
+      }
+
+      // Instruction (Yellow highlight like Image 2)
+      if (data.instruction) {
+        const insEl = document.createElement('div');
+        insEl.className = 'doc-instruction';
+        insEl.textContent = data.instruction;
+        docView.appendChild(insEl);
+      }
+
+      // Options
+      if (data.options && data.options.length > 0) {
+        data.options.forEach((opt, idx) => {
+          const optEl = document.createElement('div');
+          optEl.className = 'doc-option';
+          optEl.setAttribute('data-idx', idx);
+          optEl.innerHTML = `<span>${opt.key}. ${escapeHtml(opt.text)}</span>`;
+
+          // Click to toggle correct answer (Red color like Image 2)
+          optEl.addEventListener('click', () => {
+            optEl.classList.toggle('is-correct');
+          });
+
+          docView.appendChild(optEl);
+        });
+      }
+    }
+
+    function escapeHtml(str) {
+      return (str || '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+    }
+
+    // Copy to Clipboard Functionality
+    function copyFormattedText() {
+      const textToCopy = textEditor.value;
+      copyToClipboard(textToCopy);
+    }
+
+    function copyToClipboard(text, isAuto = false, isDup = false) {
+      if (!text) return;
+      navigator.clipboard.writeText(text).then(() => {
+        copyBtn.classList.add('copied');
+        copyBtn.innerHTML = `
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+            <polyline points="20 6 9 17 4 12"></polyline>
+          </svg>
+          <span>ĐÃ SAO CHÉP!</span>
+        `;
+
+        // Đánh dấu trạng thái đã sao chép trong lịch sử
+        markItemAsCopied(text);
+
+        if (!isDup) {
+          showToast(isAuto ? '⚡ Đã tự động sao chép vào bộ nhớ tạm!' : '✓ Đã sao chép văn bản vào bộ nhớ tạm!', 'success');
+        }
+
+        setTimeout(() => {
+          copyBtn.classList.remove('copied');
+          copyBtn.innerHTML = `
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+              <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+            </svg>
+            <span>SAO CHÉP (Ctrl+C)</span>
+          `;
+        }, 1800);
+      }).catch(err => {
+        console.error('Lỗi sao chép:', err);
+      });
+    }
+
+    copyBtn.addEventListener('click', copyFormattedText);
+
+    // Copy Rich Text (Preserves red/yellow colors into Microsoft Word)
+    copyRichBtn.addEventListener('click', () => {
+      if (!docView.innerHTML) return;
+      
+      const blob = new Blob([docView.innerHTML], { type: 'text/html' });
+      const textBlob = new Blob([textEditor.value], { type: 'text/plain' });
+      const item = new ClipboardItem({
+        'text/html': blob,
+        'text/plain': textBlob
+      });
+
+      navigator.clipboard.write([item]).then(() => {
+        showToast('✓ Đã sao chép định dạng Word (màu đỏ/vàng giữ nguyên)!');
+      }).catch(() => {
+        // Fallback
+        copyFormattedText();
+      });
+    });
+
+    // Google Search Button
+    googleSearchBtn.addEventListener('click', () => {
+      const q = currentParsedData ? currentParsedData.search_query : textEditor.value.split('\n')[0];
+      if (q) {
+        window.open(`https://www.google.com/search?q=${encodeURIComponent(q)}`, '_blank');
+      } else {
+        showToast('Không có nội dung câu hỏi để tìm kiếm');
+      }
+    });
+
+    // Crop box interaction on Preview Image
+    imageWrapper.addEventListener('mousedown', (e) => {
+      if (e.target !== previewImg && e.target !== cropBox) return;
+      const rect = previewImg.getBoundingClientRect();
+      startX = e.clientX - rect.left;
+      startY = e.clientY - rect.top;
+      isDraggingCrop = true;
+
+      cropBox.style.left = `${startX}px`;
+      cropBox.style.top = `${startY}px`;
+      cropBox.style.width = '0px';
+      cropBox.style.height = '0px';
+      cropBox.style.display = 'block';
+    });
+
+    window.addEventListener('mousemove', (e) => {
+      if (!isDraggingCrop) return;
+      const rect = previewImg.getBoundingClientRect();
+      const currentX = Math.max(0, Math.min(e.clientX - rect.left, rect.width));
+      const currentY = Math.max(0, Math.min(e.clientY - rect.top, rect.height));
+
+      const left = Math.min(startX, currentX);
+      const top = Math.min(startY, currentY);
+      const width = Math.abs(currentX - startX);
+      const height = Math.abs(currentY - startY);
+
+      cropBox.style.left = `${left}px`;
+      cropBox.style.top = `${top}px`;
+      cropBox.style.width = `${width}px`;
+      cropBox.style.height = `${height}px`;
+
+      if (width > 20 && height > 20) {
+        cropRegionBtn.disabled = false;
+        cropCoords = {
+          x: left / rect.width,
+          y: top / rect.height,
+          w: width / rect.width,
+          h: height / rect.height
+        };
+      }
+    });
+
+    window.addEventListener('mouseup', () => {
+      isDraggingCrop = false;
+    });
+
+    cropFullBtn.addEventListener('click', () => {
+      cropCoords = null;
+      cropBox.style.display = 'none';
+      cropRegionBtn.disabled = true;
+      executeOCR(false);
+    });
+
+    cropRegionBtn.addEventListener('click', () => {
+      if (cropCoords) {
+        executeOCR(true);
+      }
+    });
+
+    clearImgBtn.addEventListener('click', () => {
+      currentImageBlob = null;
+      currentImageBase64 = null;
+      currentParsedData = null;
+      cropCoords = null;
+      previewImg.src = '';
+      previewImg.style.display = 'none';
+      emptyStateImg.style.display = 'block';
+      cropBox.style.display = 'none';
+      cropFullBtn.disabled = true;
+      cropRegionBtn.disabled = true;
+      clearImgBtn.disabled = true;
+      imgMeta.textContent = 'Chưa có ảnh';
+      textEditor.value = '';
+      rawEditor.value = '';
+      docView.innerHTML = '<p style="color: var(--text-muted); font-style: italic;">Chưa có dữ liệu.</p>';
+      updateCounts('');
+    });
+
+    // ==========================================
+    // PERSISTENT HISTORY RENDERING & MANAGEMENT
+    // ==========================================
+
+    function renderHistory(filterText = '') {
+      const historySection = document.getElementById('history-section');
+      const historyItems = document.getElementById('history-items');
+      const historyCountEl = document.getElementById('history-count');
+      if (!historySection || !historyItems) return;
+
+      if (!historyList || historyList.length === 0) {
+        historySection.style.display = 'none';
+        historyItems.innerHTML = '';
+        if (historyCountEl) historyCountEl.textContent = '0';
+        return;
+      }
+
+      historySection.style.display = 'block';
+      if (historyCountEl) historyCountEl.textContent = historyList.length;
+
+      let displayList = historyList;
+      if (filterText && filterText.trim()) {
+        const kw = filterText.trim().toLowerCase();
+        displayList = historyList.filter(it => 
+          (it.title && it.title.toLowerCase().includes(kw)) ||
+          (it.text && it.text.toLowerCase().includes(kw))
+        );
+      }
+
+      historyItems.innerHTML = '';
+
+      if (displayList.length === 0) {
+        historyItems.innerHTML = '<div style="grid-column: 1/-1; text-align: center; color: var(--text-muted); padding: 16px; font-size: 0.85rem;">Không tìm thấy câu hỏi phù hợp với từ khóa.</div>';
+        return;
+      }
+
+      displayList.forEach((item) => {
+        const originalIdx = historyList.indexOf(item);
+        const div = document.createElement('div');
+        div.className = 'history-item';
+        div.setAttribute('data-id', item.id);
+
+        let copyBadgeHtml = '';
+        if (item.copied) {
+          const countText = (item.copyCount && item.copyCount > 1) ? ` (${item.copyCount}x)` : '';
+          copyBadgeHtml = `<span class="history-badge history-badge-copied" title="Đã sao chép lúc ${item.lastCopiedTime || item.time}">✓ Đã copy${countText}</span>`;
+        } else {
+          copyBadgeHtml = `<span class="history-badge history-badge-scanned">Chưa copy</span>`;
+        }
+
+        let scanBadgeHtml = '';
+        if (item.scanCount && item.scanCount > 1) {
+          scanBadgeHtml = `<span class="history-badge history-badge-scanned" title="Đã quét ${item.scanCount} lần">Quét ${item.scanCount}x</span>`;
+        }
+
+        div.innerHTML = `
+          <div style="display:flex; justify-content:space-between; align-items:flex-start; gap:8px;">
+            <div class="history-item-title" style="flex:1;" title="${escapeHtml(item.title)}">${escapeHtml(item.title)}</div>
+            <button class="delete-history-btn" title="Xóa câu này khỏi lịch sử" style="background:none; border:none; color:var(--text-muted); cursor:pointer; font-size:1.1rem; padding:0 4px; line-height:1; border-radius:4px;">&times;</button>
+          </div>
+          <div class="history-item-meta" style="margin-top:6px; display:flex; align-items:center; justify-content:space-between;">
+            <div style="display:flex; gap:5px; align-items:center; flex-wrap:wrap;">
+              ${copyBadgeHtml}
+              ${scanBadgeHtml}
+              <span style="font-size:0.75rem; color:var(--text-muted);">🕒 ${item.time}</span>
+            </div>
+            <span style="color: var(--primary); font-size:0.75rem; font-weight:600;">Bấm để chép</span>
+          </div>
+        `;
+
+        div.addEventListener('click', (e) => {
+          if (e.target.classList.contains('delete-history-btn')) return;
+          currentParsedData = item;
+          const isStrip = stripCauCheckbox ? stripCauCheckbox.checked : false;
+          const textToLoad = getFormattedSmartText(item, isStrip) || (isStrip ? removeCauPrefix(item.text) : item.text);
+          textEditor.value = textToLoad;
+          rawEditor.value = item.raw_text || '';
+          updateCounts(textToLoad);
+          renderDocView(item, isStrip);
+          copyToClipboard(textToLoad);
+          showToast('✓ Đã tải và sao chép câu hỏi từ lịch sử!', 'success');
+        });
+
+        const delBtn = div.querySelector('.delete-history-btn');
+        if (delBtn) {
+          delBtn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            if (originalIdx !== -1) {
+              historyList.splice(originalIdx, 1);
+              saveHistory();
+              renderHistory(historySearchInput ? historySearchInput.value : '');
+              showToast('Đã xóa 1 mục khỏi lịch sử');
+            }
+          });
+        }
+
+        historyItems.appendChild(div);
+      });
+    }
+
+    // Lọc tìm kiếm trong lịch sử
+    if (historySearchInput) {
+      historySearchInput.addEventListener('input', (e) => {
+        renderHistory(e.target.value);
+      });
+    }
+
+    // ==========================================
+    // CUSTOM CONFIRMATION MODAL LOGIC
+    // ==========================================
+    const confirmModalOverlay = document.getElementById('confirm-modal-overlay');
+    const confirmModalTitle = document.getElementById('confirm-modal-title');
+    const confirmModalDesc = document.getElementById('confirm-modal-desc');
+    const confirmModalOkBtn = document.getElementById('confirm-modal-ok-btn');
+    const confirmModalOkText = document.getElementById('confirm-modal-ok-text');
+    const confirmModalCancelBtn = document.getElementById('confirm-modal-cancel-btn');
+    let confirmResolver = null;
+
+    function showConfirmModal({
+      title = 'Xác nhận xóa toàn bộ lịch sử',
+      desc = 'Bạn có chắc chắn muốn thực hiện hành động này không?',
+      confirmText = 'Xóa toàn bộ'
+    } = {}) {
+      return new Promise((resolve) => {
+        confirmResolver = resolve;
+        confirmModalTitle.textContent = title;
+        confirmModalDesc.textContent = desc;
+        confirmModalOkText.textContent = confirmText;
+        confirmModalOverlay.classList.add('active');
+        confirmModalCancelBtn.focus();
+      });
+    }
+
+    function closeConfirmModal(result = false) {
+      confirmModalOverlay.classList.remove('active');
+      if (confirmResolver) {
+        confirmResolver(result);
+        confirmResolver = null;
+      }
+    }
+
+    confirmModalOkBtn.addEventListener('click', () => closeConfirmModal(true));
+    confirmModalCancelBtn.addEventListener('click', () => closeConfirmModal(false));
+    confirmModalOverlay.addEventListener('click', (e) => {
+      if (e.target === confirmModalOverlay) {
+        closeConfirmModal(false);
+      }
+    });
+
+    // Hỗ trợ phím tắt: Esc để đóng/hủy, Enter để xác nhận
+    window.addEventListener('keydown', (e) => {
+      if (!confirmModalOverlay.classList.contains('active')) return;
+      if (e.key === 'Escape') {
+        closeConfirmModal(false);
+        e.preventDefault();
+      } else if (e.key === 'Enter') {
+        closeConfirmModal(true);
+        e.preventDefault();
+      }
+    });
+
+    // Xóa toàn bộ lịch sử (sử dụng popup xác nhận tùy biến)
+    const clearHistoryBtn = document.getElementById('clear-history-btn');
+    if (clearHistoryBtn) {
+      clearHistoryBtn.addEventListener('click', async (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+
+        const confirmed = await showConfirmModal({
+          title: 'Xác nhận xóa toàn bộ lịch sử',
+          desc: 'Bạn có chắc chắn muốn xóa toàn bộ lịch sử quét không? Tất cả các câu hỏi đã lưu sẽ bị xóa và không thể khôi phục lại.',
+          confirmText: 'Xóa toàn bộ'
+        });
+
+        if (confirmed) {
+          historyList = [];
+          try {
+            localStorage.removeItem(STORAGE_KEY);
+            localStorage.removeItem('lens_quiz_history');
+          } catch (err) {}
+          saveHistory();
+          renderHistory();
+          hideDuplicateBanner();
+          try {
+            fetch('/api/history', { method: 'DELETE' }).catch(() => {});
+          } catch (err) {}
+          showToast('✓ Đã xóa toàn bộ lịch sử quét!', 'success');
+        }
+      });
+    }
+
+    // Khởi tạo hiển thị lịch sử ngay khi trang load
+    renderHistory();
+
+    // Đồng bộ với file history.json trên máy chủ nếu có
+    syncHistoryFromBackend();
+
+    // Heartbeat check
+    async function checkServerHealth() {
+      try {
+        const res = await fetch('/api/health');
+        if (res.ok) {
+          if (speedBadge.textContent.includes('Chưa bật') || speedBadge.textContent.includes('Mất kết nối')) {
+            speedBadge.textContent = '⚡ Đã kết nối';
+            speedBadge.style.color = 'var(--success)';
+            speedBadge.style.background = 'var(--success-light)';
+          }
+        } else {
+          speedBadge.textContent = '⚠️ Mất kết nối';
+          speedBadge.style.color = 'var(--danger)';
+          speedBadge.style.background = '#fce8e6';
+        }
+      } catch (e) {
+        speedBadge.textContent = '⚠️ Chưa bật máy chủ';
+        speedBadge.style.color = 'var(--danger)';
+        speedBadge.style.background = '#fce8e6';
+      }
+    }
+    setInterval(checkServerHealth, 3000);
+
+    console.log('⚡ Google Lens Quiz OCR loaded and ready!');
+  </script>
+</body>
+</html>
+
